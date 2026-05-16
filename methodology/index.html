@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Methodology · Glass Lab</title>
+  <meta name="description" content="Brand-free PubMed queries, MeSH + TIAB, tier system.">
+
+  
+  
+  <link rel="canonical" href="https://glasslab.ai/methodology/">
+  
+
+  
+  <meta property="og:site_name" content="Glass Lab">
+  <meta property="og:title" content="Methodology">
+  <meta property="og:description" content="Brand-free PubMed queries, MeSH + TIAB, tier system.">
+  <meta property="og:type" content="website">
+  <meta property="og:url" content="https://glasslab.ai/methodology/">
+  <meta property="og:image" content="https://glasslab.ai/static/img/clinic-inventory-hero.png">
+  <meta property="og:locale" content="en_US">
+
+  
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:title" content="Methodology">
+  <meta name="twitter:description" content="Brand-free PubMed queries, MeSH + TIAB, tier system.">
+  <meta name="twitter:image" content="https://glasslab.ai/static/img/clinic-inventory-hero.png">
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,300;9..144,400;9..144,500;9..144,600&family=Inter+Tight:wght@300;400;500;600;700&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="/static/css/style_v5.css">
+
+  
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "WebSite",
+    "name": "Glass Lab",
+    "description": "Indication × MoA evidence index for medical aesthetics, grounded in PubMed and Korean clinic data.",
+    "url": "https://glasslab.ai",
+    "publisher": {
+      "@type": "Organization",
+      "name": "Glass Lab",
+      "url": "https://glasslab.ai"
+    }
+  }
+  </script>
+  
+</head>
+<body>
+  <div class="util">
+    <span>GLASS LAB · EVIDENCE INDEX v5 (brand-free)</span>
+    <span class="live">303 cells · 19,240 papers · 5,975 tier1+2</span>
+  </div>
+  <header class="site-header">
+    <a class="brand" href="/">GLASS LAB<span>Evidence map for aesthetic medicine</span></a>
+    <nav class="nav" aria-label="primary">
+      <a href="/index-all/">Cells</a>
+      <a href="/methodology/">Methodology</a>
+      <a href="/about/">About</a>
+    </nav>
+  </header>
+  <main>
+    
+<section class="section detail-header">
+  <p class="eyebrow">Methodology</p>
+  <h1>Brand-free evidence index, transparent brand layer.</h1>
+</section>
+
+<section class="section two-col">
+  <div>
+    <h2>Why we strip brand names</h2>
+    <p>Brand / trade names (Botox, Thermage, Juvederm, Ultherapy, Sculptra, Profhilo, EMFACE, Renuva, MiraJet, Sofwave, etc.) are written by manufacturers and clinics, not PubMed indexers. Most cosmetic dermatology papers are indexed by mechanism, MeSH heading, or INN drug name — not the trade name.</p>
+    <p>Earlier index versions sneaked brands into queries, which (a) inflated counts for brands that happen to appear in journal abstracts and (b) excluded perfectly good RCTs that never mention the brand. v5 separates the two layers cleanly.</p>
+  </div>
+  <div>
+    <h2>Brand → class mapping is its own table</h2>
+    <p>239 Korean clinic brand entries are mapped to 48 generic MoA classes in <code>brand_to_class_map.csv</code>. 4516 procedure listings across 11 clinics are joined to MoA in <code>clinic_procedure_to_class.csv</code> at 90.9% coverage.</p>
+    <p>Each <a href="/cell/">cell page</a> shows which Korean brand variants and which clinics offer that MoA × indication pairing — but the underlying PubMed search uses generic terms only.</p>
+  </div>
+</section>
+
+<section class="section two-col">
+  <div>
+    <h2>PubMed concept-AND query</h2>
+    <pre class="query">({MoA concept block})
+   AND
+({Indication concept block})</pre>
+    <p>Each concept block is a parenthesised OR of MeSH headings and [tiab] synonyms. For example a botulinum MoA block uses <code>"Botulinum Toxins, Type A"[Mesh]</code> alongside INN names <code>"onabotulinumtoxinA"[tiab]</code>, <code>"abobotulinumtoxinA"[tiab]</code>, etc., and never the trade names Botox / Dysport / Xeomin.</p>
+  </div>
+  <div>
+    <h2>Paper tier system</h2>
+    <p>Every fetched paper is labelled by publication type:</p>
+    <ul>
+      <li><span class="tier-chip tier-tier1">tier1</span> RCT, meta-analysis, systematic review</li>
+      <li><span class="tier-chip tier-tier2">tier2</span> Clinical trial, observational, cohort, case-control</li>
+      <li><span class="tier-chip tier-tier3">tier3</span> Case reports, letters, editorial</li>
+      <li><span class="tier-chip tier-tier0_review">tier0</span> Review, practice guideline</li>
+      <li><span class="tier-chip tier-tier_other">other</span> Journal article without specific type</li>
+    </ul>
+  </div>
+</section>
+
+<section class="section">
+  <h2>Numbers</h2>
+  <div class="method-stats">
+    <div><strong>303</strong><span>cells (MoA × indication)</span></div>
+    <div><strong>109</strong><span>indications</span></div>
+    <div><strong>48</strong><span>MoAs</span></div>
+    <div><strong>19,240</strong><span>papers retrieved</span></div>
+    <div><strong>3,455</strong><span>tier1 RCT/meta</span></div>
+    <div><strong>2,520</strong><span>tier2 CT/obs</span></div>
+    <div><strong>239</strong><span>brand mappings</span></div>
+    <div><strong>11</strong><span>clinics surveyed</span></div>
+  </div>
+</section>
+
+<section class="section">
+  <p class="disclaimer">This is an internal evidence prototype. Not clinical advice. Tier labels reflect publication type, not study quality. Title-on-topic ratio is a rough off-topic detector and should not be read as a clinical accuracy score.</p>
+</section>
+
+  </main>
+  <footer class="footer">
+    <p>Glass Lab Evidence Index — v5 brand-free</p>
+    <p>303 cells · 109 indications · 48 MoAs · 239 brand mappings · 11 clinics (90.9% mapped)</p>
+    <p class="disclaimer">Internal evidence index. Not medical advice. PubMed brand-free queries (MeSH + TIAB generic terms only).</p>
+  </footer>
+</body>
+</html>

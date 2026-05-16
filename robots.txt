@@ -1,0 +1,3 @@
+User-agent: *
+Allow: /
+Sitemap: https://glasslab.ai/sitemap.xml

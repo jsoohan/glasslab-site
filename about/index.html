@@ -1,92 +1,107 @@
 <!DOCTYPE html>
-<html lang="ko">
+<html lang="en">
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>방법론 — 피부연구소 Glass Lab</title>
-  <meta name="description" content="Glass Lab Evidence Index 등급 판정 방법론. 가중 점수 기반 A-F 판정.">
-  <link rel="stylesheet" href="/static/css/style.css">
-  <link rel="preconnect" href="https://cdn.jsdelivr.net">
-  <link href="https://cdn.jsdelivr.net/gh/orioncactus/pretendard@v1.3.9/dist/web/variable/pretendardvariable-dynamic-subset.min.css" rel="stylesheet">
-  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&display=swap" rel="stylesheet">
+  <title>About · Glass Lab</title>
+  <meta name="description" content="Glass Lab — evidence index for medical aesthetic procedures.">
+
+  
+  
+  <link rel="canonical" href="https://glasslab.ai/about/">
+  
+
+  
+  <meta property="og:site_name" content="Glass Lab">
+  <meta property="og:title" content="About">
+  <meta property="og:description" content="Glass Lab — evidence index for medical aesthetic procedures.">
+  <meta property="og:type" content="website">
+  <meta property="og:url" content="https://glasslab.ai/about/">
+  <meta property="og:image" content="https://glasslab.ai/static/img/clinic-inventory-hero.png">
+  <meta property="og:locale" content="en_US">
+
+  
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:title" content="About">
+  <meta name="twitter:description" content="Glass Lab — evidence index for medical aesthetic procedures.">
+  <meta name="twitter:image" content="https://glasslab.ai/static/img/clinic-inventory-hero.png">
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,300;9..144,400;9..144,500;9..144,600&family=Inter+Tight:wght@300;400;500;600;700&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="/static/css/style_v5.css">
+
   
   <script type="application/ld+json">
   {
     "@context": "https://schema.org",
-    "@type": "Organization",
-    "name": "Glass Lab 피부연구소",
-    "description": "논문 기반 K-beauty 성분·시술 등급 판정. 49개 성분, 1,809편 논문 분석.",
-    "url": "https://glasslab.kr",
-    "sameAs": [
-      "https://www.tiktok.com/@pibuyeonguso",
-      "https://www.instagram.com/pibuyeonguso",
-      "https://www.tiktok.com/@glass_lab_",
-      "https://www.instagram.com/glass_lab_official"
-    ]
+    "@type": "WebSite",
+    "name": "Glass Lab",
+    "description": "Indication × MoA evidence index for medical aesthetics, grounded in PubMed and Korean clinic data.",
+    "url": "https://glasslab.ai",
+    "publisher": {
+      "@type": "Organization",
+      "name": "Glass Lab",
+      "url": "https://glasslab.ai"
+    }
   }
   </script>
   
 </head>
 <body>
-  <header>
-    <h1>GLASS LAB</h1>
-    <p>피부연구소 · 논문 기반 K-beauty 성분 등급 판정</p>
+  <div class="util">
+    <span>GLASS LAB · EVIDENCE INDEX v5 (brand-free)</span>
+    <span class="live">303 cells · 19,240 papers · 5,975 tier1+2</span>
+  </div>
+  <header class="site-header">
+    <a class="brand" href="/">GLASS LAB<span>Evidence map for aesthetic medicine</span></a>
+    <nav class="nav" aria-label="primary">
+      <a href="/index-all/">Cells</a>
+      <a href="/methodology/">Methodology</a>
+      <a href="/about/">About</a>
+    </nav>
   </header>
-  <nav>
-    <a href="/">홈</a>
-    <a href="/ingredients/">성분 등급</a>
-    <a href="/about/">방법론</a>
-  </nav>
   <main>
     
-<div class="detail-header">
-  <h2>방법론</h2>
-  <p style="color: var(--soft-gray);">Glass Lab Evidence Index 등급 판정 기준</p>
-</div>
+<section class="section detail-header">
+  <p class="eyebrow">About</p>
+  <h1>Glass Lab</h1>
+</section>
 
-<div class="detail-section">
-  <h3>데이터 소스</h3>
-  <p>PubMed (미국 국립의학도서관 데이터베이스)에서 각 성분/시술 관련 논문을 검색합니다. RCT (무작위 대조 시험), 메타분석, 임상시험으로 필터링하여 최대 100편까지 분석합니다.</p>
-</div>
+<section class="section two-col">
+  <div>
+    <h2>What this is</h2>
+    <p>An evidence index for medical aesthetic procedures, organised as a matrix of <strong>indication × MoA</strong> cells. Every cell is grounded in (a) a brand-free PubMed search using MeSH and TIAB terms, and (b) Korean clinic procedure listings mapped to that MoA.</p>
+    <p>It is built so a reader can start from a concern (e.g. melasma, midface volume loss, axillary hyperhidrosis) and see — transparently — which treatment families have RCT / meta evidence behind them, which only have observational data, and which are essentially brand-driven without published clinical trials.</p>
+  </div>
+  <div>
+    <h2>Why brand-free</h2>
+    <p>If a clinic page lists "Thermage FLX", the underlying generic class is monopolar radiofrequency. PubMed indexes the generic class. So Glass Lab queries the generic class, and keeps the brand mapping in a separate, fully exposed table.</p>
+    <p>That separation is what lets readers see the difference between "well-studied MoA with many brands" and "popular brand with little MoA-level evidence".</p>
+  </div>
+</section>
 
-<div class="detail-section">
-  <h3>분석 기준</h3>
-  <p>각 논문에서 다음을 추출합니다:</p>
-  <ul style="margin: 12px 0 0 20px;">
-    <li>연구 유형 (RCT / 메타분석 / 관찰연구 / in-vitro)</li>
-    <li>표본 크기</li>
-    <li>출판 연도</li>
-    <li>투여 경로 (topical / injection / oral / device)</li>
-    <li>DDS 기술 (liposome / nanoparticle / exosome 등)</li>
-    <li>결과 (긍정 / 부정 / 중립)</li>
-  </ul>
-</div>
-
-<div class="detail-section">
-  <h3>가중 점수 계산</h3>
-  <p><strong>표본 크기 가중치:</strong> n≥100: 3배, n≥50: 2배, n≥20: 1배, n&lt;20: 0.5배</p>
-  <p><strong>출판 연도 가중치:</strong> 2020+: 1.5배, 2015-2019: 1배, ~2014: 0.7배</p>
-  <p><strong>부정적 결과:</strong> 논문 1편당 -2점</p>
-</div>
-
-<div class="detail-section">
-  <h3>등급 기준</h3>
-  <p><span class="grade-badge grade-A">A</span> <strong>가중 점수 10+ & 긍정 RCT 3편+</strong> — 강한 과학적 근거</p>
-  <p style="margin-top:8px"><span class="grade-badge grade-B">B</span> <strong>가중 점수 3+ & 긍정 RCT 1편+</strong> — 근거 있음, 추가 연구 필요</p>
-  <p style="margin-top:8px"><span class="grade-badge grade-C">C</span> <strong>인체 연구 있으나 점수 부족</strong> — 제한적 근거</p>
-  <p style="margin-top:8px"><span class="grade-badge grade-D">D</span> <strong>RCT 없음</strong> — 기초 연구(in-vitro/동물)만 존재</p>
-  <p style="margin-top:8px"><span class="grade-badge grade-F">F</span> <strong>논문 없음 또는 부정적</strong> — 과학적 근거 없음</p>
-</div>
-
-<div class="detail-section">
-  <h3>한계 및 면책</h3>
-  <p>이 등급은 PubMed 검색 결과에 기반한 과학적 근거 수준의 요약이며, 의학적 조언이 아닙니다. 개인의 피부 상태와 건강 조건에 따라 결과가 다를 수 있으며, 시술 결정 시 반드시 전문의와 상담하시기 바랍니다.</p>
-</div>
+<section class="section two-col">
+  <div>
+    <h2>Korean clinics surveyed</h2>
+    <p>11 clinics scraped in May 2026: 데이뷰 · 엠레드 · 밴스의원 · 톤즈의원 · 유앤아이 · 닥터에버스 · 차앤박 · 리더스 · 닥터스 · 톡스앤필 · 세예. 4516 distinct procedure listings, 90.9% mapped to evidence classes.</p>
+  </div>
+  <div>
+    <h2>Not</h2>
+    <ul>
+      <li>Medical advice.</li>
+      <li>A ranking of clinics.</li>
+      <li>A safety statement on any product or device.</li>
+      <li>A complete catalogue — coverage is bounded by Korean clinic visibility and PubMed indexing.</li>
+    </ul>
+  </div>
+</section>
 
   </main>
-  <footer>
-    <p>피부연구소 Glass Lab · 논문 기반 K-beauty 과학</p>
-    <p>49개 성분 · 1,809편 논문 · 가중 점수 기반 A–F 등급</p>
+  <footer class="footer">
+    <p>Glass Lab Evidence Index — v5 brand-free</p>
+    <p>303 cells · 109 indications · 48 MoAs · 239 brand mappings · 11 clinics (90.9% mapped)</p>
+    <p class="disclaimer">Internal evidence index. Not medical advice. PubMed brand-free queries (MeSH + TIAB generic terms only).</p>
   </footer>
 </body>
 </html>
