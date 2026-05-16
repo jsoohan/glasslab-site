@@ -253,6 +253,68 @@ main { padding: 0 2rem 2rem; max-width: 1440px; margin: 0 auto; }
 .method-stats strong { display: block; font-family: "Fraunces", serif; font-size: 1.6rem; line-height: 1; }
 .method-stats span { display: block; font-size: 0.78rem; color: var(--muted); margin-top: 0.3rem; }
 
+/* Search */
+.search-wrap {
+  position: relative;
+  margin: 1.4rem 0 0;
+  max-width: 36rem;
+}
+#consumer-search {
+  width: 100%;
+  padding: 0.82rem 1rem;
+  border: 1px solid rgba(255,255,255,0.38);
+  background: rgba(251,250,246,0.10);
+  color: #fbfaf6;
+  font-family: "Inter Tight", sans-serif;
+  font-size: 1rem;
+  outline: none;
+  border-radius: 0;
+  -webkit-appearance: none;
+  appearance: none;
+}
+#consumer-search::placeholder { color: rgba(251,250,246,0.45); }
+#consumer-search::-webkit-search-cancel-button { -webkit-appearance: none; }
+#consumer-search:focus {
+  border-color: rgba(255,255,255,0.72);
+  background: rgba(251,250,246,0.16);
+}
+.search-results {
+  position: absolute; top: 100%; left: 0; right: 0;
+  background: var(--paper); border: 1px solid var(--line); border-top: none;
+  z-index: 200; max-height: 400px; overflow-y: auto;
+  box-shadow: 0 16px 48px rgba(17,20,18,0.26);
+}
+.sr-item {
+  padding: 0.85rem 1rem;
+  border-bottom: 1px solid var(--soft-line);
+}
+.sr-item:last-child { border-bottom: none; }
+.sr-head {
+  display: flex; align-items: baseline; gap: 0.7rem; margin-bottom: 0.5rem;
+}
+.sr-term {
+  font-family: "Fraunces", serif; font-weight: 500; font-size: 1.08rem; color: var(--ink);
+}
+.sr-term mark { background: none; color: var(--copper); font-style: italic; }
+.sr-group {
+  flex-shrink: 0;
+  font-family: "JetBrains Mono", monospace; font-size: 0.68rem;
+  text-transform: uppercase; letter-spacing: 0.08em;
+  color: var(--green); padding: 0.12rem 0.42rem;
+  border: 1px solid var(--green);
+}
+.sr-group:hover { background: var(--green); color: #fff; }
+.sr-cells { display: flex; flex-direction: column; gap: 0.28rem; }
+.sr-cell {
+  display: flex; align-items: center; gap: 0.55rem;
+  padding: 0.38rem 0.65rem;
+  background: var(--bg); border: 1px solid var(--soft-line);
+  transition: border-color 110ms ease, background 110ms ease;
+}
+.sr-cell:hover { border-color: var(--green); background: var(--paper); }
+.sr-moa { font-weight: 650; font-size: 0.87rem; color: var(--ink); }
+.sr-ind { font-size: 0.8rem; color: var(--muted); }
+
 /* Clinic row */
 .clinic-section {
   background: var(--ink);

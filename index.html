@@ -30,6 +30,7 @@
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,300;9..144,400;9..144,500;9..144,600&family=Inter+Tight:wght@300;400;500;600;700&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="/glasslab-site/static/css/style_v5.css">
+  <script>window.GLASSLAB_BASE = "/glasslab-site";</script>
 
   
   <script type="application/ld+json">
@@ -69,7 +70,13 @@
     <div class="hero-copy">
       <p class="eyebrow">색소 · 리프팅 · 바디 · 스킨케어 · PubMed 근거 지도</p>
       <h1>시술은 브랜드가 아니라 <em>목적</em>으로 비교합니다.</h1>
-      <p class="hero-note">한국 11개 클리닉 메뉴를 generic protocol로 정규화하고, PubMed 검색은 브랜드명을 빼고 MoA × 적응증 단위로 실행했습니다. 색소·리프팅·바디·스킨케어 안에서 시술군을 비교하고, 논문 카드에서 초록 요약과 PubMed 원문까지 바로 확인할 수 있습니다.</p>
+      <p class="hero-note">브랜드명 없이 MoA × 적응증 단위로 PubMed를 검색해, 색소·리프팅·바디·스킨케어 안에서 시술군을 비교합니다. 논문 카드에서 초록 요약과 원문까지 바로 확인할 수 있습니다.</p>
+      <div class="search-wrap" role="search">
+        <input type="search" id="consumer-search"
+          placeholder="증상 또는 시술명 검색  ·  예) 기미, 처짐, 보톡스, 모공"
+          autocomplete="off" spellcheck="false" aria-label="시술 검색">
+        <div class="search-results" id="search-results" role="listbox" hidden></div>
+      </div>
       <div class="hero-actions">
         <a class="cta primary" href="#categories">4대 카테고리 보기</a>
         <a class="cta" href="/glasslab-site/methodology/">방법론</a>
@@ -516,8 +523,9 @@
   </main>
   <footer class="footer">
     <p>Glass Lab Evidence Index — v5 brand-free</p>
-    <p>303 셀 · 109 적응증 · 48 MoA · 239 브랜드 매핑 · 11 클리닉 (90.9% 매핑)</p>
+    <p>303 셀 · 109 적응증 · 48 MoA · 239 브랜드 매핑</p>
     <p class="disclaimer">의학적 조언이 아닙니다. PubMed 검색에는 브랜드명을 넣지 않고 generic MeSH + TIAB 용어만 사용합니다.</p>
   </footer>
+  <script src="/glasslab-site/static/js/search.js"></script>
 </body>
 </html>
