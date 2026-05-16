@@ -115,7 +115,7 @@ em { color: var(--blue); }
   position: absolute;
   inset: 86px 0 auto 0;
   height: 230px;
-  background: linear-gradient(90deg, rgba(244,241,236,.72), rgba(244,241,236,.35)), url("/glasslab-site/static/img/clinic-inventory-hero.png") center 42% / cover;
+  background: linear-gradient(90deg, rgba(244,241,236,.72), rgba(244,241,236,.35)), url("/static/img/clinic-inventory-hero.png") center 42% / cover;
   opacity: .42;
   filter: saturate(.82) contrast(.94);
   pointer-events: none;

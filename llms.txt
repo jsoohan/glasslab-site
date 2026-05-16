@@ -10,73 +10,73 @@
 - Direction is computed from positive vs negative outcome keywords in paper abstracts, weighted 2x in CONCLUSIONS sections.
 
 ## Methodology
-- https://jsoohan.github.io/glasslab-site/methodology/: brand-free PubMed methodology, MeSH+TIAB AND boolean, tier 1–3 publication-type classification, journal whitelist, geography signal.
+- https://glasslab.ai/methodology/: brand-free PubMed methodology, MeSH+TIAB AND boolean, tier 1–3 publication-type classification, journal whitelist, geography signal.
 
 ## Concern groups
-- [Acne / Scar / Texture](https://jsoohan.github.io/glasslab-site/group/acne-scar/)
-- [Skin Quality](https://jsoohan.github.io/glasslab-site/group/skin-quality/)
-- [Volume / Contour](https://jsoohan.github.io/glasslab-site/group/volume/)
-- [Body / Fat](https://jsoohan.github.io/glasslab-site/group/body-fat/)
-- [Lifting / Laxity](https://jsoohan.github.io/glasslab-site/group/lifting/)
-- [Hyperhidrosis](https://jsoohan.github.io/glasslab-site/group/hyperhidrosis/)
-- [Wrinkle / Line](https://jsoohan.github.io/glasslab-site/group/wrinkle/)
-- [Inflammatory / Specialty](https://jsoohan.github.io/glasslab-site/group/inflammatory/)
-- [Pigment](https://jsoohan.github.io/glasslab-site/group/pigment/)
-- [Hair Restoration](https://jsoohan.github.io/glasslab-site/group/hair-restoration/)
-- [Healing / Recovery](https://jsoohan.github.io/glasslab-site/group/healing/)
-- [Vascular](https://jsoohan.github.io/glasslab-site/group/vascular/)
-- [Hair Removal](https://jsoohan.github.io/glasslab-site/group/hair-removal/)
-- [Tattoo](https://jsoohan.github.io/glasslab-site/group/tattoo/)
-- [Nail](https://jsoohan.github.io/glasslab-site/group/nail/)
-- [Intimate](https://jsoohan.github.io/glasslab-site/group/intimate/)
+- [Acne / Scar / Texture](https://glasslab.ai/group/acne-scar/)
+- [Skin Quality](https://glasslab.ai/group/skin-quality/)
+- [Volume / Contour](https://glasslab.ai/group/volume/)
+- [Body / Fat](https://glasslab.ai/group/body-fat/)
+- [Lifting / Laxity](https://glasslab.ai/group/lifting/)
+- [Hyperhidrosis](https://glasslab.ai/group/hyperhidrosis/)
+- [Wrinkle / Line](https://glasslab.ai/group/wrinkle/)
+- [Inflammatory / Specialty](https://glasslab.ai/group/inflammatory/)
+- [Pigment](https://glasslab.ai/group/pigment/)
+- [Hair Restoration](https://glasslab.ai/group/hair-restoration/)
+- [Healing / Recovery](https://glasslab.ai/group/healing/)
+- [Vascular](https://glasslab.ai/group/vascular/)
+- [Hair Removal](https://glasslab.ai/group/hair-removal/)
+- [Tattoo](https://glasslab.ai/group/tattoo/)
+- [Nail](https://glasslab.ai/group/nail/)
+- [Intimate](https://glasslab.ai/group/intimate/)
 
 ## Top evidence cells (Grade A and best Grade B)
-- **A 72**: [Picosecond Laser for PIH](https://jsoohan.github.io/glasslab-site/cell/picosecond-laser-pigment--postinflammatory-hyperpigmentation/) — 48 RCT/meta, 12 CT/obs, direction: supported
-- **A 70**: [Picosecond Laser for Melasma (epidermal)](https://jsoohan.github.io/glasslab-site/cell/picosecond-laser-pigment--melasma-epidermal/) — 23 RCT/meta, 7 CT/obs, direction: supported
-- **A 69**: [Botulinum Toxin A for Glabellar lines](https://jsoohan.github.io/glasslab-site/cell/botulinum-toxin-a--glabellar-lines/) — 117 RCT/meta, 37 CT/obs, direction: supported
-- **A 68**: [Picosecond Laser for Melasma (mixed / dermal)](https://jsoohan.github.io/glasslab-site/cell/picosecond-laser-pigment--melasma-mixed-dermal/) — 8 RCT/meta, 4 CT/obs, direction: supported
-- **A 68**: [HA Filler (crosslinked) for Nasolabial fold](https://jsoohan.github.io/glasslab-site/cell/ha-filler-crosslinked--nasolabial-fold/) — 99 RCT/meta, 29 CT/obs, direction: supported
-- **A 67**: [Microneedling RF for Traumatic scar](https://jsoohan.github.io/glasslab-site/cell/microneedling-rf--traumatic-scar/) — 8 RCT/meta, 3 CT/obs, direction: supported
-- **A 67**: [Picosecond Laser for Nevus of Ota](https://jsoohan.github.io/glasslab-site/cell/picosecond-laser-pigment--nevus-of-ota/) — 7 RCT/meta, 1 CT/obs, direction: supported
-- **A 67**: [Microneedling RF for Active inflammatory acne](https://jsoohan.github.io/glasslab-site/cell/microneedling-rf--active-inflammatory-acne/) — 13 RCT/meta, 4 CT/obs, direction: supported
-- **A 67**: [Picosecond Laser for Photodamaged skin / texture](https://jsoohan.github.io/glasslab-site/cell/picosecond-laser-pigment--photodamaged-skin-texture/) — 14 RCT/meta, 8 CT/obs, direction: supported
-- **A 66**: [Laser Toning (QS / Pico) for PIH](https://jsoohan.github.io/glasslab-site/cell/laser-toning-qswitched-or-picosecond--postinflammatory-hyperpigmentation/) — 60 RCT/meta, 35 CT/obs, direction: supported
-- **A 66**: [Photodynamic Therapy for Actinic keratosis](https://jsoohan.github.io/glasslab-site/cell/photodynamic-therapy--actinic-keratosis/) — 223 RCT/meta, 111 CT/obs, direction: supported
-- **A 65**: [Laser Toning (QS / Pico) for Melasma (epidermal)](https://jsoohan.github.io/glasslab-site/cell/laser-toning-qswitched-or-picosecond--melasma-epidermal/) — 39 RCT/meta, 20 CT/obs, direction: supported
-- **B 65**: [Monopolar RF Lifting for Body skin laxity](https://jsoohan.github.io/glasslab-site/cell/monopolar-rf-lifting--body-skin-laxity/) — 30 RCT/meta, 69 CT/obs, direction: supported
-- **B 63**: [Botulinum Toxin A for Crow's feet lateral canthal](https://jsoohan.github.io/glasslab-site/cell/botulinum-toxin-a--crows-feet/) — 62 RCT/meta, 13 CT/obs, direction: supported
-- **B 63**: [Picosecond Laser for Solar lentigo / sunspot](https://jsoohan.github.io/glasslab-site/cell/picosecond-laser-pigment--solar-lentigo/) — 6 RCT/meta, 3 CT/obs, direction: supported
-- **B 62**: [Fractional CO2/Erbium Laser for Photodamaged skin / texture](https://jsoohan.github.io/glasslab-site/cell/fractional-laser-resurfacing--photodamaged-skin-texture/) — 29 RCT/meta, 19 CT/obs, direction: supported
-- **B 62**: [Picosecond Laser for Freckles / ephelides](https://jsoohan.github.io/glasslab-site/cell/picosecond-laser-pigment--ephelides-freckles/) — 4 RCT/meta, 1 CT/obs, direction: supported
-- **B 62**: [Botulinum Toxin A for Forehead horizontal lines](https://jsoohan.github.io/glasslab-site/cell/botulinum-toxin-a--forehead-horizontal-lines/) — 28 RCT/meta, 7 CT/obs, direction: supported
-- **B 62**: [Fractional CO2/Erbium Laser for Striae distensae](https://jsoohan.github.io/glasslab-site/cell/fractional-laser-resurfacing--striae-distensae/) — 11 RCT/meta, 4 CT/obs, direction: supported
-- **B 61**: [Fractional Picosecond Laser for Photodamaged skin / texture](https://jsoohan.github.io/glasslab-site/cell/fractional-picosecond-resurfacing--photodamaged-skin-texture/) — 7 RCT/meta, 8 CT/obs, direction: supported
-- **B 61**: [Chemical Peel for PIH](https://jsoohan.github.io/glasslab-site/cell/chemical-peel--postinflammatory-hyperpigmentation/) — 44 RCT/meta, 32 CT/obs, direction: supported
-- **B 61**: [Monopolar RF Lifting for Striae distensae](https://jsoohan.github.io/glasslab-site/cell/monopolar-rf-lifting--striae-distensae/) — 9 RCT/meta, 5 CT/obs, direction: supported
-- **B 61**: [Laser Hair Removal for Darker skin (Fitzpatrick IV-VI)](https://jsoohan.github.io/glasslab-site/cell/laser-hair-removal-alexandrite-ndyag--darker-skin-type-iv-vi/) — 23 RCT/meta, 41 CT/obs, direction: supported
-- **B 61**: [Fractional CO2/Erbium Laser for Actinic keratosis](https://jsoohan.github.io/glasslab-site/cell/fractional-laser-resurfacing--actinic-keratosis/) — 18 RCT/meta, 1 CT/obs, direction: supported
-- **B 61**: [Botulinum Toxin A for Masseter hypertrophy / jaw reduction](https://jsoohan.github.io/glasslab-site/cell/botulinum-toxin-a--masseter-hypertrophy/) — 63 RCT/meta, 42 CT/obs, direction: supported
-- **B 61**: [Fractional CO2/Erbium Laser for Hypertrophic scar / keloid](https://jsoohan.github.io/glasslab-site/cell/fractional-laser-resurfacing--hypertrophic-scar-keloid/) — 25 RCT/meta, 13 CT/obs, direction: supported
-- **B 61**: [Onychomycosis Laser for Toenail onychomycosis](https://jsoohan.github.io/glasslab-site/cell/onychomycosis-laser--toenail-onychomycosis/) — 152 RCT/meta, 71 CT/obs, direction: supported
-- **B 61**: [HA Filler (crosslinked) for Chin augmentation](https://jsoohan.github.io/glasslab-site/cell/ha-filler-crosslinked--chin-augmentation/) — 15 RCT/meta, 7 CT/obs, direction: supported
-- **B 61**: [Fractional Picosecond Laser for Melasma (epidermal)](https://jsoohan.github.io/glasslab-site/cell/fractional-picosecond-resurfacing--melasma-epidermal/) — 7 RCT/meta, 2 CT/obs, direction: supported
-- **B 61**: [HA Filler (crosslinked) for Midface volume loss](https://jsoohan.github.io/glasslab-site/cell/ha-filler-crosslinked--midface-volume-loss/) — 31 RCT/meta, 14 CT/obs, direction: supported
+- **A 72**: [Picosecond Laser for PIH](https://glasslab.ai/cell/picosecond-laser-pigment--postinflammatory-hyperpigmentation/) — 48 RCT/meta, 12 CT/obs, direction: supported
+- **A 70**: [Picosecond Laser for Melasma (epidermal)](https://glasslab.ai/cell/picosecond-laser-pigment--melasma-epidermal/) — 23 RCT/meta, 7 CT/obs, direction: supported
+- **A 69**: [Botulinum Toxin A for Glabellar lines](https://glasslab.ai/cell/botulinum-toxin-a--glabellar-lines/) — 117 RCT/meta, 37 CT/obs, direction: supported
+- **A 68**: [Picosecond Laser for Melasma (mixed / dermal)](https://glasslab.ai/cell/picosecond-laser-pigment--melasma-mixed-dermal/) — 8 RCT/meta, 4 CT/obs, direction: supported
+- **A 68**: [HA Filler (crosslinked) for Nasolabial fold](https://glasslab.ai/cell/ha-filler-crosslinked--nasolabial-fold/) — 99 RCT/meta, 29 CT/obs, direction: supported
+- **A 67**: [Microneedling RF for Traumatic scar](https://glasslab.ai/cell/microneedling-rf--traumatic-scar/) — 8 RCT/meta, 3 CT/obs, direction: supported
+- **A 67**: [Picosecond Laser for Nevus of Ota](https://glasslab.ai/cell/picosecond-laser-pigment--nevus-of-ota/) — 7 RCT/meta, 1 CT/obs, direction: supported
+- **A 67**: [Microneedling RF for Active inflammatory acne](https://glasslab.ai/cell/microneedling-rf--active-inflammatory-acne/) — 13 RCT/meta, 4 CT/obs, direction: supported
+- **A 67**: [Picosecond Laser for Photodamaged skin / texture](https://glasslab.ai/cell/picosecond-laser-pigment--photodamaged-skin-texture/) — 14 RCT/meta, 8 CT/obs, direction: supported
+- **A 66**: [Laser Toning (QS / Pico) for PIH](https://glasslab.ai/cell/laser-toning-qswitched-or-picosecond--postinflammatory-hyperpigmentation/) — 60 RCT/meta, 35 CT/obs, direction: supported
+- **A 66**: [Photodynamic Therapy for Actinic keratosis](https://glasslab.ai/cell/photodynamic-therapy--actinic-keratosis/) — 223 RCT/meta, 111 CT/obs, direction: supported
+- **A 65**: [Laser Toning (QS / Pico) for Melasma (epidermal)](https://glasslab.ai/cell/laser-toning-qswitched-or-picosecond--melasma-epidermal/) — 39 RCT/meta, 20 CT/obs, direction: supported
+- **B 65**: [Monopolar RF Lifting for Body skin laxity](https://glasslab.ai/cell/monopolar-rf-lifting--body-skin-laxity/) — 30 RCT/meta, 69 CT/obs, direction: supported
+- **B 63**: [Botulinum Toxin A for Crow's feet lateral canthal](https://glasslab.ai/cell/botulinum-toxin-a--crows-feet/) — 62 RCT/meta, 13 CT/obs, direction: supported
+- **B 63**: [Picosecond Laser for Solar lentigo / sunspot](https://glasslab.ai/cell/picosecond-laser-pigment--solar-lentigo/) — 6 RCT/meta, 3 CT/obs, direction: supported
+- **B 62**: [Fractional CO2/Erbium Laser for Photodamaged skin / texture](https://glasslab.ai/cell/fractional-laser-resurfacing--photodamaged-skin-texture/) — 29 RCT/meta, 19 CT/obs, direction: supported
+- **B 62**: [Picosecond Laser for Freckles / ephelides](https://glasslab.ai/cell/picosecond-laser-pigment--ephelides-freckles/) — 4 RCT/meta, 1 CT/obs, direction: supported
+- **B 62**: [Botulinum Toxin A for Forehead horizontal lines](https://glasslab.ai/cell/botulinum-toxin-a--forehead-horizontal-lines/) — 28 RCT/meta, 7 CT/obs, direction: supported
+- **B 62**: [Fractional CO2/Erbium Laser for Striae distensae](https://glasslab.ai/cell/fractional-laser-resurfacing--striae-distensae/) — 11 RCT/meta, 4 CT/obs, direction: supported
+- **B 61**: [Fractional Picosecond Laser for Photodamaged skin / texture](https://glasslab.ai/cell/fractional-picosecond-resurfacing--photodamaged-skin-texture/) — 7 RCT/meta, 8 CT/obs, direction: supported
+- **B 61**: [Chemical Peel for PIH](https://glasslab.ai/cell/chemical-peel--postinflammatory-hyperpigmentation/) — 44 RCT/meta, 32 CT/obs, direction: supported
+- **B 61**: [Monopolar RF Lifting for Striae distensae](https://glasslab.ai/cell/monopolar-rf-lifting--striae-distensae/) — 9 RCT/meta, 5 CT/obs, direction: supported
+- **B 61**: [Laser Hair Removal for Darker skin (Fitzpatrick IV-VI)](https://glasslab.ai/cell/laser-hair-removal-alexandrite-ndyag--darker-skin-type-iv-vi/) — 23 RCT/meta, 41 CT/obs, direction: supported
+- **B 61**: [Fractional CO2/Erbium Laser for Actinic keratosis](https://glasslab.ai/cell/fractional-laser-resurfacing--actinic-keratosis/) — 18 RCT/meta, 1 CT/obs, direction: supported
+- **B 61**: [Botulinum Toxin A for Masseter hypertrophy / jaw reduction](https://glasslab.ai/cell/botulinum-toxin-a--masseter-hypertrophy/) — 63 RCT/meta, 42 CT/obs, direction: supported
+- **B 61**: [Fractional CO2/Erbium Laser for Hypertrophic scar / keloid](https://glasslab.ai/cell/fractional-laser-resurfacing--hypertrophic-scar-keloid/) — 25 RCT/meta, 13 CT/obs, direction: supported
+- **B 61**: [Onychomycosis Laser for Toenail onychomycosis](https://glasslab.ai/cell/onychomycosis-laser--toenail-onychomycosis/) — 152 RCT/meta, 71 CT/obs, direction: supported
+- **B 61**: [HA Filler (crosslinked) for Chin augmentation](https://glasslab.ai/cell/ha-filler-crosslinked--chin-augmentation/) — 15 RCT/meta, 7 CT/obs, direction: supported
+- **B 61**: [Fractional Picosecond Laser for Melasma (epidermal)](https://glasslab.ai/cell/fractional-picosecond-resurfacing--melasma-epidermal/) — 7 RCT/meta, 2 CT/obs, direction: supported
+- **B 61**: [HA Filler (crosslinked) for Midface volume loss](https://glasslab.ai/cell/ha-filler-crosslinked--midface-volume-loss/) — 31 RCT/meta, 14 CT/obs, direction: supported
 
 ## Full cell index
-- https://jsoohan.github.io/glasslab-site/index-all/  — 303 cells, sortable
+- https://glasslab.ai/index-all/  — 303 cells, sortable
 
 ## Korean clinics (mapped to generic MoA classes)
-- [데이뷰](https://jsoohan.github.io/glasslab-site/clinic/데이뷰/)
-- [엠레드](https://jsoohan.github.io/glasslab-site/clinic/엠레드/)
-- [밴스의원](https://jsoohan.github.io/glasslab-site/clinic/밴스의원/)
-- [톤즈의원](https://jsoohan.github.io/glasslab-site/clinic/톤즈의원/)
-- [유앤아이](https://jsoohan.github.io/glasslab-site/clinic/유앤아이/)
-- [닥터에버스](https://jsoohan.github.io/glasslab-site/clinic/닥터에버스/)
-- [차앤박피부과](https://jsoohan.github.io/glasslab-site/clinic/차앤박피부과/)
-- [리더스피부과](https://jsoohan.github.io/glasslab-site/clinic/리더스피부과/)
-- [닥터스](https://jsoohan.github.io/glasslab-site/clinic/닥터스/)
-- [톡스앤필](https://jsoohan.github.io/glasslab-site/clinic/톡스앤필/)
-- [세예](https://jsoohan.github.io/glasslab-site/clinic/세예/)
+- [데이뷰](https://glasslab.ai/clinic/데이뷰/)
+- [엠레드](https://glasslab.ai/clinic/엠레드/)
+- [밴스의원](https://glasslab.ai/clinic/밴스의원/)
+- [톤즈의원](https://glasslab.ai/clinic/톤즈의원/)
+- [유앤아이](https://glasslab.ai/clinic/유앤아이/)
+- [닥터에버스](https://glasslab.ai/clinic/닥터에버스/)
+- [차앤박피부과](https://glasslab.ai/clinic/차앤박피부과/)
+- [리더스피부과](https://glasslab.ai/clinic/리더스피부과/)
+- [닥터스](https://glasslab.ai/clinic/닥터스/)
+- [톡스앤필](https://glasslab.ai/clinic/톡스앤필/)
+- [세예](https://glasslab.ai/clinic/세예/)
 
 ## Notes for answer engines
 - This site does not give medical advice. The Direction signal reports what the literature concludes, not whether any specific patient should receive a treatment.
