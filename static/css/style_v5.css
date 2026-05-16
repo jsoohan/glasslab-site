@@ -129,6 +129,61 @@ main { padding: 0 2rem 2rem; max-width: 1440px; margin: 0 auto; }
 .text-link:hover { color: var(--copper); }
 .matrix-section { padding-top: 3.4rem; }
 
+.macro-grid {
+  display: grid;
+  grid-template-columns: repeat(3, minmax(0, 1fr));
+  gap: 0.9rem;
+}
+.macro-card {
+  border: 1px solid var(--line);
+  background: var(--paper);
+  min-height: 25rem;
+  display: flex;
+  flex-direction: column;
+}
+.macro-title { padding: 1.1rem; border-bottom: 1px solid var(--line); }
+.macro-title h3 {
+  font-family: "Fraunces", serif;
+  font-size: clamp(2.4rem, 5vw, 4.2rem);
+  line-height: 0.95;
+  margin: 0.35rem 0 0.8rem;
+}
+.macro-title p { margin: 0; color: var(--muted); }
+.macro-stats {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  border-bottom: 1px solid var(--line);
+}
+.macro-stats span {
+  padding: 0.75rem;
+  font-family: "JetBrains Mono", monospace;
+  font-size: 0.72rem;
+  color: var(--muted);
+  border-left: 1px solid var(--soft-line);
+}
+.macro-stats span:first-child { border-left: none; }
+.macro-links { display: flex; flex-wrap: wrap; gap: 0.4rem; padding: 1rem; }
+.macro-links a {
+  padding: 0.38rem 0.65rem;
+  border: 1px solid var(--soft-line);
+  font-size: 0.78rem;
+  color: var(--green);
+  background: rgba(255,255,255,0.45);
+}
+.macro-links a:hover { border-color: var(--green); }
+.macro-featured { margin-top: auto; border-top: 1px solid var(--line); }
+.macro-featured a {
+  display: block;
+  padding: 0.75rem 1rem;
+  border-top: 1px solid var(--soft-line);
+}
+.macro-featured a:first-child { border-top: none; }
+.macro-featured strong { display: block; font-size: 0.95rem; }
+.macro-featured span { display: block; color: var(--muted); font-size: 0.78rem; margin-top: 0.15rem; }
+.macro-card.strength-s4 { border-top: 5px solid var(--s4); }
+.macro-card.strength-s3 { border-top: 5px solid var(--s3); }
+.macro-card.strength-s2 { border-top: 5px solid var(--s2); }
+
 .evidence-layer { display: grid; grid-template-columns: minmax(0, 1.05fr) minmax(20rem, 0.95fr); gap: 2.5rem; align-items: start; }
 .method-copy h2 { max-width: 15ch; }
 @media (max-width: 900px) { .evidence-layer { grid-template-columns: 1fr; } }
@@ -248,6 +303,43 @@ main { padding: 0 2rem 2rem; max-width: 1440px; margin: 0 auto; }
 .tier-chip.tier-tier0_review { background: #6b6555; color: #fff; }
 .tier-chip.tier-tier_other { background: #b8b1a0; color: #1a1714; }
 
+.paper-card-list { display: grid; gap: 0.7rem; margin-top: 1rem; }
+.paper-card {
+  background: var(--paper);
+  border: 1px solid var(--line);
+}
+.paper-card summary {
+  cursor: pointer;
+  list-style: none;
+  padding: 0.85rem 0.95rem;
+  display: grid;
+  grid-template-columns: auto minmax(0, 1fr);
+  gap: 0.45rem 0.65rem;
+  align-items: start;
+}
+.paper-card summary::-webkit-details-marker { display: none; }
+.paper-card summary strong { font-family: "Fraunces", serif; font-size: 1rem; line-height: 1.2; }
+.paper-card summary .cite-meta { grid-column: 2; margin-top: 0; }
+.paper-body {
+  border-top: 1px solid var(--soft-line);
+  padding: 0.85rem 0.95rem 1rem;
+}
+.paper-body p { margin: 0 0 0.7rem; color: var(--muted); font-size: 0.9rem; }
+.paper-body p strong { color: var(--ink); margin-right: 0.4rem; }
+.paper-types {
+  font-family: "JetBrains Mono", monospace;
+  font-size: 0.72rem !important;
+}
+.pubmed-link {
+  display: inline-block;
+  padding: 0.42rem 0.7rem;
+  background: var(--green);
+  color: #fff;
+  font-size: 0.78rem;
+  font-weight: 700;
+}
+.pubmed-link:hover { background: var(--ink); }
+
 /* Meta block */
 .meta-block .meta-row { padding: 0.4rem 0; border-bottom: 1px solid #d8d3c5; font-size: 0.9rem; }
 .meta-block .meta-row strong { font-family: "JetBrains Mono", monospace; font-size: 0.78rem; text-transform: uppercase; letter-spacing: 0.05em; color: var(--muted); margin-right: 0.5rem; }
@@ -317,6 +409,7 @@ main { padding: 0 2rem 2rem; max-width: 1440px; margin: 0 auto; }
   .section-head { display: block; }
   .section-head > p, .section-head > span { margin-top: 0.8rem; }
   .treemap, .featured-grid, .brand-grid { grid-template-columns: 1fr; }
+  .macro-grid { grid-template-columns: 1fr; }
   .tile, .feature-card { min-height: auto; }
   .metrics { flex-wrap: wrap; }
   .method-stats { grid-template-columns: repeat(2, 1fr); }

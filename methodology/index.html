@@ -1,10 +1,10 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="ko">
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Methodology · Glass Lab</title>
-  <meta name="description" content="Brand-free PubMed queries, MeSH + TIAB, tier system.">
+  <title>방법론 · Glass Lab</title>
+  <meta name="description" content="브랜드명을 제외한 PubMed 검색식, MeSH + TIAB, 논문 tier 기준.">
 
   
   
@@ -13,17 +13,17 @@
 
   
   <meta property="og:site_name" content="Glass Lab">
-  <meta property="og:title" content="Methodology">
-  <meta property="og:description" content="Brand-free PubMed queries, MeSH + TIAB, tier system.">
+  <meta property="og:title" content="방법론">
+  <meta property="og:description" content="브랜드명을 제외한 PubMed 검색식, MeSH + TIAB, 논문 tier 기준.">
   <meta property="og:type" content="website">
   <meta property="og:url" content="https://jsoohan.github.io/glasslab-site/methodology/">
   <meta property="og:image" content="https://jsoohan.github.io/glasslab-site/static/img/clinic-inventory-hero.png">
-  <meta property="og:locale" content="en_US">
+  <meta property="og:locale" content="ko_KR">
 
   
   <meta name="twitter:card" content="summary_large_image">
-  <meta name="twitter:title" content="Methodology">
-  <meta name="twitter:description" content="Brand-free PubMed queries, MeSH + TIAB, tier system.">
+  <meta name="twitter:title" content="방법론">
+  <meta name="twitter:description" content="브랜드명을 제외한 PubMed 검색식, MeSH + TIAB, 논문 tier 기준.">
   <meta name="twitter:image" content="https://jsoohan.github.io/glasslab-site/static/img/clinic-inventory-hero.png">
 
   <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -37,7 +37,7 @@
     "@context": "https://schema.org",
     "@type": "WebSite",
     "name": "Glass Lab",
-    "description": "Indication × MoA evidence index for medical aesthetics, grounded in PubMed and Korean clinic data.",
+    "description": "색소, 리프팅, 피부건강 시술을 PubMed 근거와 한국 클리닉 메뉴 기준으로 비교하는 evidence index.",
     "url": "https://jsoohan.github.io/glasslab-site",
     "publisher": {
       "@type": "Organization",
@@ -50,81 +50,81 @@
 </head>
 <body>
   <div class="util">
-    <span>GLASS LAB · EVIDENCE INDEX v5 (brand-free)</span>
-    <span class="live">303 cells · 19,240 papers · 5,975 tier1+2</span>
+    <span>GLASS LAB · 근거 인덱스 v5 (brand-free)</span>
+    <span class="live">303 셀 · 19,240 논문 · 5,975 상위근거</span>
   </div>
   <header class="site-header">
-    <a class="brand" href="/glasslab-site/">GLASS LAB<span>Evidence map for aesthetic medicine</span></a>
+    <a class="brand" href="/glasslab-site/">GLASS LAB<span>색소 · 리프팅 · 피부건강 근거 지도</span></a>
     <nav class="nav" aria-label="primary">
-      <a href="/glasslab-site/index-all/">Cells</a>
-      <a href="/glasslab-site/methodology/">Methodology</a>
-      <a href="/glasslab-site/about/">About</a>
+      <a href="/glasslab-site/index-all/">전체 셀</a>
+      <a href="/glasslab-site/methodology/">방법론</a>
+      <a href="/glasslab-site/about/">소개</a>
     </nav>
   </header>
   <main>
     
 <section class="section detail-header">
-  <p class="eyebrow">Methodology</p>
-  <h1>Brand-free evidence index, transparent brand layer.</h1>
+  <p class="eyebrow">방법론</p>
+  <h1>브랜드는 매핑에만 두고, 근거 검색은 generic protocol로 합니다.</h1>
 </section>
 
 <section class="section two-col">
   <div>
-    <h2>Why we strip brand names</h2>
-    <p>Brand / trade names (Botox, Thermage, Juvederm, Ultherapy, Sculptra, Profhilo, EMFACE, Renuva, MiraJet, Sofwave, etc.) are written by manufacturers and clinics, not PubMed indexers. Most cosmetic dermatology papers are indexed by mechanism, MeSH heading, or INN drug name — not the trade name.</p>
-    <p>Earlier index versions sneaked brands into queries, which (a) inflated counts for brands that happen to appear in journal abstracts and (b) excluded perfectly good RCTs that never mention the brand. v5 separates the two layers cleanly.</p>
+    <h2>브랜드명을 검색식에서 빼는 이유</h2>
+    <p>보톡스, 써마지, 쥬비덤, 울쎄라, 스컬트라, 프로파일로 같은 이름은 제조사와 클리닉 메뉴에서는 중요하지만 PubMed 색인 기준은 아닙니다. 대다수 논문은 브랜드명보다 기전, MeSH 용어, 성분명, 파장, 에너지 방식으로 정리됩니다.</p>
+    <p>브랜드명을 PubMed 쿼리에 넣으면 초록에 브랜드가 우연히 등장한 논문만 과대 집계되고, 같은 기전의 좋은 RCT가 빠질 수 있습니다. v5는 브랜드 레이어와 근거 검색 레이어를 분리합니다.</p>
   </div>
   <div>
-    <h2>Brand → class mapping is its own table</h2>
-    <p>239 Korean clinic brand entries are mapped to 48 generic MoA classes in <code>brand_to_class_map.csv</code>. 4516 procedure listings across 11 clinics are joined to MoA in <code>clinic_procedure_to_class.csv</code> at 90.9% coverage.</p>
-    <p>Each <a href="/glasslab-site/cell/">cell page</a> shows which Korean brand variants and which clinics offer that MoA × indication pairing — but the underlying PubMed search uses generic terms only.</p>
+    <h2>brand → class는 별도 테이블입니다</h2>
+    <p>한국 클리닉 브랜드/시술명 239개를 48개 generic MoA class에 매핑했습니다. 11개 클리닉의 시술 listing 4516개는 90.9%가 근거 class에 연결되어 있습니다.</p>
+    <p>각 셀 상세 페이지에서는 어떤 한국 브랜드/시술명이 해당 MoA × 적응증으로 연결되는지 보여주지만, PubMed 검색 자체는 generic 용어만 사용합니다.</p>
   </div>
 </section>
 
 <section class="section two-col">
   <div>
-    <h2>PubMed concept-AND query</h2>
+    <h2>PubMed concept-AND 검색식</h2>
     <pre class="query">({MoA concept block})
    AND
 ({Indication concept block})</pre>
-    <p>Each concept block is a parenthesised OR of MeSH headings and [tiab] synonyms. For example a botulinum MoA block uses <code>"Botulinum Toxins, Type A"[Mesh]</code> alongside INN names <code>"onabotulinumtoxinA"[tiab]</code>, <code>"abobotulinumtoxinA"[tiab]</code>, etc., and never the trade names Botox / Dysport / Xeomin.</p>
+    <p>각 concept block은 MeSH와 [tiab] 동의어를 OR로 묶습니다. 예를 들어 botulinum 계열은 <code>"Botulinum Toxins, Type A"[Mesh]</code>, <code>"onabotulinumtoxinA"[tiab]</code>, <code>"abobotulinumtoxinA"[tiab]</code> 등을 쓰고 Botox / Dysport / Xeomin 같은 상품명은 넣지 않습니다.</p>
   </div>
   <div>
-    <h2>Paper tier system</h2>
-    <p>Every fetched paper is labelled by publication type:</p>
+    <h2>논문 tier 기준</h2>
+    <p>수집된 논문은 publication type 기준으로 먼저 분류합니다.</p>
     <ul>
-      <li><span class="tier-chip tier-tier1">tier1</span> RCT, meta-analysis, systematic review</li>
-      <li><span class="tier-chip tier-tier2">tier2</span> Clinical trial, observational, cohort, case-control</li>
-      <li><span class="tier-chip tier-tier3">tier3</span> Case reports, letters, editorial</li>
-      <li><span class="tier-chip tier-tier0_review">tier0</span> Review, practice guideline</li>
-      <li><span class="tier-chip tier-tier_other">other</span> Journal article without specific type</li>
+      <li><span class="tier-chip tier-tier1">tier1</span> RCT, 메타분석, systematic review</li>
+      <li><span class="tier-chip tier-tier2">tier2</span> 임상시험, 관찰연구, cohort, case-control</li>
+      <li><span class="tier-chip tier-tier3">tier3</span> case report, letter, editorial</li>
+      <li><span class="tier-chip tier-tier0_review">tier0</span> review, practice guideline</li>
+      <li><span class="tier-chip tier-tier_other">other</span> 구체적 publication type이 없는 journal article</li>
     </ul>
   </div>
 </section>
 
 <section class="section">
-  <h2>Numbers</h2>
+  <h2>현재 인덱스 규모</h2>
   <div class="method-stats">
-    <div><strong>303</strong><span>cells (MoA × indication)</span></div>
-    <div><strong>109</strong><span>indications</span></div>
+    <div><strong>303</strong><span>근거 셀</span></div>
+    <div><strong>109</strong><span>적응증</span></div>
     <div><strong>48</strong><span>MoAs</span></div>
-    <div><strong>19,240</strong><span>papers retrieved</span></div>
-    <div><strong>3,455</strong><span>tier1 RCT/meta</span></div>
-    <div><strong>2,520</strong><span>tier2 CT/obs</span></div>
-    <div><strong>239</strong><span>brand mappings</span></div>
-    <div><strong>11</strong><span>clinics surveyed</span></div>
+    <div><strong>19,240</strong><span>검색 논문</span></div>
+    <div><strong>3,455</strong><span>tier1 RCT/메타</span></div>
+    <div><strong>2,520</strong><span>tier2 임상/관찰</span></div>
+    <div><strong>239</strong><span>브랜드 매핑</span></div>
+    <div><strong>11</strong><span>조사 클리닉</span></div>
   </div>
 </section>
 
 <section class="section">
-  <p class="disclaimer">This is an internal evidence prototype. Not clinical advice. Tier labels reflect publication type, not study quality. Title-on-topic ratio is a rough off-topic detector and should not be read as a clinical accuracy score.</p>
+  <p class="disclaimer">이 인덱스는 근거 탐색용 프로토타입입니다. 의학적 조언이 아닙니다. tier는 publication type 기준이며 연구 품질 전체를 보장하지 않습니다. title-on-topic ratio는 off-topic 감지용 보조 신호입니다.</p>
 </section>
 
   </main>
   <footer class="footer">
     <p>Glass Lab Evidence Index — v5 brand-free</p>
-    <p>303 cells · 109 indications · 48 MoAs · 239 brand mappings · 11 clinics (90.9% mapped)</p>
-    <p class="disclaimer">Internal evidence index. Not medical advice. PubMed brand-free queries (MeSH + TIAB generic terms only).</p>
+    <p>303 셀 · 109 적응증 · 48 MoA · 239 브랜드 매핑 · 11 클리닉 (90.9% 매핑)</p>
+    <p class="disclaimer">의학적 조언이 아닙니다. PubMed 검색에는 브랜드명을 넣지 않고 generic MeSH + TIAB 용어만 사용합니다.</p>
   </footer>
 </body>
 </html>
