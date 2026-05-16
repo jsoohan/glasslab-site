@@ -73,7 +73,7 @@ main { padding: 0 2rem 2rem; max-width: 1440px; margin: 0 auto; }
   background:
     linear-gradient(90deg, rgba(17,20,18,0.86) 0%, rgba(17,20,18,0.58) 36%, rgba(17,20,18,0.10) 74%),
     linear-gradient(0deg, rgba(17,20,18,0.76) 0%, rgba(17,20,18,0.08) 45%),
-    url("/static/img/clinic-inventory-hero.png") center / cover no-repeat;
+    url("/glasslab-site/static/img/clinic-inventory-hero.png") center / cover no-repeat;
   transform: scale(1.01);
 }
 .hero-overlay {
@@ -307,7 +307,7 @@ main { padding: 0 2rem 2rem; max-width: 1440px; margin: 0 auto; }
   .hero-image {
     background:
       linear-gradient(180deg, rgba(17,20,18,0.38) 0%, rgba(17,20,18,0.90) 64%),
-      url("/static/img/clinic-inventory-hero.png") 58% center / cover no-repeat;
+      url("/glasslab-site/static/img/clinic-inventory-hero.png") 58% center / cover no-repeat;
   }
   .hero-overlay { grid-template-columns: 1fr; padding: 4rem 1rem 1rem; gap: 1rem; }
   .hero-copy h1 { font-size: clamp(2.5rem, 16vw, 4rem); max-width: 9ch; }
