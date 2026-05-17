@@ -24,9 +24,10 @@ html, body { margin: 0; padding: 0; }
 body {
   background: var(--bg);
   color: var(--ink);
-  font-family: "Inter Tight", system-ui, sans-serif;
+  font-family: "Pretendard Variable", "Pretendard", "Inter Tight", -apple-system, BlinkMacSystemFont, system-ui, sans-serif;
   font-weight: 400;
-  line-height: 1.5;
+  line-height: 1.55;
+  word-break: keep-all;
 }
 a { color: inherit; text-decoration: none; }
 a:hover { text-decoration: none; }
@@ -48,7 +49,7 @@ pre.query { background: #ebe7dc; padding: 1rem; border-left: 3px solid var(--ink
   position: sticky; top: 0; z-index: 20;
 }
 .brand {
-  font-family: "Fraunces", serif; font-weight: 550; font-size: 1.45rem;
+  font-family: "Fraunces", "Pretendard Variable", "Pretendard", serif; font-weight: 550; font-size: 1.45rem;
   display: flex; flex-direction: column;
 }
 .brand span { font-family: "Inter Tight", sans-serif; font-weight: 500; font-size: 0.68rem; color: var(--muted); margin-top: 0.12rem; letter-spacing: 0.08em; text-transform: uppercase; }
@@ -87,7 +88,7 @@ main { padding: 0 2rem 2rem; max-width: 1440px; margin: 0 auto; }
   margin: 0 auto;
 }
 .hero-copy h1 {
-  font-family: "Fraunces", serif; font-weight: 420; font-size: clamp(2.6rem, 7vw, 6.2rem);
+  font-family: "Fraunces", "Pretendard Variable", "Pretendard", serif; font-weight: 420; font-size: clamp(2.6rem, 7vw, 6.2rem);
   max-width: 10.5ch;
   margin: 0.65rem 0 1rem; line-height: 0.95; letter-spacing: 0;
   color: #fbfaf6;
@@ -107,7 +108,7 @@ main { padding: 0 2rem 2rem; max-width: 1440px; margin: 0 auto; }
 .hero-panel > div { padding: 1rem; border-top: 1px solid rgba(17,20,18,0.18); }
 .hero-panel > div:nth-child(-n+2) { border-top: none; }
 .hero-panel > div:nth-child(even) { border-left: 1px solid rgba(17,20,18,0.18); }
-.hero-panel strong { display: block; font-family: "Fraunces", serif; font-size: 2rem; line-height: 1; font-weight: 520; }
+.hero-panel strong { display: block; font-family: "Fraunces", "Pretendard Variable", "Pretendard", serif; font-size: 2rem; line-height: 1; font-weight: 520; }
 .hero-panel span { display: block; margin-top: 0.35rem; color: var(--muted); font-size: 0.78rem; text-transform: uppercase; letter-spacing: 0.06em; }
 .eyebrow {
   font-family: "JetBrains Mono", monospace; font-size: 0.78rem;
@@ -116,7 +117,7 @@ main { padding: 0 2rem 2rem; max-width: 1440px; margin: 0 auto; }
 }
 
 .section { padding: 3rem 0; border-bottom: 1px solid var(--line); }
-.section h2 { font-family: "Fraunces", serif; font-weight: 430; font-size: clamp(1.6rem, 3vw, 2.6rem); line-height: 1.05; margin: 0.45rem 0 0; max-width: 13ch; }
+.section h2 { font-family: "Fraunces", "Pretendard Variable", "Pretendard", serif; font-weight: 430; font-size: clamp(1.6rem, 3vw, 2.6rem); line-height: 1.05; margin: 0.45rem 0 0; max-width: 13ch; }
 .section-head {
   display: flex;
   justify-content: space-between;
@@ -143,7 +144,7 @@ main { padding: 0 2rem 2rem; max-width: 1440px; margin: 0 auto; }
 }
 .macro-title { padding: 1.1rem; border-bottom: 1px solid var(--line); }
 .macro-title h3 {
-  font-family: "Fraunces", serif;
+  font-family: "Fraunces", "Pretendard Variable", "Pretendard", serif;
   font-size: clamp(2.4rem, 5vw, 4.2rem);
   line-height: 0.95;
   margin: 0.35rem 0 0.8rem;
@@ -201,7 +202,7 @@ main { padding: 0 2rem 2rem; max-width: 1440px; margin: 0 auto; }
 }
 .tile:hover { transform: translateY(-2px); box-shadow: var(--shadow); border-color: var(--green); }
 .tile-kicker { font-family: "JetBrains Mono", monospace; font-size: 0.7rem; color: var(--muted); }
-.tile strong { font-family: "Fraunces", serif; font-weight: 500; font-size: 1.25rem; line-height: 1.1; }
+.tile strong { font-family: "Fraunces", "Pretendard Variable", "Pretendard", serif; font-weight: 500; font-size: 1.25rem; line-height: 1.1; }
 .tile-meta, .tile-count { font-size: 0.75rem; color: var(--muted); }
 .tile.strength-s0 { background: var(--s0); }
 .tile.strength-s1 { background: var(--s1); }
@@ -225,7 +226,7 @@ main { padding: 0 2rem 2rem; max-width: 1440px; margin: 0 auto; }
 }
 .feature-card:hover { transform: translateY(-2px); box-shadow: var(--shadow); }
 .feature-card .strength-chip { font-family: "JetBrains Mono", monospace; font-size: 0.66rem; padding: 0.15rem 0.4rem; background: var(--s2); display: inline-block; align-self: flex-start; text-transform: uppercase; letter-spacing: 0.05em; }
-.feature-card h3 { margin: 0.1rem 0 0; font-family: "Fraunces", serif; font-weight: 520; font-size: 1.12rem; line-height: 1.15; }
+.feature-card h3 { margin: 0.1rem 0 0; font-family: "Fraunces", "Pretendard Variable", "Pretendard", serif; font-weight: 520; font-size: 1.12rem; line-height: 1.15; }
 .feature-card .for { color: var(--muted); font-size: 0.85rem; margin: 0; }
 .metrics { list-style: none; margin: 0.4rem 0 0; padding: 0; display: flex; gap: 0.8rem; }
 .metrics li { font-size: 0.75rem; color: var(--muted); }
@@ -250,7 +251,7 @@ main { padding: 0 2rem 2rem; max-width: 1440px; margin: 0 auto; }
 .method-stats > div {
   background: var(--paper); border: 1px solid var(--line); padding: 0.9rem;
 }
-.method-stats strong { display: block; font-family: "Fraunces", serif; font-size: 1.6rem; line-height: 1; }
+.method-stats strong { display: block; font-family: "Fraunces", "Pretendard Variable", "Pretendard", serif; font-size: 1.6rem; line-height: 1; }
 .method-stats span { display: block; font-size: 0.78rem; color: var(--muted); margin-top: 0.3rem; }
 
 /* Search */
@@ -293,7 +294,7 @@ main { padding: 0 2rem 2rem; max-width: 1440px; margin: 0 auto; }
   display: flex; align-items: baseline; gap: 0.7rem; margin-bottom: 0.5rem;
 }
 .sr-term {
-  font-family: "Fraunces", serif; font-weight: 500; font-size: 1.08rem; color: var(--ink);
+  font-family: "Fraunces", "Pretendard Variable", "Pretendard", serif; font-weight: 500; font-size: 1.08rem; color: var(--ink);
 }
 .sr-term mark { background: none; color: var(--copper); font-style: italic; }
 .sr-group {
@@ -333,12 +334,12 @@ main { padding: 0 2rem 2rem; max-width: 1440px; margin: 0 auto; }
   min-height: 5.3rem;
 }
 .clinic-card:hover { background: #2f5c50; }
-.clinic-card strong { display: block; font-family: "Fraunces", serif; font-weight: 500; font-size: 1rem; }
+.clinic-card strong { display: block; font-family: "Fraunces", "Pretendard Variable", "Pretendard", serif; font-weight: 500; font-size: 1rem; }
 .clinic-card span { display: block; font-size: 0.75rem; color: #d7d2bf; }
 
 /* Detail header */
 .detail-header h1 {
-  font-family: "Fraunces", serif; font-weight: 400; font-size: clamp(1.8rem, 4vw, 3rem);
+  font-family: "Fraunces", "Pretendard Variable", "Pretendard", serif; font-weight: 400; font-size: clamp(1.8rem, 4vw, 3rem);
   margin: 0.5rem 0 1rem;
 }
 .detail-header h1 em { font-style: italic; color: var(--warm); }
@@ -355,7 +356,7 @@ main { padding: 0 2rem 2rem; max-width: 1440px; margin: 0 auto; }
 /* Citation list */
 .citation-list { padding-left: 1.1rem; margin: 0; }
 .citation-list li { padding: 0.6rem 0; border-bottom: 1px solid #d8d3c5; }
-.citation-list strong { font-family: "Fraunces", serif; font-weight: 500; font-size: 1rem; line-height: 1.25; }
+.citation-list strong { font-family: "Fraunces", "Pretendard Variable", "Pretendard", serif; font-weight: 500; font-size: 1rem; line-height: 1.25; }
 .cite-meta { display: block; margin-top: 0.2rem; font-size: 0.78rem; color: var(--muted); }
 
 .tier-chip { display: inline-block; padding: 0.1rem 0.4rem; border-radius: 2px; font-family: "JetBrains Mono", monospace; font-size: 0.66rem; letter-spacing: 0.05em; }
@@ -380,7 +381,7 @@ main { padding: 0 2rem 2rem; max-width: 1440px; margin: 0 auto; }
   align-items: start;
 }
 .paper-card summary::-webkit-details-marker { display: none; }
-.paper-card summary strong { font-family: "Fraunces", serif; font-size: 1rem; line-height: 1.2; }
+.paper-card summary strong { font-family: "Fraunces", "Pretendard Variable", "Pretendard", serif; font-size: 1rem; line-height: 1.2; }
 .paper-card summary .cite-meta { grid-column: 2; margin-top: 0; }
 .paper-body {
   border-top: 1px solid var(--soft-line);
@@ -410,7 +411,7 @@ main { padding: 0 2rem 2rem; max-width: 1440px; margin: 0 auto; }
 .brand-grid { display: grid; grid-template-columns: repeat(4, 1fr); gap: 0.5rem; margin-top: 1rem; }
 @media (max-width: 900px) { .brand-grid { grid-template-columns: repeat(2, 1fr); } }
 .brand-card { background: #fff; padding: 0.7rem 0.8rem; border: 1px solid var(--line); }
-.brand-card strong { display: block; font-family: "Fraunces", serif; font-size: 1rem; font-weight: 500; }
+.brand-card strong { display: block; font-family: "Fraunces", "Pretendard Variable", "Pretendard", serif; font-size: 1rem; font-weight: 500; }
 .brand-card .alias { display: block; font-size: 0.76rem; color: var(--muted); }
 .brand-card .conf { display: block; font-size: 0.7rem; color: var(--muted); margin-top: 0.2rem; font-family: "JetBrains Mono", monospace; }
 
@@ -441,7 +442,7 @@ main { padding: 0 2rem 2rem; max-width: 1440px; margin: 0 auto; }
 
 /* Clinic detail */
 .clinic-class-block { margin-bottom: 1.6rem; }
-.clinic-class-block h2 { font-family: "Fraunces", serif; font-size: 1.2rem; margin-bottom: 0.5rem; }
+.clinic-class-block h2 { font-family: "Fraunces", "Pretendard Variable", "Pretendard", serif; font-size: 1.2rem; margin-bottom: 0.5rem; }
 .proc-list { list-style: none; padding: 0; columns: 2; gap: 1.5rem; font-size: 0.85rem; }
 .proc-list li { padding: 0.2rem 0; break-inside: avoid; }
 .proc-list li.more { color: var(--muted); font-style: italic; }
@@ -500,7 +501,7 @@ main { padding: 0 2rem 2rem; max-width: 1440px; margin: 0 auto; }
   flex-wrap: wrap;
 }
 .grade-band .grade-pill { font-size: 1.05rem; padding: 0.25rem 0.7rem; }
-.grade-score { font-family: "Fraunces", serif; font-size: 1.4rem; }
+.grade-score { font-family: "Fraunces", "Pretendard Variable", "Pretendard", serif; font-size: 1.4rem; }
 .grade-score strong { font-weight: 520; }
 .grade-note { color: var(--muted); font-size: 0.88rem; }
 
@@ -525,7 +526,7 @@ main { padding: 0 2rem 2rem; max-width: 1440px; margin: 0 auto; }
 .axis label { font-family: "JetBrains Mono", monospace; font-size: 0.7rem; text-transform: uppercase; letter-spacing: 0.06em; color: var(--muted); }
 .axis .bar { background: #ebe7dc; height: 0.55rem; position: relative; }
 .axis .bar span { display: block; height: 100%; background: linear-gradient(90deg, var(--s3), var(--s2)); }
-.axis b { font-family: "Fraunces", serif; font-weight: 500; text-align: right; font-size: 0.95rem; }
+.axis b { font-family: "Fraunces", "Pretendard Variable", "Pretendard", serif; font-weight: 500; text-align: right; font-size: 0.95rem; }
 .axis b small { color: var(--muted); font-family: "JetBrains Mono", monospace; font-size: 0.7rem; font-weight: 400; margin-left: 0.2rem; }
 
 /* Featured cards re-colored by grade */
