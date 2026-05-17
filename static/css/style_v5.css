@@ -89,9 +89,10 @@ main { padding: 0 2rem 2rem; max-width: 1440px; margin: 0 auto; }
 }
 .hero-copy h1 {
   font-family: "Fraunces", "Pretendard Variable", "Pretendard", serif; font-weight: 420; font-size: clamp(2.6rem, 7vw, 6.2rem);
-  max-width: 22ch;
-  margin: 0.65rem 0 1rem; line-height: 0.98; letter-spacing: 0;
+  max-width: none;
+  margin: 0.65rem 0 1rem; line-height: 1.02; letter-spacing: 0;
   color: #fbfaf6;
+  text-wrap: balance;
 }
 .hero-copy h1 em { font-style: italic; color: #d7a973; }
 .hero-note { color: #e0ddd4; max-width: 58ch; font-size: 1.05rem; }
@@ -117,7 +118,7 @@ main { padding: 0 2rem 2rem; max-width: 1440px; margin: 0 auto; }
 }
 
 .section { padding: 3rem 0; border-bottom: 1px solid var(--line); }
-.section h2 { font-family: "Fraunces", "Pretendard Variable", "Pretendard", serif; font-weight: 430; font-size: clamp(1.6rem, 3vw, 2.6rem); line-height: 1.05; margin: 0.45rem 0 0; max-width: 13ch; }
+.section h2 { font-family: "Fraunces", "Pretendard Variable", "Pretendard", serif; font-weight: 430; font-size: clamp(1.6rem, 3vw, 2.6rem); line-height: 1.15; margin: 0.45rem 0 0; text-wrap: balance; }
 .section-head {
   display: flex;
   justify-content: space-between;
@@ -186,7 +187,7 @@ main { padding: 0 2rem 2rem; max-width: 1440px; margin: 0 auto; }
 .macro-card.strength-s2 { border-top: 5px solid var(--s2); }
 
 .evidence-layer { display: grid; grid-template-columns: minmax(0, 1.05fr) minmax(20rem, 0.95fr); gap: 2.5rem; align-items: start; }
-.method-copy h2 { max-width: 15ch; }
+.method-copy h2 { max-width: none; text-wrap: balance; }
 @media (max-width: 900px) { .evidence-layer { grid-template-columns: 1fr; } }
 
 /* Treemap */
