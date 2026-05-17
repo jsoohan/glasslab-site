@@ -88,9 +88,9 @@ main { padding: 0 2rem 2rem; max-width: 1440px; margin: 0 auto; }
   margin: 0 auto;
 }
 .hero-copy h1 {
-  font-family: "Fraunces", "Pretendard Variable", "Pretendard", serif; font-weight: 420; font-size: clamp(2.2rem, 6vw, 5rem);
-  max-width: 20ch;
-  margin: 0.65rem 0 1rem; line-height: 1.08; letter-spacing: -0.01em;
+  font-family: "Fraunces", "Pretendard Variable", "Pretendard", serif; font-weight: 420; font-size: clamp(2.6rem, 7vw, 6.2rem);
+  max-width: 22ch;
+  margin: 0.65rem 0 1rem; line-height: 0.98; letter-spacing: 0;
   color: #fbfaf6;
 }
 .hero-copy h1 em { font-style: italic; color: #d7a973; }
