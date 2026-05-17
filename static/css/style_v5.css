@@ -28,7 +28,14 @@ body {
   font-weight: 400;
   line-height: 1.55;
   word-break: keep-all;
+  overflow-wrap: anywhere;
 }
+/* Global text-wrap rules — Korean-friendly line breaks
+ * - balance: distributes heading lines evenly (good for 2-3 line headings)
+ * - pretty: avoids orphan last lines and bad breaks in body copy
+ * Combined with word-break: keep-all on body, this gives clean Korean wrapping. */
+h1, h2, h3, h4 { text-wrap: balance; }
+p, li, dd { text-wrap: pretty; }
 a { color: inherit; text-decoration: none; }
 a:hover { text-decoration: none; }
 code, pre { font-family: "JetBrains Mono", monospace; font-size: 0.9em; }
@@ -126,7 +133,7 @@ main { padding: 0 2rem 2rem; max-width: 1440px; margin: 0 auto; }
   align-items: end;
   margin-bottom: 1.4rem;
 }
-.section-head > p, .section-head > span { max-width: 34ch; color: var(--muted); margin: 0; font-size: 0.95rem; }
+.section-head > p, .section-head > span { max-width: 44ch; color: var(--muted); margin: 0; font-size: 0.95rem; }
 .text-link { color: var(--green); font-weight: 700; text-transform: uppercase; letter-spacing: 0.04em; font-size: 0.82rem; }
 .text-link:hover { color: var(--copper); }
 .matrix-section { padding-top: 3.4rem; }
@@ -466,7 +473,7 @@ main { padding: 0 2rem 2rem; max-width: 1440px; margin: 0 auto; }
       url("/glasslab-site/static/img/clinic-inventory-hero.png") 58% center / cover no-repeat;
   }
   .hero-overlay { grid-template-columns: 1fr; padding: 4rem 1rem 1rem; gap: 1rem; }
-  .hero-copy h1 { font-size: clamp(2.5rem, 16vw, 4rem); max-width: 9ch; }
+  .hero-copy h1 { font-size: clamp(2.2rem, 12vw, 3.6rem); max-width: none; }
   .hero-note { font-size: 0.98rem; }
   .hero-panel { grid-template-columns: repeat(2, 1fr); }
   .section { padding: 2.4rem 0; }
