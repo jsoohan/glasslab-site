@@ -629,3 +629,55 @@ main { padding: 0 2rem 2rem; max-width: 1440px; margin: 0 auto; }
   font-family: "JetBrains Mono", monospace; font-size: 0.76rem; color: var(--muted);
   margin: 0 0 0.5rem;
 }
+
+/* Lead capture form (cell detail bottom) */
+.lead-capture { background: var(--paper); margin: 0 -2rem; padding: 3rem 2rem; border-top: 1px solid var(--line); }
+.lead-card { max-width: 720px; margin: 0 auto; }
+.lead-card h2 {
+  font-family: "Fraunces", "Pretendard Variable", "Pretendard", serif;
+  font-weight: 430; font-size: clamp(1.6rem, 3vw, 2.4rem); line-height: 1.2;
+  margin: 0.45rem 0 0.9rem; text-wrap: balance;
+}
+.lead-sub { color: var(--muted); margin: 0 0 1.6rem; font-size: 0.95rem; }
+.lead-sub strong { color: var(--ink); }
+
+.lead-form { display: flex; flex-direction: column; gap: 1.1rem; }
+.lf-field { display: flex; flex-direction: column; gap: 0.4rem; }
+.lf-field > span,
+.lf-field legend {
+  font-family: "JetBrains Mono", monospace; font-size: 0.72rem;
+  text-transform: uppercase; letter-spacing: 0.08em; color: var(--muted);
+  padding: 0;
+}
+.lf-field input[type="email"],
+.lf-field textarea {
+  border: 1px solid var(--soft-line); background: #fff;
+  padding: 0.72rem 0.85rem; font-family: inherit; font-size: 1rem;
+  color: var(--ink); outline: none; border-radius: 0;
+}
+.lf-field input[type="email"]:focus,
+.lf-field textarea:focus { border-color: var(--green); }
+.lf-field textarea { resize: vertical; min-height: 4rem; }
+
+fieldset.lf-field { border: 0; margin: 0; padding: 0; }
+.lf-chips { display: flex; flex-wrap: wrap; gap: 0.4rem; margin-top: 0.3rem; }
+.lf-chip {
+  display: inline-flex; align-items: center;
+  padding: 0.4rem 0.78rem; border: 1px solid var(--soft-line);
+  background: #fff; cursor: pointer; font-size: 0.85rem;
+  transition: border-color 100ms, background 100ms, color 100ms;
+}
+.lf-chip input { position: absolute; opacity: 0; pointer-events: none; }
+.lf-chip:has(input:checked) { background: var(--green); color: #fff; border-color: var(--green); }
+.lf-chip:hover { border-color: var(--green); }
+
+.lf-actions { display: flex; align-items: center; gap: 1rem; margin-top: 0.6rem; flex-wrap: wrap; }
+.lf-submit { cursor: pointer; }
+.lf-submit:disabled { opacity: 0.6; cursor: wait; }
+.lf-status { font-size: 0.88rem; color: var(--muted); }
+.lf-status.ok { color: var(--green); font-weight: 600; }
+.lf-status.err { color: var(--red); font-weight: 600; }
+
+@media (max-width: 760px) {
+  .lead-capture { margin: 0 -1rem; padding: 2.4rem 1rem; }
+}

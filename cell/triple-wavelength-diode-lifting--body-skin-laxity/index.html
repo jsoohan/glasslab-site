@@ -32,7 +32,11 @@
   <link href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,300;9..144,400;9..144,500;9..144,600&family=Inter+Tight:wght@300;400;500;600;700&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/orioncactus/pretendard@v1.3.9/dist/web/variable/pretendardvariable-dynamic-subset.min.css">
   <link rel="stylesheet" href="/glasslab-site/static/css/style_v5.css">
-  <script>window.GLASSLAB_BASE = "/glasslab-site";</script>
+  <script>
+    window.GLASSLAB_BASE = "/glasslab-site";
+    // Google Apps Script Web App URL — replace after deploying the script.
+    window.GLASSLAB_FORM_URL = "";
+  </script>
 
   
   <script type="application/ld+json">
@@ -188,6 +192,73 @@
 </section>
 
 
+<section class="section lead-capture">
+  <div class="lead-card">
+    <p class="eyebrow">전용 근거 리포트</p>
+    <h2>내 고민을 더 자세히 알려주시면<br>Glass Lab 봇이 전용 리포트를 만들어 드립니다.</h2>
+    <p class="lead-sub">이 페이지에서 본 <strong>트리플 다이오드 리프팅</strong> · <strong>바디 피부 처짐</strong> 정보를 바탕으로, 본인 피부 상태·시술 단계에 맞춘 근거 정리를 메일로 보내드려요.</p>
+
+    <form class="lead-form" data-glasslab-form>
+      <input type="hidden" name="ctx_moa" value="트리플 다이오드 리프팅">
+      <input type="hidden" name="ctx_indication" value="바디 피부 처짐">
+      <input type="hidden" name="ctx_grade" value="D">
+      <input type="hidden" name="ctx_url" value="/cell/triple-wavelength-diode-lifting--body-skin-laxity/">
+
+      <label class="lf-field">
+        <span>이메일</span>
+        <input type="email" name="email" required placeholder="you@example.com" autocomplete="email">
+      </label>
+
+      <fieldset class="lf-field">
+        <legend>관심 고민 (복수 선택)</legend>
+        <div class="lf-chips">
+          
+          <label class="lf-chip"><input type="checkbox" name="concerns" value="기미"><span>기미</span></label>
+          
+          <label class="lf-chip"><input type="checkbox" name="concerns" value="여드름 자국"><span>여드름 자국</span></label>
+          
+          <label class="lf-chip"><input type="checkbox" name="concerns" value="잡티"><span>잡티</span></label>
+          
+          <label class="lf-chip"><input type="checkbox" name="concerns" value="처짐"><span>처짐</span></label>
+          
+          <label class="lf-chip"><input type="checkbox" name="concerns" value="팔자주름"><span>팔자주름</span></label>
+          
+          <label class="lf-chip"><input type="checkbox" name="concerns" value="모공"><span>모공</span></label>
+          
+          <label class="lf-chip"><input type="checkbox" name="concerns" value="홍조"><span>홍조</span></label>
+          
+          <label class="lf-chip"><input type="checkbox" name="concerns" value="흉터"><span>흉터</span></label>
+          
+          <label class="lf-chip"><input type="checkbox" name="concerns" value="탈모"><span>탈모</span></label>
+          
+          <label class="lf-chip"><input type="checkbox" name="concerns" value="지방"><span>지방</span></label>
+          
+        </div>
+      </fieldset>
+
+      <fieldset class="lf-field">
+        <legend>시술 결정 단계</legend>
+        <div class="lf-chips">
+          <label class="lf-chip"><input type="radio" name="stage" value="둘러보는 중" required><span>둘러보는 중</span></label>
+          <label class="lf-chip"><input type="radio" name="stage" value="정보 모으는 중"><span>정보 모으는 중</span></label>
+          <label class="lf-chip"><input type="radio" name="stage" value="곧 상담 예약"><span>곧 상담 예약</span></label>
+          <label class="lf-chip"><input type="radio" name="stage" value="시술 받은 적 있음"><span>시술 받은 적 있음</span></label>
+        </div>
+      </fieldset>
+
+      <label class="lf-field">
+        <span>추가 메모 (선택)</span>
+        <textarea name="notes" rows="3" placeholder="피부 타입, 시도해 본 시술, 궁금한 점 등"></textarea>
+      </label>
+
+      <div class="lf-actions">
+        <button type="submit" class="cta primary lf-submit">리포트 신청하기</button>
+        <span class="lf-status" aria-live="polite"></span>
+      </div>
+    </form>
+  </div>
+</section>
+
 <section class="section">
   <a href="/glasslab-site/moa/triple-wavelength-diode-lifting/">← 같은 시술군의 다른 적응증</a>
   &nbsp;|&nbsp;
@@ -201,5 +272,6 @@
     <p class="disclaimer">의학적 조언이 아닙니다. 시술 결정은 반드시 전문의 진료를 통해 내려주세요.</p>
   </footer>
   <script src="/glasslab-site/static/js/search.js"></script>
+  <script src="/glasslab-site/static/js/lead_form.js"></script>
 </body>
 </html>
