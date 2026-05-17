@@ -9,9 +9,6 @@
 - Confidence Grade composite (0–100) = Quantity 25 + Quality 25 + Recency 15 + Specificity 10 + Consistency 10 + Geography 5 + Journal impact 10.
 - Direction is computed from positive vs negative outcome keywords in paper abstracts, weighted 2x in CONCLUSIONS sections.
 
-## Methodology
-- https://glasslab.ai/methodology/: brand-free PubMed methodology, MeSH+TIAB AND boolean, tier 1–3 publication-type classification, journal whitelist, geography signal.
-
 ## Concern groups
 - [Acne / Scar / Texture](https://glasslab.ai/group/acne-scar/)
 - [Skin Quality](https://glasslab.ai/group/skin-quality/)
