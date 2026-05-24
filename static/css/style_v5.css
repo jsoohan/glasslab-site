@@ -681,3 +681,10 @@ fieldset.lf-field { border: 0; margin: 0; padding: 0; }
 @media (max-width: 760px) {
   .lead-capture { margin: 0 -1rem; padding: 2.4rem 1rem; }
 }
+
+/* Brand chips on cell detail */
+.brand-chips { margin: 1.2rem 0 0; padding: 1rem 1.1rem; background: var(--paper); border-left: 3px solid var(--copper); }
+.brand-chips .eyebrow { margin-bottom: 0.5rem; }
+.bc-list { display: flex; flex-wrap: wrap; gap: 0.4rem; }
+.bc-chip { display: inline-block; padding: 0.32rem 0.65rem; background: #fff; border: 1px solid var(--soft-line); font-size: 0.85rem; color: var(--ink); }
+.bc-note { margin: 0.7rem 0 0; font-size: 0.8rem; color: var(--muted); font-style: italic; }
