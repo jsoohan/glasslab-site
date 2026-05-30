@@ -1,4846 +1,4918 @@
 {
- "안티에이징": {
-  "group": "lifting",
-  "freq": 1120,
-  "classes": [
-   {
-    "class_id": "stem_cell_svf_injection",
-    "indication": "skin_quality_volume_regeneration",
-    "score": 31
-   },
-   {
-    "class_id": "hifu_lifting",
-    "indication": "lifting_skin_tightening",
-    "score": 15
-   },
-   {
-    "class_id": "monopolar_rf_lifting",
-    "indication": "lifting_skin_tightening",
-    "score": 11
-   },
-   {
-    "class_id": "pn_pdrn_injection",
-    "indication": "skin_quality_wound_repair",
-    "score": 10
-   },
-   {
-    "class_id": "laser_toning_qswitched_or_picosecond",
-    "indication": "pigment_melasma",
-    "score": 9
-   },
-   {
-    "class_id": "botulinum_toxin_a",
-    "indication": "wrinkle_contour",
-    "score": 8
-   }
-  ]
- },
- "콜라겐": {
-  "group": "lifting",
-  "freq": 1328,
-  "classes": [
-   {
-    "class_id": "monopolar_rf_lifting",
-    "indication": "lifting_skin_tightening",
-    "score": 65
-   },
-   {
-    "class_id": "hifu_lifting",
-    "indication": "lifting_skin_tightening",
-    "score": 39
-   },
-   {
-    "class_id": "mesotherapy_skin_cocktail",
-    "indication": "skin_quality_hydration",
-    "score": 37
-   },
-   {
-    "class_id": "pn_pdrn_injection",
-    "indication": "skin_quality_wound_repair",
-    "score": 32
-   },
-   {
-    "class_id": "acellular_dermal_matrix_ecm_skinbooster",
-    "indication": "skin_quality_dermal_remodeling",
-    "score": 31
-   },
-   {
-    "class_id": "collagen_stimulator_pdlla_plla",
-    "indication": "volume_collagen_stimulation",
-    "score": 30
-   }
-  ]
- },
- "스킨부스터": {
-  "group": "skin_quality",
-  "freq": 1083,
-  "classes": [
-   {
-    "class_id": "pn_pdrn_injection",
-    "indication": "skin_quality_wound_repair",
-    "score": 272
-   },
-   {
-    "class_id": "acellular_dermal_matrix_ecm_skinbooster",
-    "indication": "skin_quality_dermal_remodeling",
-    "score": 226
-   },
-   {
-    "class_id": "collagen_stimulator_pdlla_plla",
-    "indication": "volume_collagen_stimulation",
-    "score": 156
-   },
-   {
-    "class_id": "ha_filler_crosslinked",
-    "indication": "volume_contour_wrinkle",
-    "score": 76
-   },
-   {
-    "class_id": "botulinum_toxin_a",
-    "indication": "wrinkle_contour",
-    "score": 49
-   },
-   {
-    "class_id": "exosome_topical_or_injection",
-    "indication": "skin_quality_postprocedure_recovery",
-    "score": 35
-   }
-  ]
- },
- "쥬베룩": {
-  "group": "lifting",
-  "freq": 234,
-  "classes": [
-   {
-    "class_id": "collagen_stimulator_pdlla_plla",
-    "indication": "volume_collagen_stimulation",
-    "score": 234
-   },
-   {
-    "class_id": "pn_pdrn_injection",
-    "indication": "skin_quality_wound_repair",
-    "score": 86
-   }
-  ]
- },
- "탄력": {
-  "group": "lifting",
-  "freq": 1930,
-  "classes": [
-   {
-    "class_id": "monopolar_rf_lifting",
-    "indication": "lifting_skin_tightening",
-    "score": 421
-   },
-   {
-    "class_id": "hifu_lifting",
-    "indication": "lifting_skin_tightening",
-    "score": 399
-   },
-   {
-    "class_id": "bipolar_multipolar_rf_contouring",
-    "indication": "contour_skin_tightening",
-    "score": 149
-   },
-   {
-    "class_id": "pn_pdrn_injection",
-    "indication": "skin_quality_wound_repair",
-    "score": 111
-   }
-  ]
- },
- "엑소좀": {
-  "group": "skin_quality",
-  "freq": 72,
-  "classes": [
-   {
-    "class_id": "exosome_topical_or_injection",
-    "indication": "skin_quality_postprocedure_recovery",
-    "score": 72
-   },
-   {
-    "class_id": "pn_pdrn_injection",
-    "indication": "skin_quality_wound_repair",
-    "score": 38
-   },
-   {
-    "class_id": "botulinum_toxin_a",
-    "indication": "wrinkle_contour",
-    "score": 20
-   },
-   {
-    "class_id": "microneedling_rf",
-    "indication": "acne_scar_pore_laxity",
-    "score": 19
-   },
-   {
-    "class_id": "collagen_stimulator_pdlla_plla",
-    "indication": "volume_collagen_stimulation",
-    "score": 8
-   }
-  ]
- },
- "주름": {
-  "group": "wrinkle",
-  "freq": 1266,
-  "classes": [
-   {
-    "class_id": "hifu_lifting",
-    "indication": "lifting_skin_tightening",
-    "score": 157
-   },
-   {
-    "class_id": "monopolar_rf_lifting",
-    "indication": "lifting_skin_tightening",
-    "score": 119
-   },
-   {
-    "class_id": "pn_pdrn_injection",
-    "indication": "skin_quality_wound_repair",
-    "score": 105
-   },
-   {
-    "class_id": "ha_filler_crosslinked",
-    "indication": "volume_contour_wrinkle",
-    "score": 52
-   },
-   {
-    "class_id": "botulinum_toxin_a",
-    "indication": "wrinkle_contour",
-    "score": 47
-   },
-   {
-    "class_id": "collagen_stimulator_pdlla_plla",
-    "indication": "volume_collagen_stimulation",
-    "score": 30
-   }
-  ]
- },
- "보습": {
-  "group": "skin_quality",
-  "freq": 495,
-  "classes": [
-   {
-    "class_id": "pn_pdrn_injection",
-    "indication": "skin_quality_wound_repair",
-    "score": 19
-   },
-   {
-    "class_id": "hifu_lifting",
-    "indication": "lifting_skin_tightening",
-    "score": 12
-   },
-   {
-    "class_id": "acellular_dermal_matrix_ecm_skinbooster",
-    "indication": "skin_quality_dermal_remodeling",
-    "score": 4
-   },
-   {
-    "class_id": "monopolar_rf_lifting",
-    "indication": "lifting_skin_tightening",
-    "score": 3
-   }
-  ]
- },
- "토닝": {
-  "group": "pigment",
-  "freq": 69,
-  "classes": [
-   {
-    "class_id": "laser_toning_qswitched_or_picosecond",
-    "indication": "pigment_melasma",
-    "score": 69
-   },
-   {
-    "class_id": "hifu_lifting",
-    "indication": "lifting_skin_tightening",
-    "score": 18
-   },
-   {
-    "class_id": "picosecond_laser_pigment",
-    "indication": "pigment_tattoo_skin_rejuvenation",
-    "score": 14
-   },
-   {
-    "class_id": "monopolar_rf_lifting",
-    "indication": "lifting_skin_tightening",
-    "score": 12
-   },
-   {
-    "class_id": "botulinum_toxin_a",
-    "indication": "wrinkle_contour",
-    "score": 11
-   },
-   {
-    "class_id": "pn_pdrn_injection",
-    "indication": "skin_quality_wound_repair",
-    "score": 7
-   }
-  ]
- },
- "줄기세포": {
-  "group": "skin_quality",
-  "freq": 71,
-  "classes": [
-   {
-    "class_id": "stem_cell_svf_injection",
-    "indication": "skin_quality_volume_regeneration",
-    "score": 71
-   }
-  ]
- },
- "노화": {
-  "group": "lifting",
-  "freq": 381,
-  "classes": [
-   {
-    "class_id": "hifu_lifting",
-    "indication": "lifting_skin_tightening",
-    "score": 23
-   },
-   {
-    "class_id": "monopolar_rf_lifting",
-    "indication": "lifting_skin_tightening",
-    "score": 20
-   },
-   {
-    "class_id": "pn_pdrn_injection",
-    "indication": "skin_quality_wound_repair",
-    "score": 13
-   },
-   {
-    "class_id": "stem_cell_svf_injection",
-    "indication": "skin_quality_volume_regeneration",
-    "score": 7
-   },
-   {
-    "class_id": "botulinum_toxin_a",
-    "indication": "wrinkle_contour",
-    "score": 4
-   },
-   {
-    "class_id": "bipolar_multipolar_rf_contouring",
-    "indication": "contour_skin_tightening",
-    "score": 3
-   }
-  ]
- },
- "온다": {
-  "group": "body_fat",
-  "freq": 89,
-  "classes": [
-   {
-    "class_id": "microwave_245ghz_skin_tightening",
-    "indication": "skin_tightening_body_contouring",
-    "score": 89
-   },
-   {
-    "class_id": "hifu_lifting",
-    "indication": "lifting_skin_tightening",
-    "score": 33
-   },
-   {
-    "class_id": "monopolar_rf_lifting",
-    "indication": "lifting_skin_tightening",
-    "score": 30
-   },
-   {
-    "class_id": "pn_pdrn_injection",
-    "indication": "skin_quality_wound_repair",
-    "score": 16
-   }
-  ]
- },
- "촉촉": {
-  "group": "skin_quality",
-  "freq": 199,
-  "classes": [
-   {
-    "class_id": "pn_pdrn_injection",
-    "indication": "skin_quality_wound_repair",
-    "score": 15
-   },
-   {
-    "class_id": "acellular_dermal_matrix_ecm_skinbooster",
-    "indication": "skin_quality_dermal_remodeling",
-    "score": 4
-   },
-   {
-    "class_id": "monopolar_rf_lifting",
-    "indication": "lifting_skin_tightening",
-    "score": 3
-   }
-  ]
- },
- "LDM": {
-  "group": "skin_quality",
-  "freq": 24,
-  "classes": [
-   {
-    "class_id": "ldm_ultrasound_skin_care",
-    "indication": "skin_quality_recovery",
-    "score": 24
-   },
-   {
-    "class_id": "pn_pdrn_injection",
-    "indication": "skin_quality_wound_repair",
-    "score": 7
-   },
-   {
-    "class_id": "hifu_lifting",
-    "indication": "lifting_skin_tightening",
-    "score": 4
-   }
-  ]
- },
- "피부결": {
-  "group": "skin_quality",
-  "freq": 392,
-  "classes": [
-   {
-    "class_id": "pn_pdrn_injection",
-    "indication": "skin_quality_wound_repair",
-    "score": 84
-   },
-   {
-    "class_id": "monopolar_rf_lifting",
-    "indication": "lifting_skin_tightening",
-    "score": 36
-   },
-   {
-    "class_id": "collagen_stimulator_pdlla_plla",
-    "indication": "volume_collagen_stimulation",
-    "score": 31
-   },
-   {
-    "class_id": "acellular_dermal_matrix_ecm_skinbooster",
-    "indication": "skin_quality_dermal_remodeling",
-    "score": 27
-   },
-   {
-    "class_id": "hifu_lifting",
-    "indication": "lifting_skin_tightening",
-    "score": 22
-   }
-  ]
- },
- "건조": {
-  "group": "skin_quality",
-  "freq": 675,
-  "classes": [
-   {
-    "class_id": "pn_pdrn_injection",
-    "indication": "skin_quality_wound_repair",
-    "score": 149
-   },
-   {
-    "class_id": "acellular_dermal_matrix_ecm_skinbooster",
-    "indication": "skin_quality_dermal_remodeling",
-    "score": 29
-   },
-   {
-    "class_id": "collagen_stimulator_pdlla_plla",
-    "indication": "volume_collagen_stimulation",
-    "score": 16
-   }
-  ]
- },
- "리쥬란": {
-  "group": "skin_quality",
-  "freq": 1118,
-  "classes": [
-   {
-    "class_id": "pn_pdrn_injection",
-    "indication": "skin_quality_wound_repair",
-    "score": 1118
-   }
-  ]
- },
- "모공": {
-  "group": "skin_quality",
-  "freq": 562,
-  "classes": [
-   {
-    "class_id": "pn_pdrn_injection",
-    "indication": "skin_quality_wound_repair",
-    "score": 71
-   },
-   {
-    "class_id": "collagen_stimulator_pdlla_plla",
-    "indication": "volume_collagen_stimulation",
-    "score": 39
-   },
-   {
-    "class_id": "monopolar_rf_lifting",
-    "indication": "lifting_skin_tightening",
-    "score": 34
-   },
-   {
-    "class_id": "acellular_dermal_matrix_ecm_skinbooster",
-    "indication": "skin_quality_dermal_remodeling",
-    "score": 29
-   },
-   {
-    "class_id": "microneedling_rf",
-    "indication": "acne_scar_pore_laxity",
-    "score": 15
-   },
-   {
-    "class_id": "botulinum_toxin_a",
-    "indication": "wrinkle_contour",
-    "score": 15
-   }
-  ]
- },
- "리프팅": {
-  "group": "lifting",
-  "freq": 1644,
-  "classes": [
-   {
-    "class_id": "hifu_lifting",
-    "indication": "lifting_skin_tightening",
-    "score": 990
-   },
-   {
-    "class_id": "monopolar_rf_lifting",
-    "indication": "lifting_skin_tightening",
-    "score": 500
-   },
-   {
-    "class_id": "bipolar_multipolar_rf_contouring",
-    "indication": "contour_skin_tightening",
-    "score": 214
-   },
-   {
-    "class_id": "botulinum_toxin_a",
-    "indication": "wrinkle_contour",
-    "score": 115
-   }
-  ]
- },
- "잔주름": {
-  "group": "wrinkle",
-  "freq": 259,
-  "classes": [
-   {
-    "class_id": "pn_pdrn_injection",
-    "indication": "skin_quality_wound_repair",
-    "score": 59
-   },
-   {
-    "class_id": "monopolar_rf_lifting",
-    "indication": "lifting_skin_tightening",
-    "score": 42
-   },
-   {
-    "class_id": "hifu_lifting",
-    "indication": "lifting_skin_tightening",
-    "score": 23
-   },
-   {
-    "class_id": "acellular_dermal_matrix_ecm_skinbooster",
-    "indication": "skin_quality_dermal_remodeling",
-    "score": 21
-   },
-   {
-    "class_id": "collagen_stimulator_pdlla_plla",
-    "indication": "volume_collagen_stimulation",
-    "score": 16
-   },
-   {
-    "class_id": "botulinum_toxin_a",
-    "indication": "wrinkle_contour",
-    "score": 8
-   }
-  ]
- },
- "재생": {
-  "group": "healing",
-  "freq": 407,
-  "classes": [
-   {
-    "class_id": "pn_pdrn_injection",
-    "indication": "skin_quality_wound_repair",
-    "score": 117
-   },
-   {
-    "class_id": "hifu_lifting",
-    "indication": "lifting_skin_tightening",
-    "score": 37
-   },
-   {
-    "class_id": "monopolar_rf_lifting",
-    "indication": "lifting_skin_tightening",
-    "score": 35
-   },
-   {
-    "class_id": "acellular_dermal_matrix_ecm_skinbooster",
-    "indication": "skin_quality_dermal_remodeling",
-    "score": 24
-   },
-   {
-    "class_id": "collagen_stimulator_pdlla_plla",
-    "indication": "volume_collagen_stimulation",
-    "score": 21
-   },
-   {
-    "class_id": "exosome_topical_or_injection",
-    "indication": "skin_quality_postprocedure_recovery",
-    "score": 13
-   }
-  ]
- },
- "보톡스": {
-  "group": "wrinkle",
-  "freq": 246,
-  "classes": [
-   {
-    "class_id": "botulinum_toxin_a",
-    "indication": "wrinkle_contour",
-    "score": 246
-   },
-   {
-    "class_id": "hifu_lifting",
-    "indication": "lifting_skin_tightening",
-    "score": 76
-   },
-   {
-    "class_id": "pn_pdrn_injection",
-    "indication": "skin_quality_wound_repair",
-    "score": 61
-   },
-   {
-    "class_id": "ha_filler_crosslinked",
-    "indication": "volume_contour_wrinkle",
-    "score": 50
-   },
-   {
-    "class_id": "monopolar_rf_lifting",
-    "indication": "lifting_skin_tightening",
-    "score": 30
-   }
-  ]
- },
- "윤기": {
-  "group": "skin_quality",
-  "freq": 48,
-  "classes": [
-   {
-    "class_id": "pn_pdrn_injection",
-    "indication": "skin_quality_wound_repair",
-    "score": 3
-   }
-  ]
- },
- "동안": {
-  "group": "lifting",
-  "freq": 1350,
-  "classes": [
-   {
-    "class_id": "monopolar_rf_lifting",
-    "indication": "lifting_skin_tightening",
-    "score": 171
-   },
-   {
-    "class_id": "hifu_lifting",
-    "indication": "lifting_skin_tightening",
-    "score": 167
-   },
-   {
-    "class_id": "bipolar_multipolar_rf_contouring",
-    "indication": "contour_skin_tightening",
-    "score": 131
-   },
-   {
-    "class_id": "botulinum_toxin_a",
-    "indication": "wrinkle_contour",
-    "score": 21
-   }
-  ]
- },
- "피부재생": {
-  "group": "healing",
-  "freq": 60,
-  "classes": [
-   {
-    "class_id": "pn_pdrn_injection",
-    "indication": "skin_quality_wound_repair",
-    "score": 25
-   },
-   {
-    "class_id": "hifu_lifting",
-    "indication": "lifting_skin_tightening",
-    "score": 8
-   },
-   {
-    "class_id": "acellular_dermal_matrix_ecm_skinbooster",
-    "indication": "skin_quality_dermal_remodeling",
-    "score": 4
-   },
-   {
-    "class_id": "ha_filler_crosslinked",
-    "indication": "volume_contour_wrinkle",
-    "score": 3
-   }
-  ]
- },
- "미백": {
-  "group": "pigment",
-  "freq": 192,
-  "classes": [
-   {
-    "class_id": "pn_pdrn_injection",
-    "indication": "skin_quality_wound_repair",
-    "score": 5
-   },
-   {
-    "class_id": "ha_filler_crosslinked",
-    "indication": "volume_contour_wrinkle",
-    "score": 4
-   },
-   {
-    "class_id": "botulinum_toxin_a",
-    "indication": "wrinkle_contour",
-    "score": 3
-   },
-   {
-    "class_id": "exosome_topical_or_injection",
-    "indication": "skin_quality_postprocedure_recovery",
-    "score": 3
-   },
-   {
-    "class_id": "laser_toning_qswitched_or_picosecond",
-    "indication": "pigment_melasma",
-    "score": 3
-   }
-  ]
- },
- "포텐자": {
-  "group": "skin_quality",
-  "freq": 31,
-  "classes": [
-   {
-    "class_id": "microneedling_rf",
-    "indication": "acne_scar_pore_laxity",
-    "score": 31
-   },
-   {
-    "class_id": "collagen_stimulator_pdlla_plla",
-    "indication": "volume_collagen_stimulation",
-    "score": 12
-   },
-   {
-    "class_id": "pn_pdrn_injection",
-    "indication": "skin_quality_wound_repair",
-    "score": 8
-   }
-  ]
- },
- "스컬트라": {
-  "group": "lifting",
-  "freq": 22,
-  "classes": [
-   {
-    "class_id": "plla_filler_sculptra",
-    "indication": "volume_collagen_stimulation",
-    "score": 22
-   },
-   {
-    "class_id": "ha_filler_crosslinked",
-    "indication": "volume_contour_wrinkle",
-    "score": 7
-   },
-   {
-    "class_id": "hifu_lifting",
-    "indication": "lifting_skin_tightening",
-    "score": 5
-   },
-   {
-    "class_id": "monopolar_rf_lifting",
-    "indication": "lifting_skin_tightening",
-    "score": 4
-   },
-   {
-    "class_id": "collagen_stimulator_pdlla_plla",
-    "indication": "volume_collagen_stimulation",
-    "score": 4
-   },
-   {
-    "class_id": "pn_pdrn_injection",
-    "indication": "skin_quality_wound_repair",
-    "score": 3
-   }
-  ]
- },
- "볼륨": {
-  "group": "volume",
-  "freq": 131,
-  "classes": [
-   {
-    "class_id": "collagen_stimulator_pdlla_plla",
-    "indication": "volume_collagen_stimulation",
-    "score": 27
-   },
-   {
-    "class_id": "ha_filler_crosslinked",
-    "indication": "volume_contour_wrinkle",
-    "score": 24
-   },
-   {
-    "class_id": "pn_pdrn_injection",
-    "indication": "skin_quality_wound_repair",
-    "score": 19
-   },
-   {
-    "class_id": "hifu_lifting",
-    "indication": "lifting_skin_tightening",
-    "score": 14
-   },
-   {
-    "class_id": "monopolar_rf_lifting",
-    "indication": "lifting_skin_tightening",
-    "score": 11
-   },
-   {
-    "class_id": "botulinum_toxin_a",
-    "indication": "wrinkle_contour",
-    "score": 11
-   }
-  ]
- },
- "올리지오": {
-  "group": "lifting",
-  "freq": 66,
-  "classes": [
-   {
-    "class_id": "monopolar_rf_lifting",
-    "indication": "lifting_skin_tightening",
-    "score": 66
-   },
-   {
-    "class_id": "hifu_lifting",
-    "indication": "lifting_skin_tightening",
-    "score": 25
-   },
-   {
-    "class_id": "pn_pdrn_injection",
-    "indication": "skin_quality_wound_repair",
-    "score": 10
-   }
-  ]
- },
- "필러": {
-  "group": "volume",
-  "freq": 155,
-  "classes": [
-   {
-    "class_id": "ha_filler_crosslinked",
-    "indication": "volume_contour_wrinkle",
-    "score": 155
-   },
-   {
-    "class_id": "botulinum_toxin_a",
-    "indication": "wrinkle_contour",
-    "score": 48
-   },
-   {
-    "class_id": "hifu_lifting",
-    "indication": "lifting_skin_tightening",
-    "score": 33
-   },
-   {
-    "class_id": "pn_pdrn_injection",
-    "indication": "skin_quality_wound_repair",
-    "score": 27
-   },
-   {
-    "class_id": "monopolar_rf_lifting",
-    "indication": "lifting_skin_tightening",
-    "score": 18
-   }
-  ]
- },
- "윤곽주사": {
-  "group": "body_fat",
-  "freq": 40,
-  "classes": [
-   {
-    "class_id": "hifu_lifting",
-    "indication": "lifting_skin_tightening",
-    "score": 36
-   },
-   {
-    "class_id": "botulinum_toxin_a",
-    "indication": "wrinkle_contour",
-    "score": 10
-   },
-   {
-    "class_id": "bipolar_multipolar_rf_contouring",
-    "indication": "contour_skin_tightening",
-    "score": 9
-   },
-   {
-    "class_id": "injectable_lipolysis_deoxycholate_or_mesotherapy",
-    "indication": "localized_fat_jawline",
-    "score": 5
-   },
-   {
-    "class_id": "monopolar_rf_lifting",
-    "indication": "lifting_skin_tightening",
-    "score": 4
-   }
-  ]
- },
- "윤곽": {
-  "group": "lifting",
-  "freq": 128,
-  "classes": [
-   {
-    "class_id": "hifu_lifting",
-    "indication": "lifting_skin_tightening",
-    "score": 64
-   },
-   {
-    "class_id": "botulinum_toxin_a",
-    "indication": "wrinkle_contour",
-    "score": 15
-   },
-   {
-    "class_id": "bipolar_multipolar_rf_contouring",
-    "indication": "contour_skin_tightening",
-    "score": 15
-   },
-   {
-    "class_id": "monopolar_rf_lifting",
-    "indication": "lifting_skin_tightening",
-    "score": 13
-   }
-  ]
- },
- "각질": {
-  "group": "skin_quality",
-  "freq": 211,
-  "classes": [
-   {
-    "class_id": "pn_pdrn_injection",
-    "indication": "skin_quality_wound_repair",
-    "score": 4
-   },
-   {
-    "class_id": "hifu_lifting",
-    "indication": "lifting_skin_tightening",
-    "score": 4
-   },
-   {
-    "class_id": "collagen_stimulator_pdlla_plla",
-    "indication": "volume_collagen_stimulation",
-    "score": 4
-   }
-  ]
- },
- "눈가주름": {
-  "group": "wrinkle",
-  "freq": 51,
-  "classes": [
-   {
-    "class_id": "monopolar_rf_lifting",
-    "indication": "lifting_skin_tightening",
-    "score": 19
-   },
-   {
-    "class_id": "hifu_lifting",
-    "indication": "lifting_skin_tightening",
-    "score": 18
-   },
-   {
-    "class_id": "botulinum_toxin_a",
-    "indication": "wrinkle_contour",
-    "score": 8
-   },
-   {
-    "class_id": "pn_pdrn_injection",
-    "indication": "skin_quality_wound_repair",
-    "score": 6
-   }
-  ]
- },
- "PDRN": {
-  "group": "skin_quality",
-  "freq": 63,
-  "classes": [
-   {
-    "class_id": "pn_pdrn_injection",
-    "indication": "skin_quality_wound_repair",
-    "score": 15
-   },
-   {
-    "class_id": "exosome_topical_or_injection",
-    "indication": "skin_quality_postprocedure_recovery",
-    "score": 3
-   }
-  ]
- },
- "홍조": {
-  "group": "vascular",
-  "freq": 61,
-  "classes": [
-   {
-    "class_id": "pn_pdrn_injection",
-    "indication": "skin_quality_wound_repair",
-    "score": 12
-   },
-   {
-    "class_id": "vascular_pigment_laser_532_1064",
-    "indication": "vascular_redness_pigment",
-    "score": 5
-   }
-  ]
- },
- "눈밑주름": {
-  "group": "wrinkle",
-  "freq": 23,
-  "classes": [
-   {
-    "class_id": "monopolar_rf_lifting",
-    "indication": "lifting_skin_tightening",
-    "score": 5
-   },
-   {
-    "class_id": "pn_pdrn_injection",
-    "indication": "skin_quality_wound_repair",
-    "score": 4
-   },
-   {
-    "class_id": "ha_filler_crosslinked",
-    "indication": "volume_contour_wrinkle",
-    "score": 4
-   }
-  ]
- },
- "울쎄라": {
-  "group": "lifting",
-  "freq": 1354,
-  "classes": [
-   {
-    "class_id": "hifu_lifting",
-    "indication": "lifting_skin_tightening",
-    "score": 1354
-   },
-   {
-    "class_id": "monopolar_rf_lifting",
-    "indication": "lifting_skin_tightening",
-    "score": 395
-   },
-   {
-    "class_id": "bipolar_multipolar_rf_contouring",
-    "indication": "contour_skin_tightening",
-    "score": 168
-   }
-  ]
- },
- "고주파": {
-  "group": "lifting",
-  "freq": 151,
-  "classes": [
-   {
-    "class_id": "monopolar_rf_lifting",
-    "indication": "lifting_skin_tightening",
-    "score": 97
-   },
-   {
-    "class_id": "vaginal_laxity_rf",
-    "indication": "vaginal_laxity",
-    "score": 36
-   },
-   {
-    "class_id": "hifu_lifting",
-    "indication": "lifting_skin_tightening",
-    "score": 20
-   }
-  ]
- },
- "인모드": {
-  "group": "lifting",
-  "freq": 266,
-  "classes": [
-   {
-    "class_id": "bipolar_multipolar_rf_contouring",
-    "indication": "contour_skin_tightening",
-    "score": 266
-   },
-   {
-    "class_id": "hifu_lifting",
-    "indication": "lifting_skin_tightening",
-    "score": 252
-   },
-   {
-    "class_id": "monopolar_rf_lifting",
-    "indication": "lifting_skin_tightening",
-    "score": 162
-   }
-  ]
- },
- "팔자주름": {
-  "group": "wrinkle",
-  "freq": 203,
-  "classes": [
-   {
-    "class_id": "hifu_lifting",
-    "indication": "lifting_skin_tightening",
-    "score": 78
-   },
-   {
-    "class_id": "monopolar_rf_lifting",
-    "indication": "lifting_skin_tightening",
-    "score": 31
-   },
-   {
-    "class_id": "ha_filler_crosslinked",
-    "indication": "volume_contour_wrinkle",
-    "score": 20
-   },
-   {
-    "class_id": "collagen_stimulator_pdlla_plla",
-    "indication": "volume_collagen_stimulation",
-    "score": 11
-   },
-   {
-    "class_id": "botulinum_toxin_a",
-    "indication": "wrinkle_contour",
-    "score": 11
-   },
-   {
-    "class_id": "bipolar_multipolar_rf_contouring",
-    "indication": "contour_skin_tightening",
-    "score": 9
-   }
-  ]
- },
- "써마지": {
-  "group": "lifting",
-  "freq": 1167,
-  "classes": [
-   {
-    "class_id": "monopolar_rf_lifting",
-    "indication": "lifting_skin_tightening",
-    "score": 1167
-   },
-   {
-    "class_id": "hifu_lifting",
-    "indication": "lifting_skin_tightening",
-    "score": 389
-   },
-   {
-    "class_id": "bipolar_multipolar_rf_contouring",
-    "indication": "contour_skin_tightening",
-    "score": 159
-   }
-  ]
- },
- "LED": {
-  "group": "skin_quality",
-  "freq": 21,
-  "classes": [
-   {
-    "class_id": "led_phototherapy",
-    "indication": "skin_quality_acne_inflammation",
-    "score": 5
-   }
-  ]
- },
- "실리프팅": {
-  "group": "lifting",
-  "freq": 60,
-  "classes": [
-   {
-    "class_id": "hifu_lifting",
-    "indication": "lifting_skin_tightening",
-    "score": 22
-   },
-   {
-    "class_id": "monopolar_rf_lifting",
-    "indication": "lifting_skin_tightening",
-    "score": 18
-   },
-   {
-    "class_id": "botulinum_toxin_a",
-    "indication": "wrinkle_contour",
-    "score": 7
-   },
-   {
-    "class_id": "ha_filler_crosslinked",
-    "indication": "volume_contour_wrinkle",
-    "score": 7
-   },
-   {
-    "class_id": "bipolar_multipolar_rf_contouring",
-    "indication": "contour_skin_tightening",
-    "score": 7
-   },
-   {
-    "class_id": "pn_pdrn_injection",
-    "indication": "skin_quality_wound_repair",
-    "score": 6
-   }
-  ]
- },
- "지방": {
-  "group": "body_fat",
-  "freq": 220,
-  "classes": [
-   {
-    "class_id": "hifu_lifting",
-    "indication": "lifting_skin_tightening",
-    "score": 164
-   },
-   {
-    "class_id": "monopolar_rf_lifting",
-    "indication": "lifting_skin_tightening",
-    "score": 140
-   },
-   {
-    "class_id": "bipolar_multipolar_rf_contouring",
-    "indication": "contour_skin_tightening",
-    "score": 127
-   }
-  ]
- },
- "광채": {
-  "group": "skin_quality",
-  "freq": 86,
-  "classes": [
-   {
-    "class_id": "pn_pdrn_injection",
-    "indication": "skin_quality_wound_repair",
-    "score": 5
-   },
-   {
-    "class_id": "acellular_dermal_matrix_ecm_skinbooster",
-    "indication": "skin_quality_dermal_remodeling",
-    "score": 5
-   }
-  ]
- },
- "고압산소": {
-  "group": "healing",
-  "freq": 2,
-  "classes": [
-   {
-    "class_id": "hyperbaric_oxygen",
-    "indication": "wellness_oxygen_therapy",
-    "score": 5
-   }
-  ]
- },
- "여드름자국": {
-  "group": "pigment",
-  "freq": 3,
-  "classes": [
-   {
-    "class_id": "picosecond_laser_pigment",
-    "indication": "pigment_tattoo_skin_rejuvenation",
-    "score": 5
-   }
-  ]
- },
- "여드름": {
-  "group": "acne_scar",
-  "freq": 510,
-  "classes": [
-   {
-    "class_id": "pn_pdrn_injection",
-    "indication": "skin_quality_wound_repair",
-    "score": 18
-   },
-   {
-    "class_id": "microneedling_rf",
-    "indication": "acne_scar_pore_laxity",
-    "score": 8
-   },
-   {
-    "class_id": "exosome_topical_or_injection",
-    "indication": "skin_quality_postprocedure_recovery",
-    "score": 6
-   },
-   {
-    "class_id": "laser_toning_qswitched_or_picosecond",
-    "indication": "pigment_melasma",
-    "score": 5
-   },
-   {
-    "class_id": "collagen_stimulator_pdlla_plla",
-    "indication": "volume_collagen_stimulation",
-    "score": 5
-   },
-   {
-    "class_id": "hifu_lifting",
-    "indication": "lifting_skin_tightening",
-    "score": 4
-   }
-  ]
- },
- "슈링크": {
-  "group": "lifting",
-  "freq": 1010,
-  "classes": [
-   {
-    "class_id": "hifu_lifting",
-    "indication": "lifting_skin_tightening",
-    "score": 1010
-   },
-   {
-    "class_id": "bipolar_multipolar_rf_contouring",
-    "indication": "contour_skin_tightening",
-    "score": 231
-   },
-   {
-    "class_id": "monopolar_rf_lifting",
-    "indication": "lifting_skin_tightening",
-    "score": 198
-   }
-  ]
- },
- "이중턱": {
-  "group": "lifting",
-  "freq": 277,
-  "classes": [
-   {
-    "class_id": "hifu_lifting",
-    "indication": "lifting_skin_tightening",
-    "score": 254
-   },
-   {
-    "class_id": "monopolar_rf_lifting",
-    "indication": "lifting_skin_tightening",
-    "score": 149
-   },
-   {
-    "class_id": "bipolar_multipolar_rf_contouring",
-    "indication": "contour_skin_tightening",
-    "score": 143
-   }
-  ]
- },
- "턱선": {
-  "group": "lifting",
-  "freq": 180,
-  "classes": [
-   {
-    "class_id": "hifu_lifting",
-    "indication": "lifting_skin_tightening",
-    "score": 139
-   },
-   {
-    "class_id": "monopolar_rf_lifting",
-    "indication": "lifting_skin_tightening",
-    "score": 35
-   }
-  ]
- },
- "허벅지": {
-  "group": "body_fat",
-  "freq": 5,
-  "classes": [
-   {
-    "class_id": "hifu_lifting",
-    "indication": "lifting_skin_tightening",
-    "score": 3
-   }
-  ]
- },
- "브이라인": {
-  "group": "lifting",
-  "freq": 12,
-  "classes": [
-   {
-    "class_id": "hifu_lifting",
-    "indication": "lifting_skin_tightening",
-    "score": 10
-   },
-   {
-    "class_id": "monopolar_rf_lifting",
-    "indication": "lifting_skin_tightening",
-    "score": 3
-   }
-  ]
- },
- "잡티": {
-  "group": "pigment",
-  "freq": 141,
-  "classes": [
-   {
-    "class_id": "laser_toning_qswitched_or_picosecond",
-    "indication": "pigment_melasma",
-    "score": 8
-   },
-   {
-    "class_id": "hifu_lifting",
-    "indication": "lifting_skin_tightening",
-    "score": 5
-   },
-   {
-    "class_id": "picosecond_laser_pigment",
-    "indication": "pigment_tattoo_skin_rejuvenation",
-    "score": 4
-   },
-   {
-    "class_id": "botulinum_toxin_a",
-    "indication": "wrinkle_contour",
-    "score": 3
-   },
-   {
-    "class_id": "pn_pdrn_injection",
-    "indication": "skin_quality_wound_repair",
-    "score": 3
-   }
-  ]
- },
- "이마주름": {
-  "group": "wrinkle",
-  "freq": 11,
-  "classes": [
-   {
-    "class_id": "botulinum_toxin_a",
-    "indication": "wrinkle_contour",
-    "score": 5
-   }
-  ]
- },
- "목주름": {
-  "group": "wrinkle",
-  "freq": 54,
-  "classes": [
-   {
-    "class_id": "hifu_lifting",
-    "indication": "lifting_skin_tightening",
-    "score": 9
-   },
-   {
-    "class_id": "ha_filler_crosslinked",
-    "indication": "volume_contour_wrinkle",
-    "score": 8
-   },
-   {
-    "class_id": "botulinum_toxin_a",
-    "indication": "wrinkle_contour",
-    "score": 5
-   },
-   {
-    "class_id": "pn_pdrn_injection",
-    "indication": "skin_quality_wound_repair",
-    "score": 4
-   },
-   {
-    "class_id": "collagen_stimulator_pdlla_plla",
-    "indication": "volume_collagen_stimulation",
-    "score": 3
-   }
-  ]
- },
- "초음파": {
-  "group": "lifting",
-  "freq": 85,
-  "classes": [
-   {
-    "class_id": "hifu_lifting",
-    "indication": "lifting_skin_tightening",
-    "score": 68
-   },
-   {
-    "class_id": "monopolar_rf_lifting",
-    "indication": "lifting_skin_tightening",
-    "score": 12
-   }
-  ]
- },
- "제모": {
-  "group": "hair_removal",
-  "freq": 33,
-  "classes": [
-   {
-    "class_id": "laser_hair_removal_alexandrite_ndyag",
-    "indication": "hair_removal",
-    "score": 33
-   },
-   {
-    "class_id": "hifu_lifting",
-    "indication": "lifting_skin_tightening",
-    "score": 4
-   }
-  ]
- },
- "기미": {
-  "group": "pigment",
-  "freq": 229,
-  "classes": [
-   {
-    "class_id": "laser_toning_qswitched_or_picosecond",
-    "indication": "pigment_melasma",
-    "score": 13
-   },
-   {
-    "class_id": "hifu_lifting",
-    "indication": "lifting_skin_tightening",
-    "score": 9
-   },
-   {
-    "class_id": "bipolar_multipolar_rf_contouring",
-    "indication": "contour_skin_tightening",
-    "score": 5
-   },
-   {
-    "class_id": "botulinum_toxin_a",
-    "indication": "wrinkle_contour",
-    "score": 4
-   },
-   {
-    "class_id": "exosome_topical_or_injection",
-    "indication": "skin_quality_postprocedure_recovery",
-    "score": 3
-   },
-   {
-    "class_id": "ipl_bbl_photorejuvenation",
-    "indication": "pigment_redness_photoaging",
-    "score": 3
-   }
-  ]
- },
- "처짐": {
-  "group": "lifting",
-  "freq": 345,
-  "classes": [
-   {
-    "class_id": "hifu_lifting",
-    "indication": "lifting_skin_tightening",
-    "score": 271
-   },
-   {
-    "class_id": "monopolar_rf_lifting",
-    "indication": "lifting_skin_tightening",
-    "score": 176
-   },
-   {
-    "class_id": "bipolar_multipolar_rf_contouring",
-    "indication": "contour_skin_tightening",
-    "score": 157
-   }
-  ]
- },
- "다이어트": {
-  "group": "body_fat",
-  "freq": 88,
-  "classes": [
-   {
-    "class_id": "hifu_lifting",
-    "indication": "lifting_skin_tightening",
-    "score": 15
-   },
-   {
-    "class_id": "monopolar_rf_lifting",
-    "indication": "lifting_skin_tightening",
-    "score": 4
-   }
-  ]
- },
- "v라인": {
-  "group": "lifting",
-  "freq": 19,
-  "classes": [
-   {
-    "class_id": "hifu_lifting",
-    "indication": "lifting_skin_tightening",
-    "score": 11
-   },
-   {
-    "class_id": "monopolar_rf_lifting",
-    "indication": "lifting_skin_tightening",
-    "score": 3
-   }
-  ]
- },
- "하이푸": {
-  "group": "lifting",
-  "freq": 12,
-  "classes": [
-   {
-    "class_id": "hifu_lifting",
-    "indication": "lifting_skin_tightening",
-    "score": 5
-   },
-   {
-    "class_id": "monopolar_rf_lifting",
-    "indication": "lifting_skin_tightening",
-    "score": 4
-   }
-  ]
- },
- "색소침착": {
-  "group": "pigment",
-  "freq": 68,
-  "classes": [
-   {
-    "class_id": "laser_toning_qswitched_or_picosecond",
-    "indication": "pigment_melasma",
-    "score": 3
-   }
-  ]
- },
- "색소": {
-  "group": "pigment",
-  "freq": 139,
-  "classes": [
-   {
-    "class_id": "laser_toning_qswitched_or_picosecond",
-    "indication": "pigment_melasma",
-    "score": 8
-   },
-   {
-    "class_id": "pn_pdrn_injection",
-    "indication": "skin_quality_wound_repair",
-    "score": 6
-   },
-   {
-    "class_id": "picosecond_laser_pigment",
-    "indication": "pigment_tattoo_skin_rejuvenation",
-    "score": 3
-   },
-   {
-    "class_id": "botulinum_toxin_a",
-    "indication": "wrinkle_contour",
-    "score": 3
-   }
-  ]
- },
- "피코": {
-  "group": "pigment",
-  "freq": 28,
-  "classes": [
-   {
-    "class_id": "laser_toning_qswitched_or_picosecond",
-    "indication": "pigment_melasma",
-    "score": 17
-   },
-   {
-    "class_id": "picosecond_laser_pigment",
-    "indication": "pigment_tattoo_skin_rejuvenation",
-    "score": 14
-   },
-   {
-    "class_id": "fractional_laser_resurfacing",
-    "indication": "acne_scar_texture_resurfacing",
-    "score": 5
-   },
-   {
-    "class_id": "pn_pdrn_injection",
-    "indication": "skin_quality_wound_repair",
-    "score": 5
-   },
-   {
-    "class_id": "monopolar_rf_lifting",
-    "indication": "lifting_skin_tightening",
-    "score": 5
-   },
-   {
-    "class_id": "hifu_lifting",
-    "indication": "lifting_skin_tightening",
-    "score": 4
-   }
-  ]
- },
- "프락셀": {
-  "group": "acne_scar",
-  "freq": 23,
-  "classes": [
-   {
-    "class_id": "fractional_laser_resurfacing",
-    "indication": "acne_scar_texture_resurfacing",
-    "score": 23
-   },
-   {
-    "class_id": "pn_pdrn_injection",
-    "indication": "skin_quality_wound_repair",
-    "score": 7
-   },
-   {
-    "class_id": "collagen_stimulator_pdlla_plla",
-    "indication": "volume_collagen_stimulation",
-    "score": 6
-   },
-   {
-    "class_id": "hifu_lifting",
-    "indication": "lifting_skin_tightening",
-    "score": 5
-   },
-   {
-    "class_id": "monopolar_rf_lifting",
-    "indication": "lifting_skin_tightening",
-    "score": 4
-   }
-  ]
- },
- "지방분해": {
-  "group": "body_fat",
-  "freq": 7,
-  "classes": [
-   {
-    "class_id": "hifu_lifting",
-    "indication": "lifting_skin_tightening",
-    "score": 4
-   }
-  ]
- },
- "IPL": {
-  "group": "pigment",
-  "freq": 6,
-  "classes": [
-   {
-    "class_id": "ipl_bbl_photorejuvenation",
-    "indication": "pigment_redness_photoaging",
-    "score": 6
-   },
-   {
-    "class_id": "laser_toning_qswitched_or_picosecond",
-    "indication": "pigment_melasma",
-    "score": 3
-   }
-  ]
- },
- "체형": {
-  "group": "body_fat",
-  "freq": 21,
-  "classes": [
-   {
-    "class_id": "hifu_lifting",
-    "indication": "lifting_skin_tightening",
-    "score": 3
-   }
-  ]
- },
- "리니어펌": {
-  "group": "lifting",
-  "freq": 3,
-  "classes": [
-   {
-    "class_id": "linear_hifu_lifting",
-    "indication": "lifting_volume_fat_reduction",
-    "score": 5
-   },
-   {
-    "class_id": "hifu_lifting",
-    "indication": "lifting_skin_tightening",
-    "score": 3
-   }
-  ]
- },
- "민감": {
-  "group": "inflammatory",
-  "freq": 197,
-  "classes": [
-   {
-    "class_id": "pn_pdrn_injection",
-    "indication": "skin_quality_wound_repair",
-    "score": 7
-   },
-   {
-    "class_id": "acellular_dermal_matrix_ecm_skinbooster",
-    "indication": "skin_quality_dermal_remodeling",
-    "score": 6
-   },
-   {
-    "class_id": "monopolar_rf_lifting",
-    "indication": "lifting_skin_tightening",
-    "score": 5
-   },
-   {
-    "class_id": "exosome_topical_or_injection",
-    "indication": "skin_quality_postprocedure_recovery",
-    "score": 3
-   }
-  ]
- },
- "엠페이스": {
-  "group": "lifting",
-  "freq": 1,
-  "classes": [
-   {
-    "class_id": "emface_hifes_rf",
-    "indication": "lifting_facial_muscle_tone",
-    "score": 5
-   }
-  ]
- },
- "트러블": {
-  "group": "acne_scar",
-  "freq": 202,
-  "classes": [
-   {
-    "class_id": "pn_pdrn_injection",
-    "indication": "skin_quality_wound_repair",
-    "score": 10
-   },
-   {
-    "class_id": "microwave_245ghz_skin_tightening",
-    "indication": "skin_tightening_body_contouring",
-    "score": 3
-   }
-  ]
- },
- "볼처짐": {
-  "group": "lifting",
-  "freq": 17,
-  "classes": [
-   {
-    "class_id": "hifu_lifting",
-    "indication": "lifting_skin_tightening",
-    "score": 14
-   },
-   {
-    "class_id": "monopolar_rf_lifting",
-    "indication": "lifting_skin_tightening",
-    "score": 5
-   },
-   {
-    "class_id": "botulinum_toxin_a",
-    "indication": "wrinkle_contour",
-    "score": 4
-   }
-  ]
- },
- "콜라겐주사": {
-  "group": "lifting",
-  "freq": 64,
-  "classes": [
-   {
-    "class_id": "ha_filler_crosslinked",
-    "indication": "volume_contour_wrinkle",
-    "score": 12
-   },
-   {
-    "class_id": "plla_filler_sculptra",
-    "indication": "volume_collagen_stimulation",
-    "score": 8
-   },
-   {
-    "class_id": "collagen_stimulator_pdlla_plla",
-    "indication": "volume_collagen_stimulation",
-    "score": 5
-   },
-   {
-    "class_id": "ha_skin_booster",
-    "indication": "skin_quality_hydration",
-    "score": 4
-   }
-  ]
- },
- "다크써클": {
-  "group": "vascular",
-  "freq": 8,
-  "classes": [
-   {
-    "class_id": "acellular_dermal_matrix_ecm_skinbooster",
-    "indication": "skin_quality_dermal_remodeling",
-    "score": 3
-   }
-  ]
- },
- "흉터": {
-  "group": "acne_scar",
-  "freq": 132,
-  "classes": [
-   {
-    "class_id": "pn_pdrn_injection",
-    "indication": "skin_quality_wound_repair",
-    "score": 18
-   },
-   {
-    "class_id": "collagen_stimulator_pdlla_plla",
-    "indication": "volume_collagen_stimulation",
-    "score": 9
-   },
-   {
-    "class_id": "fractional_laser_resurfacing",
-    "indication": "acne_scar_texture_resurfacing",
-    "score": 7
-   },
-   {
-    "class_id": "microneedling_rf",
-    "indication": "acne_scar_pore_laxity",
-    "score": 6
-   },
-   {
-    "class_id": "exosome_topical_or_injection",
-    "indication": "skin_quality_postprocedure_recovery",
-    "score": 6
-   },
-   {
-    "class_id": "stem_cell_svf_injection",
-    "indication": "skin_quality_volume_regeneration",
-    "score": 4
-   }
-  ]
- },
- "여드름흉터": {
-  "group": "acne_scar",
-  "freq": 29,
-  "classes": [
-   {
-    "class_id": "fractional_laser_resurfacing",
-    "indication": "acne_scar_texture_resurfacing",
-    "score": 5
-   }
-  ]
- },
- "피코토닝": {
-  "group": "pigment",
-  "freq": 14,
-  "classes": [
-   {
-    "class_id": "laser_toning_qswitched_or_picosecond",
-    "indication": "pigment_melasma",
-    "score": 14
-   },
-   {
-    "class_id": "picosecond_laser_pigment",
-    "indication": "pigment_tattoo_skin_rejuvenation",
-    "score": 14
-   },
-   {
-    "class_id": "hifu_lifting",
-    "indication": "lifting_skin_tightening",
-    "score": 3
-   }
-  ]
- },
- "필링": {
-  "group": "skin_quality",
-  "freq": 23,
-  "classes": [
-   {
-    "class_id": "chemical_peel",
-    "indication": "pigment_acne_texture",
-    "score": 5
-   }
-  ]
- },
- "피지": {
-  "group": "acne_scar",
-  "freq": 132,
-  "classes": [
-   {
-    "class_id": "pn_pdrn_injection",
-    "indication": "skin_quality_wound_repair",
-    "score": 3
-   }
-  ]
- },
- "BBL": {
-  "group": "pigment",
-  "freq": 3,
-  "classes": [
-   {
-    "class_id": "ipl_bbl_photorejuvenation",
-    "indication": "pigment_redness_photoaging",
-    "score": 5
-   }
-  ]
- },
- "미간주름": {
-  "group": "wrinkle",
-  "freq": 9,
-  "classes": [
-   {
-    "class_id": "botulinum_toxin_a",
-    "indication": "wrinkle_contour",
-    "score": 5
-   }
-  ]
- },
- "리니어지": {
-  "group": "lifting",
-  "freq": 3,
-  "classes": [
-   {
-    "class_id": "linear_hifu_lifting",
-    "indication": "lifting_volume_fat_reduction",
-    "score": 5
-   }
-  ]
- },
- "검버섯": {
-  "group": "pigment",
-  "freq": 23,
-  "classes": [
-   {
-    "class_id": "ipl_bbl_photorejuvenation",
-    "indication": "pigment_redness_photoaging",
-    "score": 5
-   }
-  ]
- },
- "이쁜이수술": {
-  "group": "intimate",
-  "freq": 38,
-  "classes": [
-   {
-    "class_id": "vaginal_laxity_rf",
-    "indication": "vaginal_laxity",
-    "score": 28
-   },
-   {
-    "class_id": "monopolar_rf_lifting",
-    "indication": "lifting_skin_tightening",
-    "score": 25
-   },
-   {
-    "class_id": "botulinum_toxin_a",
-    "indication": "wrinkle_contour",
-    "score": 4
-   },
-   {
-    "class_id": "pn_pdrn_injection",
-    "indication": "skin_quality_wound_repair",
-    "score": 4
-   },
-   {
-    "class_id": "exosome_topical_or_injection",
-    "indication": "skin_quality_postprocedure_recovery",
-    "score": 4
-   },
-   {
-    "class_id": "microneedling_rf",
-    "indication": "acne_scar_pore_laxity",
-    "score": 4
-   }
-  ]
- },
- "복부지방": {
-  "group": "body_fat",
-  "freq": 1,
-  "classes": [
-   {
-    "class_id": "cryolipolysis_body_contouring",
-    "indication": "localized_fat_body_contouring",
-    "score": 5
-   }
-  ]
- },
- "턱처짐": {
-  "group": "lifting",
-  "freq": 126,
-  "classes": [
-   {
-    "class_id": "monopolar_rf_lifting",
-    "indication": "lifting_skin_tightening",
-    "score": 126
-   },
-   {
-    "class_id": "bipolar_multipolar_rf_contouring",
-    "indication": "contour_skin_tightening",
-    "score": 126
-   },
-   {
-    "class_id": "hifu_lifting",
-    "indication": "lifting_skin_tightening",
-    "score": 126
-   }
-  ]
- },
- "입가주름": {
-  "group": "wrinkle",
-  "freq": 8,
-  "classes": [
-   {
-    "class_id": "monopolar_rf_lifting",
-    "indication": "lifting_skin_tightening",
-    "score": 6
-   },
-   {
-    "class_id": "hifu_lifting",
-    "indication": "lifting_skin_tightening",
-    "score": 6
-   },
-   {
-    "class_id": "bipolar_multipolar_rf_contouring",
-    "indication": "contour_skin_tightening",
-    "score": 4
-   }
-  ]
- },
- "더모톡신": {
-  "group": "lifting",
-  "freq": 2,
-  "classes": [
-   {
-    "class_id": "microdosed_botulinum_for_skin",
-    "indication": "skin_texture_pore_neck",
-    "score": 5
-   }
-  ]
- },
- "수염제모": {
-  "group": "hair_removal",
-  "freq": 1,
-  "classes": [
-   {
-    "class_id": "laser_hair_removal_alexandrite_ndyag",
-    "indication": "hair_removal",
-    "score": 5
-   }
-  ]
- },
- "오타모반": {
-  "group": "pigment",
-  "freq": 2,
-  "classes": [
-   {
-    "class_id": "laser_toning_qswitched_or_picosecond",
-    "indication": "pigment_melasma",
-    "score": 5
-   }
-  ]
- },
- "문신제거": {
-  "group": "tattoo",
-  "freq": 2,
-  "classes": [
-   {
-    "class_id": "picosecond_laser_pigment",
-    "indication": "pigment_tattoo_skin_rejuvenation",
-    "score": 5
-   }
-  ]
- },
- "점제거": {
-  "group": "pigment",
-  "freq": 2,
-  "classes": [
-   {
-    "class_id": "picosecond_laser_pigment",
-    "indication": "pigment_tattoo_skin_rejuvenation",
-    "score": 5
-   }
-  ]
- },
- "쿨스컬프팅": {
-  "group": "body_fat",
-  "freq": 0,
-  "classes": [
-   {
-    "class_id": "cryolipolysis_body_contouring",
-    "indication": "localized_fat_body_contouring",
-    "score": 5
-   }
-  ]
- },
- "겨드랑이제모": {
-  "group": "hair_removal",
-  "freq": 0,
-  "classes": [
-   {
-    "class_id": "laser_hair_removal_alexandrite_ndyag",
-    "indication": "hair_removal",
-    "score": 5
-   }
-  ]
- },
- "다리제모": {
-  "group": "hair_removal",
-  "freq": 0,
-  "classes": [
-   {
-    "class_id": "laser_hair_removal_alexandrite_ndyag",
-    "indication": "hair_removal",
-    "score": 5
-   }
-  ]
- },
- "비키니제모": {
-  "group": "hair_removal",
-  "freq": 0,
-  "classes": [
-   {
-    "class_id": "laser_hair_removal_alexandrite_ndyag",
-    "indication": "hair_removal",
-    "score": 5
-   }
-  ]
- },
- "얼굴제모": {
-  "group": "hair_removal",
-  "freq": 0,
-  "classes": [
-   {
-    "class_id": "laser_hair_removal_alexandrite_ndyag",
-    "indication": "hair_removal",
-    "score": 5
-   }
-  ]
- },
- "다한증": {
-  "group": "hyperhidrosis",
-  "freq": 2,
-  "classes": [
-   {
-    "class_id": "botulinum_toxin_a",
-    "indication": "wrinkle_contour",
-    "score": 5
-   }
-  ]
- },
- "겨드랑이땀": {
-  "group": "hyperhidrosis",
-  "freq": 0,
-  "classes": [
-   {
-    "class_id": "botulinum_toxin_a",
-    "indication": "wrinkle_contour",
-    "score": 5
-   }
-  ]
- },
- "무좀": {
-  "group": "nail",
-  "freq": 2,
-  "classes": [
-   {
-    "class_id": "onychomycosis_laser",
-    "indication": "onychomycosis",
-    "score": 5
-   }
-  ]
- },
- "발톱무좀": {
-  "group": "nail",
-  "freq": 0,
-  "classes": [
-   {
-    "class_id": "onychomycosis_laser",
-    "indication": "onychomycosis",
-    "score": 5
-   }
-  ]
- },
- "질타이트닝": {
-  "group": "intimate",
-  "freq": 0,
-  "classes": [
-   {
-    "class_id": "vaginal_laxity_rf",
-    "indication": "vaginal_laxity",
-    "score": 5
-   }
-  ]
- },
- "케미컬필링": {
-  "group": "skin_quality",
-  "freq": 0,
-  "classes": [
-   {
-    "class_id": "chemical_peel",
-    "indication": "pigment_acne_texture",
-    "score": 5
-   }
-  ]
- },
- "PDT": {
-  "group": "acne_scar",
-  "freq": 0,
-  "classes": [
-   {
-    "class_id": "photodynamic_therapy",
-    "indication": "acne_actinic_keratosis",
-    "score": 5
-   }
-  ]
- },
- "메조테라피": {
-  "group": "skin_quality",
-  "freq": 0,
-  "classes": [
-   {
-    "class_id": "mesotherapy_skin_cocktail",
-    "indication": "skin_quality_hydration",
-    "score": 5
-   }
-  ]
- },
- "비타민주사": {
-  "group": "skin_quality",
-  "freq": 0,
-  "classes": [
-   {
-    "class_id": "mesotherapy_skin_cocktail",
-    "indication": "skin_quality_hydration",
-    "score": 5
-   }
-  ]
- },
- "리투오": {
-  "group": "",
-  "freq": 0,
-  "classes": [
-   {
-    "class_id": "acellular_dermal_matrix_ecm_skinbooster",
-    "indication": "skin_quality_dermal_remodeling",
-    "score": 10,
-    "source": "brand"
-   }
-  ]
- },
- "리투오 파인": {
-  "group": "",
-  "freq": 0,
-  "classes": [
-   {
-    "class_id": "acellular_dermal_matrix_ecm_skinbooster",
-    "indication": "skin_quality_dermal_remodeling",
-    "score": 10,
-    "source": "brand"
-   }
-  ]
- },
- "엘라비에 리투오": {
-  "group": "",
-  "freq": 0,
-  "classes": [
-   {
-    "class_id": "acellular_dermal_matrix_ecm_skinbooster",
-    "indication": "skin_quality_dermal_remodeling",
-    "score": 10,
-    "source": "brand"
-   }
-  ]
- },
- "renuva": {
-  "group": "",
-  "freq": 0,
-  "classes": [
-   {
-    "class_id": "adipose_matrix_renuva",
-    "indication": "volume_soft_tissue_defect",
-    "score": 10,
-    "source": "brand"
-   }
-  ]
- },
- "GPC": {
-  "group": "",
-  "freq": 0,
-  "classes": [
-   {
-    "class_id": "bipolar_multipolar_rf_contouring",
-    "indication": "contour_skin_tightening",
-    "score": 10,
-    "source": "brand"
-   }
-  ]
- },
- "나노필로티": {
-  "group": "",
-  "freq": 0,
-  "classes": [
-   {
-    "class_id": "bipolar_multipolar_rf_contouring",
-    "indication": "contour_skin_tightening",
-    "score": 10,
-    "source": "brand"
-   }
-  ]
- },
- "바디 인모드": {
-  "group": "",
-  "freq": 0,
-  "classes": [
-   {
-    "class_id": "bipolar_multipolar_rf_contouring",
-    "indication": "contour_skin_tightening",
-    "score": 10,
-    "source": "brand"
-   }
-  ]
- },
- "세예핏-S": {
-  "group": "",
-  "freq": 0,
-  "classes": [
-   {
-    "class_id": "bipolar_multipolar_rf_contouring",
-    "indication": "contour_skin_tightening",
-    "score": 10,
-    "source": "brand"
-   }
-  ]
- },
- "써니리프팅": {
-  "group": "",
-  "freq": 0,
-  "classes": [
-   {
-    "class_id": "bipolar_multipolar_rf_contouring",
-    "indication": "contour_skin_tightening",
-    "score": 10,
-    "source": "brand"
-   }
-  ]
- },
- "악센트 프라임": {
-  "group": "",
-  "freq": 0,
-  "classes": [
-   {
-    "class_id": "bipolar_multipolar_rf_contouring",
-    "indication": "contour_skin_tightening",
-    "score": 10,
-    "source": "brand"
-   }
-  ]
- },
- "코레지": {
-  "group": "",
-  "freq": 0,
-  "classes": [
-   {
-    "class_id": "bipolar_multipolar_rf_contouring",
-    "indication": "contour_skin_tightening",
-    "score": 10,
-    "source": "brand"
-   }
-  ]
- },
- "코어스컬프": {
-  "group": "",
-  "freq": 0,
-  "classes": [
-   {
-    "class_id": "bipolar_multipolar_rf_contouring",
-    "indication": "contour_skin_tightening",
-    "score": 10,
-    "source": "brand"
-   }
-  ]
- },
- "튠 콩피에르": {
-  "group": "",
-  "freq": 0,
-  "classes": [
-   {
-    "class_id": "bipolar_multipolar_rf_contouring",
-    "indication": "contour_skin_tightening",
-    "score": 10,
-    "source": "brand"
-   }
-  ]
- },
- "튠컬트라": {
-  "group": "",
-  "freq": 0,
-  "classes": [
-   {
-    "class_id": "bipolar_multipolar_rf_contouring",
-    "indication": "contour_skin_tightening",
-    "score": 10,
-    "source": "brand"
-   }
-  ]
- },
- "트리플바디": {
-  "group": "",
-  "freq": 0,
-  "classes": [
-   {
-    "class_id": "bipolar_multipolar_rf_contouring",
-    "indication": "contour_skin_tightening",
-    "score": 10,
-    "source": "brand"
-   }
-  ]
- },
- "다한증 보톡스": {
-  "group": "",
-  "freq": 0,
-  "classes": [
-   {
-    "class_id": "botulinum_toxin_a",
-    "indication": "hyperhidrosis",
-    "score": 10,
-    "source": "brand"
-   }
-  ]
- },
- "디스포트": {
-  "group": "",
-  "freq": 0,
-  "classes": [
-   {
-    "class_id": "botulinum_toxin_a",
-    "indication": "wrinkle_contour",
-    "score": 10,
-    "source": "brand"
-   }
-  ]
- },
- "디자인 보톡스": {
-  "group": "",
-  "freq": 0,
-  "classes": [
-   {
-    "class_id": "botulinum_toxin_a",
-    "indication": "wrinkle_contour",
-    "score": 10,
-    "source": "brand"
-   }
-  ]
- },
- "사각턱 보톡스": {
-  "group": "",
-  "freq": 0,
-  "classes": [
-   {
-    "class_id": "botulinum_toxin_a",
-    "indication": "masseter_contour",
-    "score": 10,
-    "source": "brand"
-   }
-  ]
- },
- "얼굴전체 톡신": {
-  "group": "",
-  "freq": 0,
-  "classes": [
-   {
-    "class_id": "botulinum_toxin_a",
-    "indication": "wrinkle_contour",
-    "score": 10,
-    "source": "brand"
-   }
-  ]
- },
- "제오민": {
-  "group": "",
-  "freq": 0,
-  "classes": [
-   {
-    "class_id": "botulinum_toxin_a",
-    "indication": "wrinkle_contour",
-    "score": 10,
-    "source": "brand"
-   }
-  ]
- },
- "주름 보톡스": {
-  "group": "",
-  "freq": 0,
-  "classes": [
-   {
-    "class_id": "botulinum_toxin_a",
-    "indication": "wrinkle",
-    "score": 10,
-    "source": "brand"
-   }
-  ]
- },
- "코어톡스": {
-  "group": "",
-  "freq": 0,
-  "classes": [
-   {
-    "class_id": "botulinum_toxin_a",
-    "indication": "wrinkle_contour",
-    "score": 10,
-    "source": "brand"
-   }
-  ]
- },
- "톡신": {
-  "group": "",
-  "freq": 0,
-  "classes": [
-   {
-    "class_id": "botulinum_toxin_a",
-    "indication": "wrinkle_contour",
-    "score": 10,
-    "source": "brand"
-   }
-  ]
- },
- "레디어스": {
-  "group": "",
-  "freq": 0,
-  "classes": [
-   {
-    "class_id": "caha_filler",
-    "indication": "volume_contour_collagen",
-    "score": 10,
-    "source": "brand"
-   }
-  ]
- },
- "각질제거 피지제거 라라필": {
-  "group": "",
-  "freq": 0,
-  "classes": [
-   {
-    "class_id": "chemical_peel",
-    "indication": "pigment_acne_texture",
-    "score": 10,
-    "source": "brand"
-   }
-  ]
- },
- "라라필": {
-  "group": "",
-  "freq": 0,
-  "classes": [
-   {
-    "class_id": "chemical_peel",
-    "indication": "pigment_acne_texture",
-    "score": 10,
-    "source": "brand"
-   }
-  ]
- },
- "밀크필": {
-  "group": "",
-  "freq": 0,
-  "classes": [
-   {
-    "class_id": "chemical_peel",
-    "indication": "pigment_acne_texture",
-    "score": 10,
-    "source": "brand"
-   }
-  ]
- },
- "블랙필": {
-  "group": "",
-  "freq": 0,
-  "classes": [
-   {
-    "class_id": "chemical_peel",
-    "indication": "pigment_acne_texture",
-    "score": 10,
-    "source": "brand"
-   }
-  ]
- },
- "플라필": {
-  "group": "",
-  "freq": 0,
-  "classes": [
-   {
-    "class_id": "chemical_peel",
-    "indication": "pigment_acne_texture",
-    "score": 10,
-    "source": "brand"
-   }
-  ]
- },
- "울트라콜 100": {
-  "group": "",
-  "freq": 0,
-  "classes": [
-   {
-    "class_id": "collagen_stimulator_pdlla_plla",
-    "indication": "volume_collagen_stimulation",
-    "score": 10,
-    "source": "brand"
-   }
-  ]
- },
- "울트라콜 200": {
-  "group": "",
-  "freq": 0,
-  "classes": [
-   {
-    "class_id": "collagen_stimulator_pdlla_plla",
-    "indication": "volume_collagen_stimulation",
-    "score": 10,
-    "source": "brand"
-   }
-  ]
- },
- "쥬베룩 볼륨": {
-  "group": "",
-  "freq": 0,
-  "classes": [
-   {
-    "class_id": "collagen_stimulator_pdlla_plla",
-    "indication": "volume_collagen_stimulation",
-    "score": 10,
-    "source": "brand"
-   }
-  ]
- },
- "젤틱 쿨슬리밍": {
-  "group": "",
-  "freq": 0,
-  "classes": [
-   {
-    "class_id": "cryolipolysis_body_contouring",
-    "indication": "localized_fat_body_contouring",
-    "score": 10,
-    "source": "brand"
-   }
-  ]
- },
- "셀엑소좀": {
-  "group": "",
-  "freq": 0,
-  "classes": [
-   {
-    "class_id": "exosome_topical_or_injection",
-    "indication": "skin_quality_postprocedure_recovery",
-    "score": 10,
-    "source": "brand"
-   }
-  ]
- },
- "셀포좀": {
-  "group": "",
-  "freq": 0,
-  "classes": [
-   {
-    "class_id": "exosome_topical_or_injection",
-    "indication": "skin_quality_postprocedure_recovery",
-    "score": 10,
-    "source": "brand"
-   }
-  ]
- },
- "프락셀/피코프락셀": {
-  "group": "",
-  "freq": 0,
-  "classes": [
-   {
-    "class_id": "fractional_laser_resurfacing",
-    "indication": "acne_scar_texture_resurfacing",
-    "score": 10,
-    "source": "brand"
-   }
-  ]
- },
- "피코프락셀": {
-  "group": "",
-  "freq": 0,
-  "classes": [
-   {
-    "class_id": "fractional_picosecond_resurfacing",
-    "indication": "acne_scar_texture_resurfacing",
-    "score": 10,
-    "source": "brand"
-   }
-  ]
- },
- "VOLUMEFILLER필러": {
-  "group": "",
-  "freq": 0,
-  "classes": [
-   {
-    "class_id": "ha_filler_crosslinked",
-    "indication": "volume_contour_wrinkle",
-    "score": 10,
-    "source": "brand"
-   }
-  ]
- },
- "뉴라미스": {
-  "group": "",
-  "freq": 0,
-  "classes": [
-   {
-    "class_id": "ha_filler_crosslinked",
-    "indication": "volume_contour_wrinkle",
-    "score": 10,
-    "source": "brand"
-   }
-  ]
- },
- "디자인 필러": {
-  "group": "",
-  "freq": 0,
-  "classes": [
-   {
-    "class_id": "ha_filler_crosslinked",
-    "indication": "volume_contour_wrinkle",
-    "score": 10,
-    "source": "brand"
-   }
-  ]
- },
- "디자인 필러 종류": {
-  "group": "",
-  "freq": 0,
-  "classes": [
-   {
-    "class_id": "ha_filler_crosslinked",
-    "indication": "volume_contour_wrinkle",
-    "score": 10,
-    "source": "brand"
-   }
-  ]
- },
- "라풀렌": {
-  "group": "",
-  "freq": 0,
-  "classes": [
-   {
-    "class_id": "ha_filler_crosslinked",
-    "indication": "volume_contour_wrinkle",
-    "score": 10,
-    "source": "brand"
-   }
-  ]
- },
- "레스틸렌": {
-  "group": "",
-  "freq": 0,
-  "classes": [
-   {
-    "class_id": "ha_filler_crosslinked",
-    "indication": "volume_contour_wrinkle",
-    "score": 10,
-    "source": "brand"
-   }
-  ]
- },
- "리쥬비엘": {
-  "group": "",
-  "freq": 0,
-  "classes": [
-   {
-    "class_id": "ha_filler_crosslinked",
-    "indication": "volume_contour_wrinkle",
-    "score": 10,
-    "source": "brand"
-   }
-  ]
- },
- "리쥬필": {
-  "group": "",
-  "freq": 0,
-  "classes": [
-   {
-    "class_id": "ha_filler_crosslinked",
-    "indication": "volume_contour_wrinkle",
-    "score": 10,
-    "source": "brand"
-   }
-  ]
- },
- "리즈네": {
-  "group": "",
-  "freq": 0,
-  "classes": [
-   {
-    "class_id": "ha_filler_crosslinked",
-    "indication": "volume_contour_wrinkle",
-    "score": 10,
-    "source": "brand"
-   }
-  ]
- },
- "목주름 필러": {
-  "group": "",
-  "freq": 0,
-  "classes": [
-   {
-    "class_id": "ha_filler_crosslinked",
-    "indication": "volume_contour_wrinkle",
-    "score": 10,
-    "source": "brand"
-   }
-  ]
- },
- "미라콜": {
-  "group": "",
-  "freq": 0,
-  "classes": [
-   {
-    "class_id": "ha_filler_crosslinked",
-    "indication": "volume_contour_wrinkle",
-    "score": 10,
-    "source": "brand"
-   }
-  ]
- },
- "바디필러": {
-  "group": "",
-  "freq": 0,
-  "classes": [
-   {
-    "class_id": "ha_filler_crosslinked",
-    "indication": "volume_contour_wrinkle",
-    "score": 10,
-    "source": "brand"
-   }
-  ]
- },
- "바이리즌": {
-  "group": "",
-  "freq": 0,
-  "classes": [
-   {
-    "class_id": "ha_filler_crosslinked",
-    "indication": "volume_contour_wrinkle",
-    "score": 10,
-    "source": "brand"
-   }
-  ]
- },
- "벨라콜린": {
-  "group": "",
-  "freq": 0,
-  "classes": [
-   {
-    "class_id": "ha_filler_crosslinked",
-    "indication": "volume_contour_wrinkle",
-    "score": 10,
-    "source": "brand"
-   }
-  ]
- },
- "벨로테로": {
-  "group": "",
-  "freq": 0,
-  "classes": [
-   {
-    "class_id": "ha_filler_crosslinked",
-    "indication": "volume_contour_wrinkle",
-    "score": 10,
-    "source": "brand"
-   }
-  ]
- },
- "볼륨 필러": {
-  "group": "",
-  "freq": 0,
-  "classes": [
-   {
-    "class_id": "ha_filler_crosslinked",
-    "indication": "volume_contour_wrinkle",
-    "score": 10,
-    "source": "brand"
-   }
-  ]
- },
- "브이올렛": {
-  "group": "",
-  "freq": 0,
-  "classes": [
-   {
-    "class_id": "ha_filler_crosslinked",
-    "indication": "volume_contour_wrinkle",
-    "score": 10,
-    "source": "brand"
-   }
-  ]
- },
- "셀르디엠": {
-  "group": "",
-  "freq": 0,
-  "classes": [
-   {
-    "class_id": "ha_filler_crosslinked",
-    "indication": "volume_contour_wrinkle",
-    "score": 10,
-    "source": "brand"
-   }
-  ]
- },
- "어깨필러": {
-  "group": "",
-  "freq": 0,
-  "classes": [
-   {
-    "class_id": "ha_filler_crosslinked",
-    "indication": "volume_contour_wrinkle",
-    "score": 10,
-    "source": "brand"
-   }
-  ]
- },
- "이마필러 이마주름 이마볼륨 개선": {
-  "group": "",
-  "freq": 0,
-  "classes": [
-   {
-    "class_id": "ha_filler_crosslinked",
-    "indication": "volume_contour_wrinkle",
-    "score": 10,
-    "source": "brand"
-   }
-  ]
- },
- "입술필러": {
-  "group": "",
-  "freq": 0,
-  "classes": [
-   {
-    "class_id": "ha_filler_crosslinked",
-    "indication": "volume_contour_wrinkle",
-    "score": 10,
-    "source": "brand"
-   }
-  ]
- },
- "주름 필러": {
-  "group": "",
-  "freq": 0,
-  "classes": [
-   {
-    "class_id": "ha_filler_crosslinked",
-    "indication": "volume_contour_wrinkle",
-    "score": 10,
-    "source": "brand"
-   }
-  ]
- },
- "쥬비덤": {
-  "group": "",
-  "freq": 0,
-  "classes": [
-   {
-    "class_id": "ha_filler_crosslinked",
-    "indication": "volume_contour_wrinkle",
-    "score": 10,
-    "source": "brand"
-   }
-  ]
- },
- "턱끝필러 무턱 짧은턱 고민이라면": {
-  "group": "",
-  "freq": 0,
-  "classes": [
-   {
-    "class_id": "ha_filler_crosslinked",
-    "indication": "volume_contour_wrinkle",
-    "score": 10,
-    "source": "brand"
-   }
-  ]
- },
- "팅커벨 귀필러": {
-  "group": "",
-  "freq": 0,
-  "classes": [
-   {
-    "class_id": "ha_filler_crosslinked",
-    "indication": "volume_contour_wrinkle",
-    "score": 10,
-    "source": "brand"
-   }
-  ]
- },
- "팔자주름 볼살처짐 팔자필러 권장": {
-  "group": "",
-  "freq": 0,
-  "classes": [
-   {
-    "class_id": "ha_filler_crosslinked",
-    "indication": "volume_contour_wrinkle",
-    "score": 10,
-    "source": "brand"
-   }
-  ]
- },
- "필러 녹이는 주사": {
-  "group": "",
-  "freq": 0,
-  "classes": [
-   {
-    "class_id": "ha_filler_crosslinked",
-    "indication": "volume_contour_wrinkle",
-    "score": 10,
-    "source": "brand"
-   }
-  ]
- },
- "리바이브": {
-  "group": "",
-  "freq": 0,
-  "classes": [
-   {
-    "class_id": "ha_glycerol_skinbooster",
-    "indication": "skin_quality_hydration",
-    "score": 10,
-    "source": "brand"
-   }
-  ]
- },
- "벨로테로 리바이브": {
-  "group": "",
-  "freq": 0,
-  "classes": [
-   {
-    "class_id": "ha_glycerol_skinbooster",
-    "indication": "skin_quality_hydration",
-    "score": 10,
-    "source": "brand"
-   }
-  ]
- },
- "레티젠": {
-  "group": "",
-  "freq": 0,
-  "classes": [
-   {
-    "class_id": "ha_skin_booster",
-    "indication": "skin_quality_hydration",
-    "score": 10,
-    "source": "brand"
-   }
-  ]
- },
- "물광주사": {
-  "group": "",
-  "freq": 0,
-  "classes": [
-   {
-    "class_id": "ha_skin_booster",
-    "indication": "skin_quality_hydration",
-    "score": 10,
-    "source": "brand"
-   }
-  ]
- },
- "스킨바이브": {
-  "group": "",
-  "freq": 0,
-  "classes": [
-   {
-    "class_id": "ha_skin_booster",
-    "indication": "skin_quality_hydration",
-    "score": 10,
-    "source": "brand"
-   }
-  ]
- },
- "스킨바이브 (booster)": {
-  "group": "",
-  "freq": 0,
-  "classes": [
-   {
-    "class_id": "ha_skin_booster",
-    "indication": "skin_quality_hydration",
-    "score": 10,
-    "source": "brand"
-   }
-  ]
- },
- "필메드": {
-  "group": "",
-  "freq": 0,
-  "classes": [
-   {
-    "class_id": "ha_skin_booster",
-    "indication": "skin_quality_hydration",
-    "score": 10,
-    "source": "brand"
-   }
-  ]
- },
- "고강도 초음파 리프팅": {
-  "group": "",
-  "freq": 0,
-  "classes": [
-   {
-    "class_id": "hifu_lifting",
-    "indication": "lifting_skin_tightening",
-    "score": 10,
-    "source": "brand"
-   }
-  ]
- },
- "리프테라": {
-  "group": "",
-  "freq": 0,
-  "classes": [
-   {
-    "class_id": "hifu_lifting",
-    "indication": "lifting_skin_tightening",
-    "score": 10,
-    "source": "brand"
-   }
-  ]
- },
- "리프테라2": {
-  "group": "",
-  "freq": 0,
-  "classes": [
-   {
-    "class_id": "hifu_lifting",
-    "indication": "lifting_skin_tightening",
-    "score": 10,
-    "source": "brand"
-   }
-  ]
- },
- "바디 울쎄라": {
-  "group": "",
-  "freq": 0,
-  "classes": [
-   {
-    "class_id": "hifu_lifting",
-    "indication": "lifting_skin_tightening",
-    "score": 10,
-    "source": "brand"
-   }
-  ]
- },
- "슈링크 유니버스": {
-  "group": "",
-  "freq": 0,
-  "classes": [
-   {
-    "class_id": "hifu_lifting",
-    "indication": "lifting_skin_tightening",
-    "score": 10,
-    "source": "brand"
-   }
-  ]
- },
- "슈링크 유니버스 울트라": {
-  "group": "",
-  "freq": 0,
-  "classes": [
-   {
-    "class_id": "hifu_lifting",
-    "indication": "lifting_skin_tightening",
-    "score": 10,
-    "source": "brand"
-   }
-  ]
- },
- "울쎄라 프라임": {
-  "group": "",
-  "freq": 0,
-  "classes": [
-   {
-    "class_id": "hifu_lifting",
-    "indication": "lifting_skin_tightening",
-    "score": 10,
-    "source": "brand"
-   }
-  ]
- },
- "울쎄라피 프라임": {
-  "group": "",
-  "freq": 0,
-  "classes": [
-   {
-    "class_id": "hifu_lifting",
-    "indication": "lifting_skin_tightening",
-    "score": 10,
-    "source": "brand"
-   }
-  ]
- },
- "울핏": {
-  "group": "",
-  "freq": 0,
-  "classes": [
-   {
-    "class_id": "hifu_lifting",
-    "indication": "lifting_skin_tightening",
-    "score": 10,
-    "source": "brand"
-   }
-  ]
- },
- "초음파 리프팅": {
-  "group": "",
-  "freq": 0,
-  "classes": [
-   {
-    "class_id": "hifu_lifting",
-    "indication": "lifting_skin_tightening",
-    "score": 10,
-    "source": "brand"
-   }
-  ]
- },
- "힐로웨이브": {
-  "group": "",
-  "freq": 0,
-  "classes": [
-   {
-    "class_id": "hybrid_dual_ha_skinbooster_volume",
-    "indication": "skin_quality_volume",
-    "score": 10,
-    "source": "brand"
-   }
-  ]
- },
- "아쿠아필": {
-  "group": "",
-  "freq": 0,
-  "classes": [
-   {
-    "class_id": "hydradermabrasion",
-    "indication": "exfoliation_pore_hydration",
-    "score": 10,
-    "source": "brand"
-   }
-  ]
- },
- "윤곽 주사": {
-  "group": "",
-  "freq": 0,
-  "classes": [
-   {
-    "class_id": "injectable_lipolysis_deoxycholate_or_mesotherapy",
-    "indication": "localized_fat_jawline",
-    "score": 10,
-    "source": "brand"
-   }
-  ]
- },
- "제로핏 주사": {
-  "group": "",
-  "freq": 0,
-  "classes": [
-   {
-    "class_id": "injectable_lipolysis_deoxycholate_or_mesotherapy",
-    "indication": "localized_fat_jawline",
-    "score": 10,
-    "source": "brand"
-   }
-  ]
- },
- "지방분해 주사": {
-  "group": "",
-  "freq": 0,
-  "classes": [
-   {
-    "class_id": "injectable_lipolysis_deoxycholate_or_mesotherapy",
-    "indication": "localized_fat_jawline",
-    "score": 10,
-    "source": "brand"
-   }
-  ]
- },
- "이온자임": {
-  "group": "",
-  "freq": 0,
-  "classes": [
-   {
-    "class_id": "ionzyme_iontophoresis_sonophoresis",
-    "indication": "topical_delivery_skin_quality",
-    "score": 10,
-    "source": "brand"
-   }
-  ]
- },
- "LPL": {
-  "group": "",
-  "freq": 0,
-  "classes": [
-   {
-    "class_id": "ipl_bbl_photorejuvenation",
-    "indication": "pigment_redness_photoaging",
-    "score": 10,
-    "source": "brand"
-   }
-  ]
- },
- "바디 BBL": {
-  "group": "",
-  "freq": 0,
-  "classes": [
-   {
-    "class_id": "ipl_bbl_photorejuvenation",
-    "indication": "pigment_redness_photoaging",
-    "score": 10,
-    "source": "brand"
-   }
-  ]
- },
- "튠라이트": {
-  "group": "",
-  "freq": 0,
-  "classes": [
-   {
-    "class_id": "ipl_bbl_photorejuvenation",
-    "indication": "pigment_redness_photoaging",
-    "score": 10,
-    "source": "brand"
-   }
-  ]
- },
- "겨드랑이 제모": {
-  "group": "",
-  "freq": 0,
-  "classes": [
-   {
-    "class_id": "laser_hair_removal_alexandrite_ndyag",
-    "indication": "hair_removal",
-    "score": 10,
-    "source": "brand"
-   }
-  ]
- },
- "레이저 제모": {
-  "group": "",
-  "freq": 0,
-  "classes": [
-   {
-    "class_id": "laser_hair_removal_alexandrite_ndyag",
-    "indication": "hair_removal",
-    "score": 10,
-    "source": "brand"
-   }
-  ]
- },
- "레이저제모": {
-  "group": "",
-  "freq": 0,
-  "classes": [
-   {
-    "class_id": "laser_hair_removal_alexandrite_ndyag",
-    "indication": "hair_removal",
-    "score": 10,
-    "source": "brand"
-   }
-  ]
- },
- "아포지 플러스": {
-  "group": "",
-  "freq": 0,
-  "classes": [
-   {
-    "class_id": "laser_hair_removal_alexandrite_ndyag",
-    "indication": "hair_removal",
-    "score": 10,
-    "source": "brand"
-   }
-  ]
- },
- "아포지플러스 남성 상체 제모": {
-  "group": "",
-  "freq": 0,
-  "classes": [
-   {
-    "class_id": "laser_hair_removal_alexandrite_ndyag",
-    "indication": "hair_removal",
-    "score": 10,
-    "source": "brand"
-   }
-  ]
- },
- "아포지플러스 남성 얼굴 제모": {
-  "group": "",
-  "freq": 0,
-  "classes": [
-   {
-    "class_id": "laser_hair_removal_alexandrite_ndyag",
-    "indication": "hair_removal",
-    "score": 10,
-    "source": "brand"
-   }
-  ]
- },
- "아포지플러스 남성 하체 제모": {
-  "group": "",
-  "freq": 0,
-  "classes": [
-   {
-    "class_id": "laser_hair_removal_alexandrite_ndyag",
-    "indication": "hair_removal",
-    "score": 10,
-    "source": "brand"
-   }
-  ]
- },
- "아포지플러스 남성제모": {
-  "group": "",
-  "freq": 0,
-  "classes": [
-   {
-    "class_id": "laser_hair_removal_alexandrite_ndyag",
-    "indication": "hair_removal",
-    "score": 10,
-    "source": "brand"
-   }
-  ]
- },
- "아포지플러스 여성 상체 제모": {
-  "group": "",
-  "freq": 0,
-  "classes": [
-   {
-    "class_id": "laser_hair_removal_alexandrite_ndyag",
-    "indication": "hair_removal",
-    "score": 10,
-    "source": "brand"
-   }
-  ]
- },
- "아포지플러스 여성 얼굴 제모": {
-  "group": "",
-  "freq": 0,
-  "classes": [
-   {
-    "class_id": "laser_hair_removal_alexandrite_ndyag",
-    "indication": "hair_removal",
-    "score": 10,
-    "source": "brand"
-   }
-  ]
- },
- "아포지플러스 여성 패키지 제모": {
-  "group": "",
-  "freq": 0,
-  "classes": [
-   {
-    "class_id": "laser_hair_removal_alexandrite_ndyag",
-    "indication": "hair_removal",
-    "score": 10,
-    "source": "brand"
-   }
-  ]
- },
- "아포지플러스 여성 하체 제모": {
-  "group": "",
-  "freq": 0,
-  "classes": [
-   {
-    "class_id": "laser_hair_removal_alexandrite_ndyag",
-    "indication": "hair_removal",
-    "score": 10,
-    "source": "brand"
-   }
-  ]
- },
- "아포지플러스 여성제모": {
-  "group": "",
-  "freq": 0,
-  "classes": [
-   {
-    "class_id": "laser_hair_removal_alexandrite_ndyag",
-    "indication": "hair_removal",
-    "score": 10,
-    "source": "brand"
-   }
-  ]
- },
- "얼굴제모(이마제외) + 아래턱": {
-  "group": "",
-  "freq": 0,
-  "classes": [
-   {
-    "class_id": "laser_hair_removal_alexandrite_ndyag",
-    "indication": "hair_removal",
-    "score": 10,
-    "source": "brand"
-   }
-  ]
- },
- "제모 레이저제모": {
-  "group": "",
-  "freq": 0,
-  "classes": [
-   {
-    "class_id": "laser_hair_removal_alexandrite_ndyag",
-    "indication": "hair_removal",
-    "score": 10,
-    "source": "brand"
-   }
-  ]
- },
- "젠틀맥스 프로": {
-  "group": "",
-  "freq": 0,
-  "classes": [
-   {
-    "class_id": "laser_hair_removal_alexandrite_ndyag",
-    "indication": "hair_removal",
-    "score": 10,
-    "source": "brand"
-   }
-  ]
- },
- "젠틀맥스 프로 플러스": {
-  "group": "",
-  "freq": 0,
-  "classes": [
-   {
-    "class_id": "laser_hair_removal_alexandrite_ndyag",
-    "indication": "hair_removal",
-    "score": 10,
-    "source": "brand"
-   }
-  ]
- },
- "젠틀맥스 프로플러스 남성제모": {
-  "group": "",
-  "freq": 0,
-  "classes": [
-   {
-    "class_id": "laser_hair_removal_alexandrite_ndyag",
-    "indication": "hair_removal",
-    "score": 10,
-    "source": "brand"
-   }
-  ]
- },
- "젠틀맥스 프로플러스 여성제모": {
-  "group": "",
-  "freq": 0,
-  "classes": [
-   {
-    "class_id": "laser_hair_removal_alexandrite_ndyag",
-    "indication": "hair_removal",
-    "score": 10,
-    "source": "brand"
-   }
-  ]
- },
- "젠틀맥스프로플러스 남성 상체 제모": {
-  "group": "",
-  "freq": 0,
-  "classes": [
-   {
-    "class_id": "laser_hair_removal_alexandrite_ndyag",
-    "indication": "hair_removal",
-    "score": 10,
-    "source": "brand"
-   }
-  ]
- },
- "젠틀맥스프로플러스 남성 얼굴 제모": {
-  "group": "",
-  "freq": 0,
-  "classes": [
-   {
-    "class_id": "laser_hair_removal_alexandrite_ndyag",
-    "indication": "hair_removal",
-    "score": 10,
-    "source": "brand"
-   }
-  ]
- },
- "젠틀맥스프로플러스 남성 하체 제모": {
-  "group": "",
-  "freq": 0,
-  "classes": [
-   {
-    "class_id": "laser_hair_removal_alexandrite_ndyag",
-    "indication": "hair_removal",
-    "score": 10,
-    "source": "brand"
-   }
-  ]
- },
- "젠틀맥스프로플러스 여성 상체 제모": {
-  "group": "",
-  "freq": 0,
-  "classes": [
-   {
-    "class_id": "laser_hair_removal_alexandrite_ndyag",
-    "indication": "hair_removal",
-    "score": 10,
-    "source": "brand"
-   }
-  ]
- },
- "젠틀맥스프로플러스 여성 얼굴 제모": {
-  "group": "",
-  "freq": 0,
-  "classes": [
-   {
-    "class_id": "laser_hair_removal_alexandrite_ndyag",
-    "indication": "hair_removal",
-    "score": 10,
-    "source": "brand"
-   }
-  ]
- },
- "젠틀맥스프로플러스 여성 하체 제모": {
-  "group": "",
-  "freq": 0,
-  "classes": [
-   {
-    "class_id": "laser_hair_removal_alexandrite_ndyag",
-    "indication": "hair_removal",
-    "score": 10,
-    "source": "brand"
-   }
-  ]
- },
- "클라리티": {
-  "group": "",
-  "freq": 0,
-  "classes": [
-   {
-    "class_id": "laser_hair_removal_alexandrite_ndyag",
-    "indication": "hair_removal",
-    "score": 10,
-    "source": "brand"
-   }
-  ]
- },
- "클라리티2": {
-  "group": "",
-  "freq": 0,
-  "classes": [
-   {
-    "class_id": "laser_hair_removal_alexandrite_ndyag",
-    "indication": "hair_removal",
-    "score": 10,
-    "source": "brand"
-   }
-  ]
- },
- "레블라이트 SI": {
-  "group": "",
-  "freq": 0,
-  "classes": [
-   {
-    "class_id": "laser_toning_qswitched_or_picosecond",
-    "indication": "pigment_tattoo",
-    "score": 10,
-    "source": "brand"
-   }
-  ]
- },
- "레이저 토닝": {
-  "group": "",
-  "freq": 0,
-  "classes": [
-   {
-    "class_id": "laser_toning_qswitched_or_picosecond",
-    "indication": "pigment_melasma",
-    "score": 10,
-    "source": "brand"
-   }
-  ]
- },
- "밀크토닝": {
-  "group": "",
-  "freq": 0,
-  "classes": [
-   {
-    "class_id": "laser_toning_qswitched_or_picosecond",
-    "indication": "pigment_melasma",
-    "score": 10,
-    "source": "brand"
-   }
-  ]
- },
- "바디착색토닝": {
-  "group": "",
-  "freq": 0,
-  "classes": [
-   {
-    "class_id": "laser_toning_qswitched_or_picosecond",
-    "indication": "pigment_melasma",
-    "score": 10,
-    "source": "brand"
-   }
-  ]
- },
- "색소 및 재생 레이저": {
-  "group": "",
-  "freq": 0,
-  "classes": [
-   {
-    "class_id": "laser_toning_qswitched_or_picosecond",
-    "indication": "pigment_melasma",
-    "score": 10,
-    "source": "brand"
-   }
-  ]
- },
- "셀룰라이트 토닝": {
-  "group": "",
-  "freq": 0,
-  "classes": [
-   {
-    "class_id": "laser_toning_qswitched_or_picosecond",
-    "indication": "pigment_melasma",
-    "score": 10,
-    "source": "brand"
-   }
-  ]
- },
- "수소토닝": {
-  "group": "",
-  "freq": 0,
-  "classes": [
-   {
-    "class_id": "laser_toning_qswitched_or_picosecond",
-    "indication": "pigment_melasma",
-    "score": 10,
-    "source": "brand"
-   }
-  ]
- },
- "스펙트라": {
-  "group": "",
-  "freq": 0,
-  "classes": [
-   {
-    "class_id": "laser_toning_qswitched_or_picosecond",
-    "indication": "pigment_tattoo",
-    "score": 10,
-    "source": "brand"
-   }
-  ]
- },
- "지우개 멀티토닝": {
-  "group": "",
-  "freq": 0,
-  "classes": [
-   {
-    "class_id": "laser_toning_qswitched_or_picosecond",
-    "indication": "pigment_melasma",
-    "score": 10,
-    "source": "brand"
-   }
-  ]
- },
- "프리미엄 듀얼토닝": {
-  "group": "",
-  "freq": 0,
-  "classes": [
-   {
-    "class_id": "laser_toning_qswitched_or_picosecond",
-    "indication": "pigment_melasma",
-    "score": 10,
-    "source": "brand"
-   }
-  ]
- },
- "헐리우드 스펙트라": {
-  "group": "",
-  "freq": 0,
-  "classes": [
-   {
-    "class_id": "laser_toning_qswitched_or_picosecond",
-    "indication": "pigment_tattoo",
-    "score": 10,
-    "source": "brand"
-   }
-  ]
- },
- "헬리오스 785": {
-  "group": "",
-  "freq": 0,
-  "classes": [
-   {
-    "class_id": "laser_toning_qswitched_or_picosecond",
-    "indication": "pigment_tattoo",
-    "score": 10,
-    "source": "brand"
-   }
-  ]
- },
- "스킨아우라": {
-  "group": "",
-  "freq": 0,
-  "classes": [
-   {
-    "class_id": "led_phototherapy",
-    "indication": "skin_quality_acne_inflammation",
-    "score": 10,
-    "source": "brand"
-   }
-  ]
- },
- "힐퓨전 프로": {
-  "group": "",
-  "freq": 0,
-  "classes": [
-   {
-    "class_id": "linear_hifu_lifting",
-    "indication": "lifting_volume_fat_reduction",
-    "score": 10,
-    "source": "brand"
-   }
-  ]
- },
- "콜라겐 부스터": {
-  "group": "",
-  "freq": 0,
-  "classes": [
-   {
-    "class_id": "mesotherapy_skin_cocktail",
-    "indication": "skin_quality_hydration",
-    "score": 10,
-    "source": "brand"
-   }
-  ]
- },
- "더모톡신 목주름 (국산": {
-  "group": "",
-  "freq": 0,
-  "classes": [
-   {
-    "class_id": "microdosed_botulinum_for_skin",
-    "indication": "skin_texture_pore_neck",
-    "score": 10,
-    "source": "brand"
-   }
-  ]
- },
- "더모톡신 목주름 (국산 프리미엄": {
-  "group": "",
-  "freq": 0,
-  "classes": [
-   {
-    "class_id": "microdosed_botulinum_for_skin",
-    "indication": "skin_texture_pore_neck",
-    "score": 10,
-    "source": "brand"
-   }
-  ]
- },
- "더모톡신 목주름 (독일산": {
-  "group": "",
-  "freq": 0,
-  "classes": [
-   {
-    "class_id": "microdosed_botulinum_for_skin",
-    "indication": "skin_texture_pore_neck",
-    "score": 10,
-    "source": "brand"
-   }
-  ]
- },
- "더모톡신 목주름 (미국산": {
-  "group": "",
-  "freq": 0,
-  "classes": [
-   {
-    "class_id": "microdosed_botulinum_for_skin",
-    "indication": "skin_texture_pore_neck",
-    "score": 10,
-    "source": "brand"
-   }
-  ]
- },
- "더모톡신 목주름 (영국산": {
-  "group": "",
-  "freq": 0,
-  "classes": [
-   {
-    "class_id": "microdosed_botulinum_for_skin",
-    "indication": "skin_texture_pore_neck",
-    "score": 10,
-    "source": "brand"
-   }
-  ]
- },
- "더모톡신 얼굴전체(국산": {
-  "group": "",
-  "freq": 0,
-  "classes": [
-   {
-    "class_id": "microdosed_botulinum_for_skin",
-    "indication": "skin_texture_pore_neck",
-    "score": 10,
-    "source": "brand"
-   }
-  ]
- },
- "더모톡신 얼굴전체(국산 프리미엄": {
-  "group": "",
-  "freq": 0,
-  "classes": [
-   {
-    "class_id": "microdosed_botulinum_for_skin",
-    "indication": "skin_texture_pore_neck",
-    "score": 10,
-    "source": "brand"
-   }
-  ]
- },
- "더모톡신 얼굴전체(독일산": {
-  "group": "",
-  "freq": 0,
-  "classes": [
-   {
-    "class_id": "microdosed_botulinum_for_skin",
-    "indication": "skin_texture_pore_neck",
-    "score": 10,
-    "source": "brand"
-   }
-  ]
- },
- "더모톡신 얼굴전체(미국산": {
-  "group": "",
-  "freq": 0,
-  "classes": [
-   {
-    "class_id": "microdosed_botulinum_for_skin",
-    "indication": "skin_texture_pore_neck",
-    "score": 10,
-    "source": "brand"
-   }
-  ]
- },
- "더모톡신 얼굴전체(영국산": {
-  "group": "",
-  "freq": 0,
-  "classes": [
-   {
-    "class_id": "microdosed_botulinum_for_skin",
-    "indication": "skin_texture_pore_neck",
-    "score": 10,
-    "source": "brand"
-   }
-  ]
- },
- "더모톡신 이중턱 (독일산": {
-  "group": "",
-  "freq": 0,
-  "classes": [
-   {
-    "class_id": "microdosed_botulinum_for_skin",
-    "indication": "skin_texture_pore_neck",
-    "score": 10,
-    "source": "brand"
-   }
-  ]
- },
- "더모톡신 이중턱 (미국산": {
-  "group": "",
-  "freq": 0,
-  "classes": [
-   {
-    "class_id": "microdosed_botulinum_for_skin",
-    "indication": "skin_texture_pore_neck",
-    "score": 10,
-    "source": "brand"
-   }
-  ]
- },
- "물톡스": {
-  "group": "",
-  "freq": 0,
-  "classes": [
-   {
-    "class_id": "microdosed_botulinum_for_skin",
-    "indication": "skin_texture_pore_neck",
-    "score": 10,
-    "source": "brand"
-   }
-  ]
- },
- "초음파 보톡스": {
-  "group": "",
-  "freq": 0,
-  "classes": [
-   {
-    "class_id": "microdosed_botulinum_for_skin",
-    "indication": "skin_texture_pore_neck",
-    "score": 10,
-    "source": "brand"
-   }
-  ]
- },
- "버츄RF": {
-  "group": "",
-  "freq": 0,
-  "classes": [
-   {
-    "class_id": "microneedling_rf",
-    "indication": "acne_scar_pore_laxity",
-    "score": 10,
-    "source": "brand"
-   }
-  ]
- },
- "실펌": {
-  "group": "",
-  "freq": 0,
-  "classes": [
-   {
-    "class_id": "microneedling_rf",
-    "indication": "acne_scar_pore_laxity",
-    "score": 10,
-    "source": "brand"
-   }
-  ]
- },
- "아그네스": {
-  "group": "",
-  "freq": 0,
-  "classes": [
-   {
-    "class_id": "microneedling_rf",
-    "indication": "acne_scar_pore_laxity",
-    "score": 10,
-    "source": "brand"
-   }
-  ]
- },
- "프로파운드": {
-  "group": "",
-  "freq": 0,
-  "classes": [
-   {
-    "class_id": "microneedling_rf",
-    "indication": "acne_scar_pore_laxity",
-    "score": 10,
-    "source": "brand"
-   }
-  ]
- },
- "ONDA 리프팅": {
-  "group": "",
-  "freq": 0,
-  "classes": [
-   {
-    "class_id": "microwave_245ghz_skin_tightening",
-    "indication": "skin_tightening_body_contouring",
-    "score": 10,
-    "source": "brand"
-   }
-  ]
- },
- "STANDARDTORR LIFTING토르 리프팅": {
-  "group": "",
-  "freq": 0,
-  "classes": [
-   {
-    "class_id": "monopolar_rf_lifting",
-    "indication": "lifting_skin_tightening",
-    "score": 10,
-    "source": "brand"
-   }
-  ]
- },
- "덴서티": {
-  "group": "",
-  "freq": 0,
-  "classes": [
-   {
-    "class_id": "monopolar_rf_lifting",
-    "indication": "lifting_skin_tightening",
-    "score": 10,
-    "source": "brand"
-   }
-  ]
- },
- "덴서티 알파팁": {
-  "group": "",
-  "freq": 0,
-  "classes": [
-   {
-    "class_id": "monopolar_rf_lifting",
-    "indication": "lifting_skin_tightening",
-    "score": 10,
-    "source": "brand"
-   }
-  ]
- },
- "바디 써마지": {
-  "group": "",
-  "freq": 0,
-  "classes": [
-   {
-    "class_id": "monopolar_rf_lifting",
-    "indication": "lifting_skin_tightening",
-    "score": 10,
-    "source": "brand"
-   }
-  ]
- },
- "볼뉴머": {
-  "group": "",
-  "freq": 0,
-  "classes": [
-   {
-    "class_id": "monopolar_rf_lifting",
-    "indication": "lifting_skin_tightening",
-    "score": 10,
-    "source": "brand"
-   }
-  ]
- },
- "세르프": {
-  "group": "",
-  "freq": 0,
-  "classes": [
-   {
-    "class_id": "monopolar_rf_lifting",
-    "indication": "lifting_skin_tightening",
-    "score": 10,
-    "source": "brand"
-   }
-  ]
- },
- "써마지 FLX": {
-  "group": "",
-  "freq": 0,
-  "classes": [
-   {
-    "class_id": "monopolar_rf_lifting",
-    "indication": "lifting_skin_tightening",
-    "score": 10,
-    "source": "brand"
-   }
-  ]
- },
- "올리지오X": {
-  "group": "",
-  "freq": 0,
-  "classes": [
-   {
-    "class_id": "monopolar_rf_lifting",
-    "indication": "lifting_skin_tightening",
-    "score": 10,
-    "source": "brand"
-   }
-  ]
- },
- "올타이트": {
-  "group": "",
-  "freq": 0,
-  "classes": [
-   {
-    "class_id": "monopolar_rf_lifting",
-    "indication": "lifting_skin_tightening",
-    "score": 10,
-    "source": "brand"
-   }
-  ]
- },
- "울써마지": {
-  "group": "",
-  "freq": 0,
-  "classes": [
-   {
-    "class_id": "monopolar_rf_lifting",
-    "indication": "lifting_skin_tightening",
-    "score": 10,
-    "source": "brand"
-   }
-  ]
- },
- "토르 리프팅": {
-  "group": "",
-  "freq": 0,
-  "classes": [
-   {
-    "class_id": "monopolar_rf_lifting",
-    "indication": "lifting_skin_tightening",
-    "score": 10,
-    "source": "brand"
-   }
-  ]
- },
- "튠라이너": {
-  "group": "",
-  "freq": 0,
-  "classes": [
-   {
-    "class_id": "monopolar_rf_lifting",
-    "indication": "lifting_skin_tightening",
-    "score": 10,
-    "source": "brand"
-   }
-  ]
- },
- "튠페이스": {
-  "group": "",
-  "freq": 0,
-  "classes": [
-   {
-    "class_id": "monopolar_rf_lifting",
-    "indication": "lifting_skin_tightening",
-    "score": 10,
-    "source": "brand"
-   }
-  ]
- },
- "미라젯": {
-  "group": "",
-  "freq": 0,
-  "classes": [
-   {
-    "class_id": "needle_free_drug_delivery",
-    "indication": "skin_quality_drug_delivery",
-    "score": 10,
-    "source": "brand"
-   }
-  ]
- },
- "큐어젯": {
-  "group": "",
-  "freq": 0,
-  "classes": [
-   {
-    "class_id": "needle_free_drug_delivery",
-    "indication": "skin_quality_drug_delivery",
-    "score": 10,
-    "source": "brand"
-   }
-  ]
- },
- "MOXI": {
-  "group": "",
-  "freq": 0,
-  "classes": [
-   {
-    "class_id": "nonablative_fractional_resurfacing",
-    "indication": "texture_pigment_brightening",
-    "score": 10,
-    "source": "brand"
-   }
-  ]
- },
- "라셈드": {
-  "group": "",
-  "freq": 0,
-  "classes": [
-   {
-    "class_id": "nonablative_fractional_resurfacing",
-    "indication": "texture_pigment_brightening",
-    "score": 10,
-    "source": "brand"
-   }
-  ]
- },
- "헤일로 레이저": {
-  "group": "",
-  "freq": 0,
-  "classes": [
-   {
-    "class_id": "nonablative_fractional_resurfacing",
-    "indication": "texture_pigment_brightening",
-    "score": 10,
-    "source": "brand"
-   }
-  ]
- },
- "루눌라 레이저": {
-  "group": "",
-  "freq": 0,
-  "classes": [
-   {
-    "class_id": "onychomycosis_laser",
-    "indication": "onychomycosis",
-    "score": 10,
-    "source": "brand"
-   }
-  ]
- },
- "손발톱 무좀 레이저 치료": {
-  "group": "",
-  "freq": 0,
-  "classes": [
-   {
-    "class_id": "onychomycosis_laser",
-    "indication": "onychomycosis",
-    "score": 10,
-    "source": "brand"
-   }
-  ]
- },
- "오니코 / 루눌라": {
-  "group": "",
-  "freq": 0,
-  "classes": [
-   {
-    "class_id": "onychomycosis_laser",
-    "indication": "onychomycosis",
-    "score": 10,
-    "source": "brand"
-   }
-  ]
- },
- "오니코 레이저": {
-  "group": "",
-  "freq": 0,
-  "classes": [
-   {
-    "class_id": "onychomycosis_laser",
-    "indication": "onychomycosis",
-    "score": 10,
-    "source": "brand"
-   }
-  ]
- },
- "엘란쎄": {
-  "group": "",
-  "freq": 0,
-  "classes": [
-   {
-    "class_id": "pcl_filler",
-    "indication": "volume_contour_collagen",
-    "score": 10,
-    "source": "brand"
-   }
-  ]
- },
- "3MIX 실리프팅": {
-  "group": "",
-  "freq": 0,
-  "classes": [
-   {
-    "class_id": "pdo_pcl_plla_thread_lifting",
-    "indication": "lifting_contour",
-    "score": 10,
-    "source": "brand"
-   }
-  ]
- },
- "LSCO": {
-  "group": "",
-  "freq": 0,
-  "classes": [
-   {
-    "class_id": "pdo_pcl_plla_thread_lifting",
-    "indication": "lifting_contour",
-    "score": 10,
-    "source": "brand"
-   }
-  ]
- },
- "PREMIUMTHREAD LIFTING맞춤 실리프팅": {
-  "group": "",
-  "freq": 0,
-  "classes": [
-   {
-    "class_id": "pdo_pcl_plla_thread_lifting",
-    "indication": "lifting_contour",
-    "score": 10,
-    "source": "brand"
-   }
-  ]
- },
- "V라인 실리프팅": {
-  "group": "",
-  "freq": 0,
-  "classes": [
-   {
-    "class_id": "pdo_pcl_plla_thread_lifting",
-    "indication": "lifting_contour",
-    "score": 10,
-    "source": "brand"
-   }
-  ]
- },
- "돌기실": {
-  "group": "",
-  "freq": 0,
-  "classes": [
-   {
-    "class_id": "pdo_pcl_plla_thread_lifting",
-    "indication": "lifting_contour",
-    "score": 10,
-    "source": "brand"
-   }
-  ]
- },
- "맞춤 실리프팅": {
-  "group": "",
-  "freq": 0,
-  "classes": [
-   {
-    "class_id": "pdo_pcl_plla_thread_lifting",
-    "indication": "lifting_contour",
-    "score": 10,
-    "source": "brand"
-   }
-  ]
- },
- "모노실": {
-  "group": "",
-  "freq": 0,
-  "classes": [
-   {
-    "class_id": "pdo_pcl_plla_thread_lifting",
-    "indication": "lifting_contour",
-    "score": 10,
-    "source": "brand"
-   }
-  ]
- },
- "민트실": {
-  "group": "",
-  "freq": 0,
-  "classes": [
-   {
-    "class_id": "pdo_pcl_plla_thread_lifting",
-    "indication": "lifting_contour",
-    "score": 10,
-    "source": "brand"
-   }
-  ]
- },
- "실루엣 Fit": {
-  "group": "",
-  "freq": 0,
-  "classes": [
-   {
-    "class_id": "pdo_pcl_plla_thread_lifting",
-    "indication": "lifting_contour",
-    "score": 10,
-    "source": "brand"
-   }
-  ]
- },
- "실루엣 소프트": {
-  "group": "",
-  "freq": 0,
-  "classes": [
-   {
-    "class_id": "pdo_pcl_plla_thread_lifting",
-    "indication": "lifting_contour",
-    "score": 10,
-    "source": "brand"
-   }
-  ]
- },
- "실리프팅 (general)": {
-  "group": "",
-  "freq": 0,
-  "classes": [
-   {
-    "class_id": "pdo_pcl_plla_thread_lifting",
-    "indication": "lifting_contour",
-    "score": 10,
-    "source": "brand"
-   }
-  ]
- },
- "실리프팅 1줄당": {
-  "group": "",
-  "freq": 0,
-  "classes": [
-   {
-    "class_id": "pdo_pcl_plla_thread_lifting",
-    "indication": "lifting_contour",
-    "score": 10,
-    "source": "brand"
-   }
-  ]
- },
- "실리프팅 실리프팅": {
-  "group": "",
-  "freq": 0,
-  "classes": [
-   {
-    "class_id": "pdo_pcl_plla_thread_lifting",
-    "indication": "lifting_contour",
-    "score": 10,
-    "source": "brand"
-   }
-  ]
- },
- "아이쓰레드": {
-  "group": "",
-  "freq": 0,
-  "classes": [
-   {
-    "class_id": "pdo_pcl_plla_thread_lifting",
-    "indication": "lifting_contour",
-    "score": 10,
-    "source": "brand"
-   }
-  ]
- },
- "압토스": {
-  "group": "",
-  "freq": 0,
-  "classes": [
-   {
-    "class_id": "pdo_pcl_plla_thread_lifting",
-    "indication": "lifting_contour",
-    "score": 10,
-    "source": "brand"
-   }
-  ]
- },
- "이마거상 실리프팅": {
-  "group": "",
-  "freq": 0,
-  "classes": [
-   {
-    "class_id": "pdo_pcl_plla_thread_lifting",
-    "indication": "lifting_contour",
-    "score": 10,
-    "source": "brand"
-   }
-  ]
- },
- "잼버실": {
-  "group": "",
-  "freq": 0,
-  "classes": [
-   {
-    "class_id": "pdo_pcl_plla_thread_lifting",
-    "indication": "lifting_contour",
-    "score": 10,
-    "source": "brand"
-   }
-  ]
- },
- "PDT 광역동": {
-  "group": "",
-  "freq": 0,
-  "classes": [
-   {
-    "class_id": "photodynamic_therapy",
-    "indication": "acne_actinic_keratosis",
-    "score": 10,
-    "source": "brand"
-   }
-  ]
- },
- "피코 색소레이저": {
-  "group": "",
-  "freq": 0,
-  "classes": [
-   {
-    "class_id": "picosecond_laser_pigment",
-    "indication": "pigment_tattoo_skin_rejuvenation",
-    "score": 10,
-    "source": "brand"
-   }
-  ]
- },
- "피코슈어": {
-  "group": "",
-  "freq": 0,
-  "classes": [
-   {
-    "class_id": "picosecond_laser_pigment",
-    "indication": "pigment_tattoo_skin_rejuvenation",
-    "score": 10,
-    "source": "brand"
-   }
-  ]
- },
- "피코슈어 프로": {
-  "group": "",
-  "freq": 0,
-  "classes": [
-   {
-    "class_id": "picosecond_laser_pigment",
-    "indication": "pigment_tattoo_skin_rejuvenation",
-    "score": 10,
-    "source": "brand"
-   }
-  ]
- },
- "피코웨이": {
-  "group": "",
-  "freq": 0,
-  "classes": [
-   {
-    "class_id": "picosecond_laser_pigment",
-    "indication": "pigment_tattoo_skin_rejuvenation",
-    "score": 10,
-    "source": "brand"
-   }
-  ]
- },
- "피코플러스": {
-  "group": "",
-  "freq": 0,
-  "classes": [
-   {
-    "class_id": "picosecond_laser_pigment",
-    "indication": "pigment_tattoo_skin_rejuvenation",
-    "score": 10,
-    "source": "brand"
-   }
-  ]
- },
- "태반주사": {
-  "group": "",
-  "freq": 0,
-  "classes": [
-   {
-    "class_id": "placenta_injection",
-    "indication": "wellness_skin_quality",
-    "score": 10,
-    "source": "brand"
-   }
-  ]
- },
- "리쥬란 S": {
-  "group": "",
-  "freq": 0,
-  "classes": [
-   {
-    "class_id": "pn_pdrn_injection",
-    "indication": "skin_quality_wound_repair",
-    "score": 10,
-    "source": "brand"
-   }
-  ]
- },
- "리쥬란 아이": {
-  "group": "",
-  "freq": 0,
-  "classes": [
-   {
-    "class_id": "pn_pdrn_injection",
-    "indication": "skin_quality_wound_repair",
-    "score": 10,
-    "source": "brand"
-   }
-  ]
- },
- "리쥬란 힐러": {
-  "group": "",
-  "freq": 0,
-  "classes": [
-   {
-    "class_id": "pn_pdrn_injection",
-    "indication": "skin_quality_wound_repair",
-    "score": 10,
-    "source": "brand"
-   }
-  ]
- },
- "리쥬란 HB": {
-  "group": "",
-  "freq": 0,
-  "classes": [
-   {
-    "class_id": "pn_pdrn_injection_with_ha",
-    "indication": "skin_quality_wound_repair",
-    "score": 10,
-    "source": "brand"
-   }
-  ]
- },
- "SVF 줄기세포": {
-  "group": "",
-  "freq": 0,
-  "classes": [
-   {
-    "class_id": "stem_cell_svf_injection",
-    "indication": "skin_quality_volume_regeneration",
-    "score": 10,
-    "source": "brand"
-   }
-  ]
- },
- "소프웨이브": {
-  "group": "",
-  "freq": 0,
-  "classes": [
-   {
-    "class_id": "synchronous_us_parallel_beam_softwave",
-    "indication": "lifting_skin_tightening",
-    "score": 10,
-    "source": "brand"
-   }
-  ]
- },
- "TITANIUM LIFTING티타늄 리프팅": {
-  "group": "",
-  "freq": 0,
-  "classes": [
-   {
-    "class_id": "triple_wavelength_diode_lifting",
-    "indication": "lifting_brightening",
-    "score": 10,
-    "source": "brand"
-   }
-  ]
- },
- "티타늄 리프팅": {
-  "group": "",
-  "freq": 0,
-  "classes": [
-   {
-    "class_id": "triple_wavelength_diode_lifting",
-    "indication": "lifting_brightening",
-    "score": 10,
-    "source": "brand"
-   }
-  ]
- },
- "비비브": {
-  "group": "",
-  "freq": 0,
-  "classes": [
-   {
-    "class_id": "vaginal_laxity_rf",
-    "indication": "vaginal_laxity",
-    "score": 10,
-    "source": "brand"
-   }
-  ]
- },
- "더마V": {
-  "group": "",
-  "freq": 0,
-  "classes": [
-   {
-    "class_id": "vascular_pigment_laser_532_1064",
-    "indication": "vascular_redness_pigment",
-    "score": 10,
-    "source": "brand"
-   }
-  ]
- },
- "더마V 싱글/듀얼/트리플": {
-  "group": "",
-  "freq": 0,
-  "classes": [
-   {
-    "class_id": "vascular_pigment_laser_532_1064",
-    "indication": "vascular_redness_pigment",
-    "score": 10,
-    "source": "brand"
-   }
-  ]
- },
- "더마V레이저": {
-  "group": "",
-  "freq": 0,
-  "classes": [
-   {
-    "class_id": "vascular_pigment_laser_532_1064",
-    "indication": "vascular_redness_pigment",
-    "score": 10,
-    "source": "brand"
-   }
-  ]
- },
- "엑셀V": {
-  "group": "",
-  "freq": 0,
-  "classes": [
-   {
-    "class_id": "vascular_pigment_laser_532_1064",
-    "indication": "vascular_redness_pigment",
-    "score": 10,
-    "source": "brand"
-   }
-  ]
- },
- "엑셀V 제네시스": {
-  "group": "",
-  "freq": 0,
-  "classes": [
-   {
-    "class_id": "vascular_pigment_laser_532_1064",
-    "indication": "vascular_redness_pigment",
-    "score": 10,
-    "source": "brand"
-   }
-  ]
- },
- "엑셀브이": {
-  "group": "",
-  "freq": 0,
-  "classes": [
-   {
-    "class_id": "vascular_pigment_laser_532_1064",
-    "indication": "vascular_redness_pigment",
-    "score": 10,
-    "source": "brand"
-   }
-  ]
- }
+"안티에이징": {
+"group": "lifting",
+"freq": 1120,
+"classes": [
+{
+"class_id": "stem_cell_svf_injection",
+"indication": "skin_quality_volume_regeneration",
+"score": 31
+},
+{
+"class_id": "hifu_lifting",
+"indication": "lifting_skin_tightening",
+"score": 15
+},
+{
+"class_id": "monopolar_rf_lifting",
+"indication": "lifting_skin_tightening",
+"score": 11
+},
+{
+"class_id": "pn_pdrn_injection",
+"indication": "skin_quality_wound_repair",
+"score": 10
+},
+{
+"class_id": "laser_toning_qswitched_or_picosecond",
+"indication": "pigment_melasma",
+"score": 9
+},
+{
+"class_id": "botulinum_toxin_a",
+"indication": "wrinkle_contour",
+"score": 8
+}
+]
+},
+"콜라겐": {
+"group": "lifting",
+"freq": 1328,
+"classes": [
+{
+"class_id": "monopolar_rf_lifting",
+"indication": "lifting_skin_tightening",
+"score": 65
+},
+{
+"class_id": "hifu_lifting",
+"indication": "lifting_skin_tightening",
+"score": 39
+},
+{
+"class_id": "mesotherapy_skin_cocktail",
+"indication": "skin_quality_hydration",
+"score": 37
+},
+{
+"class_id": "pn_pdrn_injection",
+"indication": "skin_quality_wound_repair",
+"score": 32
+},
+{
+"class_id": "collagen_stimulator_pdlla_plla",
+"indication": "volume_collagen_stimulation",
+"score": 31
+},
+{
+"class_id": "acellular_dermal_matrix_ecm_skinbooster",
+"indication": "skin_quality_dermal_remodeling",
+"score": 31
+}
+]
+},
+"쥬베룩": {
+"group": "lifting",
+"freq": 234,
+"classes": [
+{
+"class_id": "collagen_stimulator_pdlla_plla",
+"indication": "volume_collagen_stimulation",
+"score": 234
+},
+{
+"class_id": "pn_pdrn_injection",
+"indication": "skin_quality_wound_repair",
+"score": 86
+}
+]
+},
+"스킨부스터": {
+"group": "skin_quality",
+"freq": 1083,
+"classes": [
+{
+"class_id": "pn_pdrn_injection",
+"indication": "skin_quality_wound_repair",
+"score": 272
+},
+{
+"class_id": "acellular_dermal_matrix_ecm_skinbooster",
+"indication": "skin_quality_dermal_remodeling",
+"score": 226
+},
+{
+"class_id": "collagen_stimulator_pdlla_plla",
+"indication": "volume_collagen_stimulation",
+"score": 158
+},
+{
+"class_id": "ha_filler_crosslinked",
+"indication": "volume_contour_wrinkle",
+"score": 76
+},
+{
+"class_id": "botulinum_toxin_a",
+"indication": "wrinkle_contour",
+"score": 49
+},
+{
+"class_id": "exosome_topical_or_injection",
+"indication": "skin_quality_postprocedure_recovery",
+"score": 35
+}
+]
+},
+"탄력": {
+"group": "lifting",
+"freq": 1930,
+"classes": [
+{
+"class_id": "monopolar_rf_lifting",
+"indication": "lifting_skin_tightening",
+"score": 421
+},
+{
+"class_id": "hifu_lifting",
+"indication": "lifting_skin_tightening",
+"score": 399
+},
+{
+"class_id": "bipolar_multipolar_rf_contouring",
+"indication": "contour_skin_tightening",
+"score": 149
+},
+{
+"class_id": "pn_pdrn_injection",
+"indication": "skin_quality_wound_repair",
+"score": 111
+}
+]
+},
+"주름": {
+"group": "wrinkle",
+"freq": 1266,
+"classes": [
+{
+"class_id": "hifu_lifting",
+"indication": "lifting_skin_tightening",
+"score": 157
+},
+{
+"class_id": "monopolar_rf_lifting",
+"indication": "lifting_skin_tightening",
+"score": 119
+},
+{
+"class_id": "pn_pdrn_injection",
+"indication": "skin_quality_wound_repair",
+"score": 105
+},
+{
+"class_id": "ha_filler_crosslinked",
+"indication": "volume_contour_wrinkle",
+"score": 52
+},
+{
+"class_id": "botulinum_toxin_a",
+"indication": "wrinkle_contour",
+"score": 47
+},
+{
+"class_id": "collagen_stimulator_pdlla_plla",
+"indication": "volume_collagen_stimulation",
+"score": 30
+}
+]
+},
+"엑소좀": {
+"group": "skin_quality",
+"freq": 72,
+"classes": [
+{
+"class_id": "exosome_topical_or_injection",
+"indication": "skin_quality_postprocedure_recovery",
+"score": 72
+},
+{
+"class_id": "pn_pdrn_injection",
+"indication": "skin_quality_wound_repair",
+"score": 38
+},
+{
+"class_id": "botulinum_toxin_a",
+"indication": "wrinkle_contour",
+"score": 20
+},
+{
+"class_id": "microneedling_rf",
+"indication": "acne_scar_pore_laxity",
+"score": 19
+},
+{
+"class_id": "collagen_stimulator_pdlla_plla",
+"indication": "volume_collagen_stimulation",
+"score": 8
+}
+]
+},
+"보습": {
+"group": "skin_quality",
+"freq": 495,
+"classes": [
+{
+"class_id": "pn_pdrn_injection",
+"indication": "skin_quality_wound_repair",
+"score": 19
+},
+{
+"class_id": "hifu_lifting",
+"indication": "lifting_skin_tightening",
+"score": 12
+},
+{
+"class_id": "acellular_dermal_matrix_ecm_skinbooster",
+"indication": "skin_quality_dermal_remodeling",
+"score": 4
+},
+{
+"class_id": "monopolar_rf_lifting",
+"indication": "lifting_skin_tightening",
+"score": 3
+}
+]
+},
+"토닝": {
+"group": "pigment",
+"freq": 69,
+"classes": [
+{
+"class_id": "laser_toning_qswitched_or_picosecond",
+"indication": "pigment_melasma",
+"score": 69
+},
+{
+"class_id": "hifu_lifting",
+"indication": "lifting_skin_tightening",
+"score": 18
+},
+{
+"class_id": "picosecond_laser_pigment",
+"indication": "pigment_tattoo_skin_rejuvenation",
+"score": 14
+},
+{
+"class_id": "monopolar_rf_lifting",
+"indication": "lifting_skin_tightening",
+"score": 12
+},
+{
+"class_id": "botulinum_toxin_a",
+"indication": "wrinkle_contour",
+"score": 11
+},
+{
+"class_id": "pn_pdrn_injection",
+"indication": "skin_quality_wound_repair",
+"score": 7
+}
+]
+},
+"줄기세포": {
+"group": "skin_quality",
+"freq": 71,
+"classes": [
+{
+"class_id": "stem_cell_svf_injection",
+"indication": "skin_quality_volume_regeneration",
+"score": 71
+}
+]
+},
+"노화": {
+"group": "lifting",
+"freq": 381,
+"classes": [
+{
+"class_id": "hifu_lifting",
+"indication": "lifting_skin_tightening",
+"score": 23
+},
+{
+"class_id": "monopolar_rf_lifting",
+"indication": "lifting_skin_tightening",
+"score": 20
+},
+{
+"class_id": "pn_pdrn_injection",
+"indication": "skin_quality_wound_repair",
+"score": 13
+},
+{
+"class_id": "stem_cell_svf_injection",
+"indication": "skin_quality_volume_regeneration",
+"score": 7
+},
+{
+"class_id": "botulinum_toxin_a",
+"indication": "wrinkle_contour",
+"score": 4
+},
+{
+"class_id": "bipolar_multipolar_rf_contouring",
+"indication": "contour_skin_tightening",
+"score": 3
+}
+]
+},
+"온다": {
+"group": "body_fat",
+"freq": 89,
+"classes": [
+{
+"class_id": "microwave_245ghz_skin_tightening",
+"indication": "skin_tightening_body_contouring",
+"score": 89
+},
+{
+"class_id": "hifu_lifting",
+"indication": "lifting_skin_tightening",
+"score": 33
+},
+{
+"class_id": "monopolar_rf_lifting",
+"indication": "lifting_skin_tightening",
+"score": 30
+},
+{
+"class_id": "pn_pdrn_injection",
+"indication": "skin_quality_wound_repair",
+"score": 16
+}
+]
+},
+"촉촉": {
+"group": "skin_quality",
+"freq": 199,
+"classes": [
+{
+"class_id": "pn_pdrn_injection",
+"indication": "skin_quality_wound_repair",
+"score": 15
+},
+{
+"class_id": "acellular_dermal_matrix_ecm_skinbooster",
+"indication": "skin_quality_dermal_remodeling",
+"score": 4
+},
+{
+"class_id": "monopolar_rf_lifting",
+"indication": "lifting_skin_tightening",
+"score": 3
+}
+]
+},
+"LDM": {
+"group": "skin_quality",
+"freq": 24,
+"classes": [
+{
+"class_id": "ldm_ultrasound_skin_care",
+"indication": "skin_quality_recovery",
+"score": 24
+},
+{
+"class_id": "pn_pdrn_injection",
+"indication": "skin_quality_wound_repair",
+"score": 7
+},
+{
+"class_id": "hifu_lifting",
+"indication": "lifting_skin_tightening",
+"score": 4
+}
+]
+},
+"피부결": {
+"group": "skin_quality",
+"freq": 392,
+"classes": [
+{
+"class_id": "pn_pdrn_injection",
+"indication": "skin_quality_wound_repair",
+"score": 84
+},
+{
+"class_id": "monopolar_rf_lifting",
+"indication": "lifting_skin_tightening",
+"score": 36
+},
+{
+"class_id": "collagen_stimulator_pdlla_plla",
+"indication": "volume_collagen_stimulation",
+"score": 31
+},
+{
+"class_id": "acellular_dermal_matrix_ecm_skinbooster",
+"indication": "skin_quality_dermal_remodeling",
+"score": 27
+},
+{
+"class_id": "hifu_lifting",
+"indication": "lifting_skin_tightening",
+"score": 22
+}
+]
+},
+"리쥬란": {
+"group": "skin_quality",
+"freq": 1118,
+"classes": [
+{
+"class_id": "pn_pdrn_injection",
+"indication": "skin_quality_wound_repair",
+"score": 1118
+}
+]
+},
+"건조": {
+"group": "skin_quality",
+"freq": 675,
+"classes": [
+{
+"class_id": "pn_pdrn_injection",
+"indication": "skin_quality_wound_repair",
+"score": 149
+},
+{
+"class_id": "acellular_dermal_matrix_ecm_skinbooster",
+"indication": "skin_quality_dermal_remodeling",
+"score": 29
+},
+{
+"class_id": "collagen_stimulator_pdlla_plla",
+"indication": "volume_collagen_stimulation",
+"score": 17
+}
+]
+},
+"모공": {
+"group": "skin_quality",
+"freq": 562,
+"classes": [
+{
+"class_id": "pn_pdrn_injection",
+"indication": "skin_quality_wound_repair",
+"score": 71
+},
+{
+"class_id": "collagen_stimulator_pdlla_plla",
+"indication": "volume_collagen_stimulation",
+"score": 39
+},
+{
+"class_id": "monopolar_rf_lifting",
+"indication": "lifting_skin_tightening",
+"score": 34
+},
+{
+"class_id": "acellular_dermal_matrix_ecm_skinbooster",
+"indication": "skin_quality_dermal_remodeling",
+"score": 29
+},
+{
+"class_id": "microneedling_rf",
+"indication": "acne_scar_pore_laxity",
+"score": 15
+},
+{
+"class_id": "botulinum_toxin_a",
+"indication": "wrinkle_contour",
+"score": 15
+}
+]
+},
+"리프팅": {
+"group": "lifting",
+"freq": 1644,
+"classes": [
+{
+"class_id": "hifu_lifting",
+"indication": "lifting_skin_tightening",
+"score": 990
+},
+{
+"class_id": "monopolar_rf_lifting",
+"indication": "lifting_skin_tightening",
+"score": 500
+},
+{
+"class_id": "bipolar_multipolar_rf_contouring",
+"indication": "contour_skin_tightening",
+"score": 214
+},
+{
+"class_id": "botulinum_toxin_a",
+"indication": "wrinkle_contour",
+"score": 115
+}
+]
+},
+"잔주름": {
+"group": "wrinkle",
+"freq": 259,
+"classes": [
+{
+"class_id": "pn_pdrn_injection",
+"indication": "skin_quality_wound_repair",
+"score": 59
+},
+{
+"class_id": "monopolar_rf_lifting",
+"indication": "lifting_skin_tightening",
+"score": 42
+},
+{
+"class_id": "hifu_lifting",
+"indication": "lifting_skin_tightening",
+"score": 23
+},
+{
+"class_id": "acellular_dermal_matrix_ecm_skinbooster",
+"indication": "skin_quality_dermal_remodeling",
+"score": 21
+},
+{
+"class_id": "collagen_stimulator_pdlla_plla",
+"indication": "volume_collagen_stimulation",
+"score": 16
+},
+{
+"class_id": "botulinum_toxin_a",
+"indication": "wrinkle_contour",
+"score": 8
+}
+]
+},
+"재생": {
+"group": "healing",
+"freq": 407,
+"classes": [
+{
+"class_id": "pn_pdrn_injection",
+"indication": "skin_quality_wound_repair",
+"score": 117
+},
+{
+"class_id": "hifu_lifting",
+"indication": "lifting_skin_tightening",
+"score": 37
+},
+{
+"class_id": "monopolar_rf_lifting",
+"indication": "lifting_skin_tightening",
+"score": 35
+},
+{
+"class_id": "acellular_dermal_matrix_ecm_skinbooster",
+"indication": "skin_quality_dermal_remodeling",
+"score": 24
+},
+{
+"class_id": "collagen_stimulator_pdlla_plla",
+"indication": "volume_collagen_stimulation",
+"score": 21
+},
+{
+"class_id": "exosome_topical_or_injection",
+"indication": "skin_quality_postprocedure_recovery",
+"score": 13
+}
+]
+},
+"보톡스": {
+"group": "wrinkle",
+"freq": 246,
+"classes": [
+{
+"class_id": "botulinum_toxin_a",
+"indication": "wrinkle_contour",
+"score": 246
+},
+{
+"class_id": "hifu_lifting",
+"indication": "lifting_skin_tightening",
+"score": 76
+},
+{
+"class_id": "pn_pdrn_injection",
+"indication": "skin_quality_wound_repair",
+"score": 61
+},
+{
+"class_id": "ha_filler_crosslinked",
+"indication": "volume_contour_wrinkle",
+"score": 50
+},
+{
+"class_id": "monopolar_rf_lifting",
+"indication": "lifting_skin_tightening",
+"score": 30
+}
+]
+},
+"윤기": {
+"group": "skin_quality",
+"freq": 48,
+"classes": [
+{
+"class_id": "pn_pdrn_injection",
+"indication": "skin_quality_wound_repair",
+"score": 3
+}
+]
+},
+"피부재생": {
+"group": "healing",
+"freq": 60,
+"classes": [
+{
+"class_id": "pn_pdrn_injection",
+"indication": "skin_quality_wound_repair",
+"score": 25
+},
+{
+"class_id": "hifu_lifting",
+"indication": "lifting_skin_tightening",
+"score": 8
+},
+{
+"class_id": "acellular_dermal_matrix_ecm_skinbooster",
+"indication": "skin_quality_dermal_remodeling",
+"score": 4
+},
+{
+"class_id": "ha_filler_crosslinked",
+"indication": "volume_contour_wrinkle",
+"score": 3
+}
+]
+},
+"동안": {
+"group": "lifting",
+"freq": 1350,
+"classes": [
+{
+"class_id": "monopolar_rf_lifting",
+"indication": "lifting_skin_tightening",
+"score": 171
+},
+{
+"class_id": "hifu_lifting",
+"indication": "lifting_skin_tightening",
+"score": 167
+},
+{
+"class_id": "bipolar_multipolar_rf_contouring",
+"indication": "contour_skin_tightening",
+"score": 131
+},
+{
+"class_id": "botulinum_toxin_a",
+"indication": "wrinkle_contour",
+"score": 21
+}
+]
+},
+"미백": {
+"group": "pigment",
+"freq": 192,
+"classes": [
+{
+"class_id": "pn_pdrn_injection",
+"indication": "skin_quality_wound_repair",
+"score": 5
+},
+{
+"class_id": "ha_filler_crosslinked",
+"indication": "volume_contour_wrinkle",
+"score": 4
+},
+{
+"class_id": "botulinum_toxin_a",
+"indication": "wrinkle_contour",
+"score": 3
+},
+{
+"class_id": "exosome_topical_or_injection",
+"indication": "skin_quality_postprocedure_recovery",
+"score": 3
+},
+{
+"class_id": "laser_toning_qswitched_or_picosecond",
+"indication": "pigment_melasma",
+"score": 3
+}
+]
+},
+"포텐자": {
+"group": "skin_quality",
+"freq": 31,
+"classes": [
+{
+"class_id": "microneedling_rf",
+"indication": "acne_scar_pore_laxity",
+"score": 31
+},
+{
+"class_id": "collagen_stimulator_pdlla_plla",
+"indication": "volume_collagen_stimulation",
+"score": 12
+},
+{
+"class_id": "pn_pdrn_injection",
+"indication": "skin_quality_wound_repair",
+"score": 8
+}
+]
+},
+"스컬트라": {
+"group": "lifting",
+"freq": 22,
+"classes": [
+{
+"class_id": "plla_filler_sculptra",
+"indication": "volume_collagen_stimulation",
+"score": 22
+},
+{
+"class_id": "ha_filler_crosslinked",
+"indication": "volume_contour_wrinkle",
+"score": 7
+},
+{
+"class_id": "hifu_lifting",
+"indication": "lifting_skin_tightening",
+"score": 5
+},
+{
+"class_id": "monopolar_rf_lifting",
+"indication": "lifting_skin_tightening",
+"score": 4
+},
+{
+"class_id": "collagen_stimulator_pdlla_plla",
+"indication": "volume_collagen_stimulation",
+"score": 4
+},
+{
+"class_id": "pn_pdrn_injection",
+"indication": "skin_quality_wound_repair",
+"score": 3
+}
+]
+},
+"볼륨": {
+"group": "volume",
+"freq": 131,
+"classes": [
+{
+"class_id": "collagen_stimulator_pdlla_plla",
+"indication": "volume_collagen_stimulation",
+"score": 27
+},
+{
+"class_id": "ha_filler_crosslinked",
+"indication": "volume_contour_wrinkle",
+"score": 24
+},
+{
+"class_id": "pn_pdrn_injection",
+"indication": "skin_quality_wound_repair",
+"score": 19
+},
+{
+"class_id": "hifu_lifting",
+"indication": "lifting_skin_tightening",
+"score": 14
+},
+{
+"class_id": "monopolar_rf_lifting",
+"indication": "lifting_skin_tightening",
+"score": 11
+},
+{
+"class_id": "botulinum_toxin_a",
+"indication": "wrinkle_contour",
+"score": 11
+}
+]
+},
+"올리지오": {
+"group": "lifting",
+"freq": 66,
+"classes": [
+{
+"class_id": "monopolar_rf_lifting",
+"indication": "lifting_skin_tightening",
+"score": 66
+},
+{
+"class_id": "hifu_lifting",
+"indication": "lifting_skin_tightening",
+"score": 25
+},
+{
+"class_id": "pn_pdrn_injection",
+"indication": "skin_quality_wound_repair",
+"score": 10
+}
+]
+},
+"필러": {
+"group": "volume",
+"freq": 155,
+"classes": [
+{
+"class_id": "ha_filler_crosslinked",
+"indication": "volume_contour_wrinkle",
+"score": 155
+},
+{
+"class_id": "botulinum_toxin_a",
+"indication": "wrinkle_contour",
+"score": 48
+},
+{
+"class_id": "hifu_lifting",
+"indication": "lifting_skin_tightening",
+"score": 33
+},
+{
+"class_id": "pn_pdrn_injection",
+"indication": "skin_quality_wound_repair",
+"score": 27
+},
+{
+"class_id": "monopolar_rf_lifting",
+"indication": "lifting_skin_tightening",
+"score": 18
+}
+]
+},
+"윤곽": {
+"group": "lifting",
+"freq": 128,
+"classes": [
+{
+"class_id": "hifu_lifting",
+"indication": "lifting_skin_tightening",
+"score": 64
+},
+{
+"class_id": "botulinum_toxin_a",
+"indication": "wrinkle_contour",
+"score": 15
+},
+{
+"class_id": "bipolar_multipolar_rf_contouring",
+"indication": "contour_skin_tightening",
+"score": 15
+},
+{
+"class_id": "monopolar_rf_lifting",
+"indication": "lifting_skin_tightening",
+"score": 13
+}
+]
+},
+"윤곽주사": {
+"group": "body_fat",
+"freq": 40,
+"classes": [
+{
+"class_id": "hifu_lifting",
+"indication": "lifting_skin_tightening",
+"score": 36
+},
+{
+"class_id": "botulinum_toxin_a",
+"indication": "wrinkle_contour",
+"score": 10
+},
+{
+"class_id": "bipolar_multipolar_rf_contouring",
+"indication": "contour_skin_tightening",
+"score": 9
+},
+{
+"class_id": "injectable_lipolysis_deoxycholate_or_mesotherapy",
+"indication": "localized_fat_jawline",
+"score": 5
+},
+{
+"class_id": "monopolar_rf_lifting",
+"indication": "lifting_skin_tightening",
+"score": 4
+}
+]
+},
+"각질": {
+"group": "skin_quality",
+"freq": 211,
+"classes": [
+{
+"class_id": "pn_pdrn_injection",
+"indication": "skin_quality_wound_repair",
+"score": 4
+},
+{
+"class_id": "hifu_lifting",
+"indication": "lifting_skin_tightening",
+"score": 4
+},
+{
+"class_id": "collagen_stimulator_pdlla_plla",
+"indication": "volume_collagen_stimulation",
+"score": 4
+}
+]
+},
+"PDRN": {
+"group": "skin_quality",
+"freq": 63,
+"classes": [
+{
+"class_id": "pn_pdrn_injection",
+"indication": "skin_quality_wound_repair",
+"score": 15
+},
+{
+"class_id": "exosome_topical_or_injection",
+"indication": "skin_quality_postprocedure_recovery",
+"score": 3
+}
+]
+},
+"눈가주름": {
+"group": "wrinkle",
+"freq": 51,
+"classes": [
+{
+"class_id": "monopolar_rf_lifting",
+"indication": "lifting_skin_tightening",
+"score": 19
+},
+{
+"class_id": "hifu_lifting",
+"indication": "lifting_skin_tightening",
+"score": 18
+},
+{
+"class_id": "botulinum_toxin_a",
+"indication": "wrinkle_contour",
+"score": 8
+},
+{
+"class_id": "pn_pdrn_injection",
+"indication": "skin_quality_wound_repair",
+"score": 6
+}
+]
+},
+"홍조": {
+"group": "vascular",
+"freq": 61,
+"classes": [
+{
+"class_id": "pn_pdrn_injection",
+"indication": "skin_quality_wound_repair",
+"score": 12
+},
+{
+"class_id": "vascular_pigment_laser_532_1064",
+"indication": "vascular_redness_pigment",
+"score": 5
+}
+]
+},
+"눈밑주름": {
+"group": "wrinkle",
+"freq": 23,
+"classes": [
+{
+"class_id": "monopolar_rf_lifting",
+"indication": "lifting_skin_tightening",
+"score": 5
+},
+{
+"class_id": "pn_pdrn_injection",
+"indication": "skin_quality_wound_repair",
+"score": 4
+},
+{
+"class_id": "ha_filler_crosslinked",
+"indication": "volume_contour_wrinkle",
+"score": 4
+}
+]
+},
+"울쎄라": {
+"group": "lifting",
+"freq": 1354,
+"classes": [
+{
+"class_id": "hifu_lifting",
+"indication": "lifting_skin_tightening",
+"score": 1354
+},
+{
+"class_id": "monopolar_rf_lifting",
+"indication": "lifting_skin_tightening",
+"score": 395
+},
+{
+"class_id": "bipolar_multipolar_rf_contouring",
+"indication": "contour_skin_tightening",
+"score": 168
+}
+]
+},
+"고주파": {
+"group": "lifting",
+"freq": 151,
+"classes": [
+{
+"class_id": "monopolar_rf_lifting",
+"indication": "lifting_skin_tightening",
+"score": 97
+},
+{
+"class_id": "vaginal_laxity_rf",
+"indication": "vaginal_laxity",
+"score": 36
+},
+{
+"class_id": "hifu_lifting",
+"indication": "lifting_skin_tightening",
+"score": 20
+}
+]
+},
+"인모드": {
+"group": "lifting",
+"freq": 266,
+"classes": [
+{
+"class_id": "bipolar_multipolar_rf_contouring",
+"indication": "contour_skin_tightening",
+"score": 266
+},
+{
+"class_id": "hifu_lifting",
+"indication": "lifting_skin_tightening",
+"score": 252
+},
+{
+"class_id": "monopolar_rf_lifting",
+"indication": "lifting_skin_tightening",
+"score": 162
+}
+]
+},
+"팔자주름": {
+"group": "wrinkle",
+"freq": 203,
+"classes": [
+{
+"class_id": "hifu_lifting",
+"indication": "lifting_skin_tightening",
+"score": 78
+},
+{
+"class_id": "monopolar_rf_lifting",
+"indication": "lifting_skin_tightening",
+"score": 31
+},
+{
+"class_id": "ha_filler_crosslinked",
+"indication": "volume_contour_wrinkle",
+"score": 20
+},
+{
+"class_id": "collagen_stimulator_pdlla_plla",
+"indication": "volume_collagen_stimulation",
+"score": 11
+},
+{
+"class_id": "botulinum_toxin_a",
+"indication": "wrinkle_contour",
+"score": 11
+},
+{
+"class_id": "bipolar_multipolar_rf_contouring",
+"indication": "contour_skin_tightening",
+"score": 9
+}
+]
+},
+"써마지": {
+"group": "lifting",
+"freq": 1167,
+"classes": [
+{
+"class_id": "monopolar_rf_lifting",
+"indication": "lifting_skin_tightening",
+"score": 1167
+},
+{
+"class_id": "hifu_lifting",
+"indication": "lifting_skin_tightening",
+"score": 389
+},
+{
+"class_id": "bipolar_multipolar_rf_contouring",
+"indication": "contour_skin_tightening",
+"score": 159
+}
+]
+},
+"LED": {
+"group": "skin_quality",
+"freq": 21,
+"classes": [
+{
+"class_id": "led_phototherapy",
+"indication": "skin_quality_acne_inflammation",
+"score": 5
+}
+]
+},
+"지방": {
+"group": "body_fat",
+"freq": 220,
+"classes": [
+{
+"class_id": "hifu_lifting",
+"indication": "lifting_skin_tightening",
+"score": 164
+},
+{
+"class_id": "monopolar_rf_lifting",
+"indication": "lifting_skin_tightening",
+"score": 140
+},
+{
+"class_id": "bipolar_multipolar_rf_contouring",
+"indication": "contour_skin_tightening",
+"score": 127
+}
+]
+},
+"실리프팅": {
+"group": "lifting",
+"freq": 60,
+"classes": [
+{
+"class_id": "hifu_lifting",
+"indication": "lifting_skin_tightening",
+"score": 22
+},
+{
+"class_id": "monopolar_rf_lifting",
+"indication": "lifting_skin_tightening",
+"score": 18
+},
+{
+"class_id": "botulinum_toxin_a",
+"indication": "wrinkle_contour",
+"score": 7
+},
+{
+"class_id": "ha_filler_crosslinked",
+"indication": "volume_contour_wrinkle",
+"score": 7
+},
+{
+"class_id": "bipolar_multipolar_rf_contouring",
+"indication": "contour_skin_tightening",
+"score": 7
+},
+{
+"class_id": "pn_pdrn_injection",
+"indication": "skin_quality_wound_repair",
+"score": 6
+}
+]
+},
+"광채": {
+"group": "skin_quality",
+"freq": 86,
+"classes": [
+{
+"class_id": "pn_pdrn_injection",
+"indication": "skin_quality_wound_repair",
+"score": 5
+},
+{
+"class_id": "acellular_dermal_matrix_ecm_skinbooster",
+"indication": "skin_quality_dermal_remodeling",
+"score": 5
+}
+]
+},
+"고압산소": {
+"group": "healing",
+"freq": 2,
+"classes": [
+{
+"class_id": "hyperbaric_oxygen",
+"indication": "wellness_oxygen_therapy",
+"score": 5
+}
+]
+},
+"여드름자국": {
+"group": "pigment",
+"freq": 3,
+"classes": [
+{
+"class_id": "picosecond_laser_pigment",
+"indication": "pigment_tattoo_skin_rejuvenation",
+"score": 5
+}
+]
+},
+"여드름": {
+"group": "acne_scar",
+"freq": 510,
+"classes": [
+{
+"class_id": "pn_pdrn_injection",
+"indication": "skin_quality_wound_repair",
+"score": 18
+},
+{
+"class_id": "microneedling_rf",
+"indication": "acne_scar_pore_laxity",
+"score": 8
+},
+{
+"class_id": "exosome_topical_or_injection",
+"indication": "skin_quality_postprocedure_recovery",
+"score": 6
+},
+{
+"class_id": "laser_toning_qswitched_or_picosecond",
+"indication": "pigment_melasma",
+"score": 5
+},
+{
+"class_id": "collagen_stimulator_pdlla_plla",
+"indication": "volume_collagen_stimulation",
+"score": 5
+},
+{
+"class_id": "hifu_lifting",
+"indication": "lifting_skin_tightening",
+"score": 4
+}
+]
+},
+"슈링크": {
+"group": "lifting",
+"freq": 1010,
+"classes": [
+{
+"class_id": "hifu_lifting",
+"indication": "lifting_skin_tightening",
+"score": 1010
+},
+{
+"class_id": "bipolar_multipolar_rf_contouring",
+"indication": "contour_skin_tightening",
+"score": 231
+},
+{
+"class_id": "monopolar_rf_lifting",
+"indication": "lifting_skin_tightening",
+"score": 198
+}
+]
+},
+"이중턱": {
+"group": "lifting",
+"freq": 277,
+"classes": [
+{
+"class_id": "hifu_lifting",
+"indication": "lifting_skin_tightening",
+"score": 254
+},
+{
+"class_id": "monopolar_rf_lifting",
+"indication": "lifting_skin_tightening",
+"score": 149
+},
+{
+"class_id": "bipolar_multipolar_rf_contouring",
+"indication": "contour_skin_tightening",
+"score": 143
+}
+]
+},
+"턱선": {
+"group": "lifting",
+"freq": 180,
+"classes": [
+{
+"class_id": "hifu_lifting",
+"indication": "lifting_skin_tightening",
+"score": 139
+},
+{
+"class_id": "monopolar_rf_lifting",
+"indication": "lifting_skin_tightening",
+"score": 35
+}
+]
+},
+"허벅지": {
+"group": "body_fat",
+"freq": 5,
+"classes": [
+{
+"class_id": "hifu_lifting",
+"indication": "lifting_skin_tightening",
+"score": 3
+}
+]
+},
+"브이라인": {
+"group": "lifting",
+"freq": 12,
+"classes": [
+{
+"class_id": "hifu_lifting",
+"indication": "lifting_skin_tightening",
+"score": 10
+},
+{
+"class_id": "monopolar_rf_lifting",
+"indication": "lifting_skin_tightening",
+"score": 3
+}
+]
+},
+"잡티": {
+"group": "pigment",
+"freq": 141,
+"classes": [
+{
+"class_id": "laser_toning_qswitched_or_picosecond",
+"indication": "pigment_melasma",
+"score": 8
+},
+{
+"class_id": "hifu_lifting",
+"indication": "lifting_skin_tightening",
+"score": 5
+},
+{
+"class_id": "picosecond_laser_pigment",
+"indication": "pigment_tattoo_skin_rejuvenation",
+"score": 4
+},
+{
+"class_id": "botulinum_toxin_a",
+"indication": "wrinkle_contour",
+"score": 3
+},
+{
+"class_id": "pn_pdrn_injection",
+"indication": "skin_quality_wound_repair",
+"score": 3
+}
+]
+},
+"이마주름": {
+"group": "wrinkle",
+"freq": 11,
+"classes": [
+{
+"class_id": "botulinum_toxin_a",
+"indication": "wrinkle_contour",
+"score": 5
+}
+]
+},
+"목주름": {
+"group": "wrinkle",
+"freq": 54,
+"classes": [
+{
+"class_id": "hifu_lifting",
+"indication": "lifting_skin_tightening",
+"score": 9
+},
+{
+"class_id": "ha_filler_crosslinked",
+"indication": "volume_contour_wrinkle",
+"score": 8
+},
+{
+"class_id": "botulinum_toxin_a",
+"indication": "wrinkle_contour",
+"score": 5
+},
+{
+"class_id": "pn_pdrn_injection",
+"indication": "skin_quality_wound_repair",
+"score": 4
+},
+{
+"class_id": "collagen_stimulator_pdlla_plla",
+"indication": "volume_collagen_stimulation",
+"score": 3
+}
+]
+},
+"초음파": {
+"group": "lifting",
+"freq": 85,
+"classes": [
+{
+"class_id": "hifu_lifting",
+"indication": "lifting_skin_tightening",
+"score": 68
+},
+{
+"class_id": "monopolar_rf_lifting",
+"indication": "lifting_skin_tightening",
+"score": 12
+}
+]
+},
+"제모": {
+"group": "hair_removal",
+"freq": 33,
+"classes": [
+{
+"class_id": "laser_hair_removal_alexandrite_ndyag",
+"indication": "hair_removal",
+"score": 33
+},
+{
+"class_id": "hifu_lifting",
+"indication": "lifting_skin_tightening",
+"score": 4
+}
+]
+},
+"기미": {
+"group": "pigment",
+"freq": 229,
+"classes": [
+{
+"class_id": "laser_toning_qswitched_or_picosecond",
+"indication": "pigment_melasma",
+"score": 13
+},
+{
+"class_id": "hifu_lifting",
+"indication": "lifting_skin_tightening",
+"score": 9
+},
+{
+"class_id": "bipolar_multipolar_rf_contouring",
+"indication": "contour_skin_tightening",
+"score": 5
+},
+{
+"class_id": "botulinum_toxin_a",
+"indication": "wrinkle_contour",
+"score": 4
+},
+{
+"class_id": "exosome_topical_or_injection",
+"indication": "skin_quality_postprocedure_recovery",
+"score": 3
+},
+{
+"class_id": "ipl_bbl_photorejuvenation",
+"indication": "pigment_redness_photoaging",
+"score": 3
+}
+]
+},
+"처짐": {
+"group": "lifting",
+"freq": 345,
+"classes": [
+{
+"class_id": "hifu_lifting",
+"indication": "lifting_skin_tightening",
+"score": 271
+},
+{
+"class_id": "monopolar_rf_lifting",
+"indication": "lifting_skin_tightening",
+"score": 176
+},
+{
+"class_id": "bipolar_multipolar_rf_contouring",
+"indication": "contour_skin_tightening",
+"score": 157
+}
+]
+},
+"다이어트": {
+"group": "body_fat",
+"freq": 88,
+"classes": [
+{
+"class_id": "hifu_lifting",
+"indication": "lifting_skin_tightening",
+"score": 15
+},
+{
+"class_id": "monopolar_rf_lifting",
+"indication": "lifting_skin_tightening",
+"score": 4
+}
+]
+},
+"v라인": {
+"group": "lifting",
+"freq": 19,
+"classes": [
+{
+"class_id": "hifu_lifting",
+"indication": "lifting_skin_tightening",
+"score": 11
+},
+{
+"class_id": "monopolar_rf_lifting",
+"indication": "lifting_skin_tightening",
+"score": 3
+}
+]
+},
+"하이푸": {
+"group": "lifting",
+"freq": 12,
+"classes": [
+{
+"class_id": "hifu_lifting",
+"indication": "lifting_skin_tightening",
+"score": 5
+},
+{
+"class_id": "monopolar_rf_lifting",
+"indication": "lifting_skin_tightening",
+"score": 4
+}
+]
+},
+"색소": {
+"group": "pigment",
+"freq": 139,
+"classes": [
+{
+"class_id": "laser_toning_qswitched_or_picosecond",
+"indication": "pigment_melasma",
+"score": 8
+},
+{
+"class_id": "pn_pdrn_injection",
+"indication": "skin_quality_wound_repair",
+"score": 6
+},
+{
+"class_id": "picosecond_laser_pigment",
+"indication": "pigment_tattoo_skin_rejuvenation",
+"score": 3
+},
+{
+"class_id": "botulinum_toxin_a",
+"indication": "wrinkle_contour",
+"score": 3
+}
+]
+},
+"색소침착": {
+"group": "pigment",
+"freq": 68,
+"classes": [
+{
+"class_id": "laser_toning_qswitched_or_picosecond",
+"indication": "pigment_melasma",
+"score": 3
+}
+]
+},
+"피코": {
+"group": "pigment",
+"freq": 28,
+"classes": [
+{
+"class_id": "laser_toning_qswitched_or_picosecond",
+"indication": "pigment_melasma",
+"score": 17
+},
+{
+"class_id": "picosecond_laser_pigment",
+"indication": "pigment_tattoo_skin_rejuvenation",
+"score": 14
+},
+{
+"class_id": "fractional_laser_resurfacing",
+"indication": "acne_scar_texture_resurfacing",
+"score": 5
+},
+{
+"class_id": "pn_pdrn_injection",
+"indication": "skin_quality_wound_repair",
+"score": 5
+},
+{
+"class_id": "monopolar_rf_lifting",
+"indication": "lifting_skin_tightening",
+"score": 5
+},
+{
+"class_id": "hifu_lifting",
+"indication": "lifting_skin_tightening",
+"score": 4
+}
+]
+},
+"프락셀": {
+"group": "acne_scar",
+"freq": 23,
+"classes": [
+{
+"class_id": "fractional_laser_resurfacing",
+"indication": "acne_scar_texture_resurfacing",
+"score": 23
+},
+{
+"class_id": "pn_pdrn_injection",
+"indication": "skin_quality_wound_repair",
+"score": 7
+},
+{
+"class_id": "collagen_stimulator_pdlla_plla",
+"indication": "volume_collagen_stimulation",
+"score": 6
+},
+{
+"class_id": "hifu_lifting",
+"indication": "lifting_skin_tightening",
+"score": 5
+},
+{
+"class_id": "monopolar_rf_lifting",
+"indication": "lifting_skin_tightening",
+"score": 4
+}
+]
+},
+"지방분해": {
+"group": "body_fat",
+"freq": 7,
+"classes": [
+{
+"class_id": "hifu_lifting",
+"indication": "lifting_skin_tightening",
+"score": 4
+}
+]
+},
+"IPL": {
+"group": "pigment",
+"freq": 6,
+"classes": [
+{
+"class_id": "ipl_bbl_photorejuvenation",
+"indication": "pigment_redness_photoaging",
+"score": 6
+},
+{
+"class_id": "laser_toning_qswitched_or_picosecond",
+"indication": "pigment_melasma",
+"score": 3
+}
+]
+},
+"체형": {
+"group": "body_fat",
+"freq": 21,
+"classes": [
+{
+"class_id": "hifu_lifting",
+"indication": "lifting_skin_tightening",
+"score": 3
+}
+]
+},
+"리니어펌": {
+"group": "lifting",
+"freq": 3,
+"classes": [
+{
+"class_id": "linear_hifu_lifting",
+"indication": "lifting_volume_fat_reduction",
+"score": 5
+},
+{
+"class_id": "hifu_lifting",
+"indication": "lifting_skin_tightening",
+"score": 3
+}
+]
+},
+"민감": {
+"group": "inflammatory",
+"freq": 197,
+"classes": [
+{
+"class_id": "pn_pdrn_injection",
+"indication": "skin_quality_wound_repair",
+"score": 7
+},
+{
+"class_id": "acellular_dermal_matrix_ecm_skinbooster",
+"indication": "skin_quality_dermal_remodeling",
+"score": 6
+},
+{
+"class_id": "monopolar_rf_lifting",
+"indication": "lifting_skin_tightening",
+"score": 5
+},
+{
+"class_id": "exosome_topical_or_injection",
+"indication": "skin_quality_postprocedure_recovery",
+"score": 3
+}
+]
+},
+"엠페이스": {
+"group": "lifting",
+"freq": 1,
+"classes": [
+{
+"class_id": "emface_hifes_rf",
+"indication": "lifting_facial_muscle_tone",
+"score": 5
+}
+]
+},
+"트러블": {
+"group": "acne_scar",
+"freq": 202,
+"classes": [
+{
+"class_id": "pn_pdrn_injection",
+"indication": "skin_quality_wound_repair",
+"score": 10
+},
+{
+"class_id": "microwave_245ghz_skin_tightening",
+"indication": "skin_tightening_body_contouring",
+"score": 3
+}
+]
+},
+"볼처짐": {
+"group": "lifting",
+"freq": 17,
+"classes": [
+{
+"class_id": "hifu_lifting",
+"indication": "lifting_skin_tightening",
+"score": 14
+},
+{
+"class_id": "monopolar_rf_lifting",
+"indication": "lifting_skin_tightening",
+"score": 5
+},
+{
+"class_id": "botulinum_toxin_a",
+"indication": "wrinkle_contour",
+"score": 4
+}
+]
+},
+"콜라겐주사": {
+"group": "lifting",
+"freq": 64,
+"classes": [
+{
+"class_id": "ha_filler_crosslinked",
+"indication": "volume_contour_wrinkle",
+"score": 12
+},
+{
+"class_id": "plla_filler_sculptra",
+"indication": "volume_collagen_stimulation",
+"score": 8
+},
+{
+"class_id": "collagen_stimulator_pdlla_plla",
+"indication": "volume_collagen_stimulation",
+"score": 5
+},
+{
+"class_id": "ha_skin_booster",
+"indication": "skin_quality_hydration",
+"score": 4
+}
+]
+},
+"다크써클": {
+"group": "vascular",
+"freq": 8,
+"classes": [
+{
+"class_id": "acellular_dermal_matrix_ecm_skinbooster",
+"indication": "skin_quality_dermal_remodeling",
+"score": 3
+}
+]
+},
+"흉터": {
+"group": "acne_scar",
+"freq": 132,
+"classes": [
+{
+"class_id": "pn_pdrn_injection",
+"indication": "skin_quality_wound_repair",
+"score": 18
+},
+{
+"class_id": "collagen_stimulator_pdlla_plla",
+"indication": "volume_collagen_stimulation",
+"score": 9
+},
+{
+"class_id": "fractional_laser_resurfacing",
+"indication": "acne_scar_texture_resurfacing",
+"score": 7
+},
+{
+"class_id": "microneedling_rf",
+"indication": "acne_scar_pore_laxity",
+"score": 6
+},
+{
+"class_id": "exosome_topical_or_injection",
+"indication": "skin_quality_postprocedure_recovery",
+"score": 6
+},
+{
+"class_id": "stem_cell_svf_injection",
+"indication": "skin_quality_volume_regeneration",
+"score": 4
+}
+]
+},
+"여드름흉터": {
+"group": "acne_scar",
+"freq": 29,
+"classes": [
+{
+"class_id": "fractional_laser_resurfacing",
+"indication": "acne_scar_texture_resurfacing",
+"score": 5
+}
+]
+},
+"피코토닝": {
+"group": "pigment",
+"freq": 14,
+"classes": [
+{
+"class_id": "picosecond_laser_pigment",
+"indication": "pigment_tattoo_skin_rejuvenation",
+"score": 14
+},
+{
+"class_id": "laser_toning_qswitched_or_picosecond",
+"indication": "pigment_melasma",
+"score": 14
+},
+{
+"class_id": "hifu_lifting",
+"indication": "lifting_skin_tightening",
+"score": 3
+}
+]
+},
+"필링": {
+"group": "skin_quality",
+"freq": 23,
+"classes": [
+{
+"class_id": "chemical_peel",
+"indication": "pigment_acne_texture",
+"score": 5
+}
+]
+},
+"피지": {
+"group": "acne_scar",
+"freq": 132,
+"classes": [
+{
+"class_id": "pn_pdrn_injection",
+"indication": "skin_quality_wound_repair",
+"score": 3
+}
+]
+},
+"BBL": {
+"group": "pigment",
+"freq": 3,
+"classes": [
+{
+"class_id": "ipl_bbl_photorejuvenation",
+"indication": "pigment_redness_photoaging",
+"score": 5
+}
+]
+},
+"미간주름": {
+"group": "wrinkle",
+"freq": 9,
+"classes": [
+{
+"class_id": "botulinum_toxin_a",
+"indication": "wrinkle_contour",
+"score": 5
+}
+]
+},
+"리니어지": {
+"group": "lifting",
+"freq": 3,
+"classes": [
+{
+"class_id": "linear_hifu_lifting",
+"indication": "lifting_volume_fat_reduction",
+"score": 5
+}
+]
+},
+"검버섯": {
+"group": "pigment",
+"freq": 23,
+"classes": [
+{
+"class_id": "ipl_bbl_photorejuvenation",
+"indication": "pigment_redness_photoaging",
+"score": 5
+}
+]
+},
+"이쁜이수술": {
+"group": "intimate",
+"freq": 38,
+"classes": [
+{
+"class_id": "vaginal_laxity_rf",
+"indication": "vaginal_laxity",
+"score": 28
+},
+{
+"class_id": "monopolar_rf_lifting",
+"indication": "lifting_skin_tightening",
+"score": 25
+},
+{
+"class_id": "microneedling_rf",
+"indication": "acne_scar_pore_laxity",
+"score": 4
+},
+{
+"class_id": "botulinum_toxin_a",
+"indication": "wrinkle_contour",
+"score": 4
+},
+{
+"class_id": "exosome_topical_or_injection",
+"indication": "skin_quality_postprocedure_recovery",
+"score": 4
+},
+{
+"class_id": "pn_pdrn_injection",
+"indication": "skin_quality_wound_repair",
+"score": 4
+}
+]
+},
+"복부지방": {
+"group": "body_fat",
+"freq": 1,
+"classes": [
+{
+"class_id": "cryolipolysis_body_contouring",
+"indication": "localized_fat_body_contouring",
+"score": 5
+}
+]
+},
+"턱처짐": {
+"group": "lifting",
+"freq": 126,
+"classes": [
+{
+"class_id": "bipolar_multipolar_rf_contouring",
+"indication": "contour_skin_tightening",
+"score": 126
+},
+{
+"class_id": "monopolar_rf_lifting",
+"indication": "lifting_skin_tightening",
+"score": 126
+},
+{
+"class_id": "hifu_lifting",
+"indication": "lifting_skin_tightening",
+"score": 126
+}
+]
+},
+"입가주름": {
+"group": "wrinkle",
+"freq": 8,
+"classes": [
+{
+"class_id": "hifu_lifting",
+"indication": "lifting_skin_tightening",
+"score": 6
+},
+{
+"class_id": "monopolar_rf_lifting",
+"indication": "lifting_skin_tightening",
+"score": 6
+},
+{
+"class_id": "bipolar_multipolar_rf_contouring",
+"indication": "contour_skin_tightening",
+"score": 4
+}
+]
+},
+"더모톡신": {
+"group": "lifting",
+"freq": 2,
+"classes": [
+{
+"class_id": "microdosed_botulinum_for_skin",
+"indication": "skin_texture_pore_neck",
+"score": 5
+}
+]
+},
+"수염제모": {
+"group": "hair_removal",
+"freq": 1,
+"classes": [
+{
+"class_id": "laser_hair_removal_alexandrite_ndyag",
+"indication": "hair_removal",
+"score": 5
+}
+]
+},
+"오타모반": {
+"group": "pigment",
+"freq": 2,
+"classes": [
+{
+"class_id": "laser_toning_qswitched_or_picosecond",
+"indication": "pigment_melasma",
+"score": 5
+}
+]
+},
+"문신제거": {
+"group": "tattoo",
+"freq": 2,
+"classes": [
+{
+"class_id": "picosecond_laser_pigment",
+"indication": "pigment_tattoo_skin_rejuvenation",
+"score": 5
+}
+]
+},
+"점제거": {
+"group": "pigment",
+"freq": 2,
+"classes": [
+{
+"class_id": "picosecond_laser_pigment",
+"indication": "pigment_tattoo_skin_rejuvenation",
+"score": 5
+}
+]
+},
+"쿨스컬프팅": {
+"group": "body_fat",
+"freq": 0,
+"classes": [
+{
+"class_id": "cryolipolysis_body_contouring",
+"indication": "localized_fat_body_contouring",
+"score": 5
+}
+]
+},
+"겨드랑이제모": {
+"group": "hair_removal",
+"freq": 0,
+"classes": [
+{
+"class_id": "laser_hair_removal_alexandrite_ndyag",
+"indication": "hair_removal",
+"score": 5
+}
+]
+},
+"다리제모": {
+"group": "hair_removal",
+"freq": 0,
+"classes": [
+{
+"class_id": "laser_hair_removal_alexandrite_ndyag",
+"indication": "hair_removal",
+"score": 5
+}
+]
+},
+"비키니제모": {
+"group": "hair_removal",
+"freq": 0,
+"classes": [
+{
+"class_id": "laser_hair_removal_alexandrite_ndyag",
+"indication": "hair_removal",
+"score": 5
+}
+]
+},
+"얼굴제모": {
+"group": "hair_removal",
+"freq": 0,
+"classes": [
+{
+"class_id": "laser_hair_removal_alexandrite_ndyag",
+"indication": "hair_removal",
+"score": 5
+}
+]
+},
+"다한증": {
+"group": "hyperhidrosis",
+"freq": 2,
+"classes": [
+{
+"class_id": "botulinum_toxin_a",
+"indication": "wrinkle_contour",
+"score": 5
+}
+]
+},
+"겨드랑이땀": {
+"group": "hyperhidrosis",
+"freq": 0,
+"classes": [
+{
+"class_id": "botulinum_toxin_a",
+"indication": "wrinkle_contour",
+"score": 5
+}
+]
+},
+"무좀": {
+"group": "nail",
+"freq": 2,
+"classes": [
+{
+"class_id": "onychomycosis_laser",
+"indication": "onychomycosis",
+"score": 5
+}
+]
+},
+"발톱무좀": {
+"group": "nail",
+"freq": 0,
+"classes": [
+{
+"class_id": "onychomycosis_laser",
+"indication": "onychomycosis",
+"score": 5
+}
+]
+},
+"질타이트닝": {
+"group": "intimate",
+"freq": 0,
+"classes": [
+{
+"class_id": "vaginal_laxity_rf",
+"indication": "vaginal_laxity",
+"score": 5
+}
+]
+},
+"케미컬필링": {
+"group": "skin_quality",
+"freq": 0,
+"classes": [
+{
+"class_id": "chemical_peel",
+"indication": "pigment_acne_texture",
+"score": 5
+}
+]
+},
+"PDT": {
+"group": "acne_scar",
+"freq": 0,
+"classes": [
+{
+"class_id": "photodynamic_therapy",
+"indication": "acne_actinic_keratosis",
+"score": 5
+}
+]
+},
+"메조테라피": {
+"group": "skin_quality",
+"freq": 0,
+"classes": [
+{
+"class_id": "mesotherapy_skin_cocktail",
+"indication": "skin_quality_hydration",
+"score": 5
+}
+]
+},
+"비타민주사": {
+"group": "skin_quality",
+"freq": 0,
+"classes": [
+{
+"class_id": "mesotherapy_skin_cocktail",
+"indication": "skin_quality_hydration",
+"score": 5
+}
+]
+},
+"리투오": {
+"group": "",
+"freq": 0,
+"classes": [
+{
+"class_id": "acellular_dermal_matrix_ecm_skinbooster",
+"indication": "skin_quality_dermal_remodeling",
+"score": 10,
+"source": "brand"
+}
+]
+},
+"리투오 파인": {
+"group": "",
+"freq": 0,
+"classes": [
+{
+"class_id": "acellular_dermal_matrix_ecm_skinbooster",
+"indication": "skin_quality_dermal_remodeling",
+"score": 10,
+"source": "brand"
+}
+]
+},
+"엘라비에 리투오": {
+"group": "",
+"freq": 0,
+"classes": [
+{
+"class_id": "acellular_dermal_matrix_ecm_skinbooster",
+"indication": "skin_quality_dermal_remodeling",
+"score": 10,
+"source": "brand"
+}
+]
+},
+"renuva": {
+"group": "",
+"freq": 0,
+"classes": [
+{
+"class_id": "adipose_matrix_renuva",
+"indication": "volume_soft_tissue_defect",
+"score": 10,
+"source": "brand"
+}
+]
+},
+"GPC": {
+"group": "",
+"freq": 0,
+"classes": [
+{
+"class_id": "bipolar_multipolar_rf_contouring",
+"indication": "contour_skin_tightening",
+"score": 10,
+"source": "brand"
+}
+]
+},
+"나노필로티": {
+"group": "",
+"freq": 0,
+"classes": [
+{
+"class_id": "bipolar_multipolar_rf_contouring",
+"indication": "contour_skin_tightening",
+"score": 10,
+"source": "brand"
+}
+]
+},
+"바디 인모드": {
+"group": "",
+"freq": 0,
+"classes": [
+{
+"class_id": "bipolar_multipolar_rf_contouring",
+"indication": "contour_skin_tightening",
+"score": 10,
+"source": "brand"
+}
+]
+},
+"세예핏-S": {
+"group": "",
+"freq": 0,
+"classes": [
+{
+"class_id": "bipolar_multipolar_rf_contouring",
+"indication": "contour_skin_tightening",
+"score": 10,
+"source": "brand"
+}
+]
+},
+"써니리프팅": {
+"group": "",
+"freq": 0,
+"classes": [
+{
+"class_id": "bipolar_multipolar_rf_contouring",
+"indication": "contour_skin_tightening",
+"score": 10,
+"source": "brand"
+}
+]
+},
+"악센트 프라임": {
+"group": "",
+"freq": 0,
+"classes": [
+{
+"class_id": "bipolar_multipolar_rf_contouring",
+"indication": "contour_skin_tightening",
+"score": 10,
+"source": "brand"
+}
+]
+},
+"코레지": {
+"group": "",
+"freq": 0,
+"classes": [
+{
+"class_id": "bipolar_multipolar_rf_contouring",
+"indication": "contour_skin_tightening",
+"score": 10,
+"source": "brand"
+}
+]
+},
+"코어스컬프": {
+"group": "",
+"freq": 0,
+"classes": [
+{
+"class_id": "bipolar_multipolar_rf_contouring",
+"indication": "contour_skin_tightening",
+"score": 10,
+"source": "brand"
+}
+]
+},
+"튠 콩피에르": {
+"group": "",
+"freq": 0,
+"classes": [
+{
+"class_id": "bipolar_multipolar_rf_contouring",
+"indication": "contour_skin_tightening",
+"score": 10,
+"source": "brand"
+}
+]
+},
+"튠컬트라": {
+"group": "",
+"freq": 0,
+"classes": [
+{
+"class_id": "bipolar_multipolar_rf_contouring",
+"indication": "contour_skin_tightening",
+"score": 10,
+"source": "brand"
+}
+]
+},
+"트리플바디": {
+"group": "",
+"freq": 0,
+"classes": [
+{
+"class_id": "bipolar_multipolar_rf_contouring",
+"indication": "contour_skin_tightening",
+"score": 10,
+"source": "brand"
+}
+]
+},
+"다한증 보톡스": {
+"group": "",
+"freq": 0,
+"classes": [
+{
+"class_id": "botulinum_toxin_a",
+"indication": "hyperhidrosis",
+"score": 10,
+"source": "brand"
+}
+]
+},
+"디스포트": {
+"group": "",
+"freq": 0,
+"classes": [
+{
+"class_id": "botulinum_toxin_a",
+"indication": "wrinkle_contour",
+"score": 10,
+"source": "brand"
+}
+]
+},
+"디자인 보톡스": {
+"group": "",
+"freq": 0,
+"classes": [
+{
+"class_id": "botulinum_toxin_a",
+"indication": "wrinkle_contour",
+"score": 10,
+"source": "brand"
+}
+]
+},
+"사각턱 보톡스": {
+"group": "",
+"freq": 0,
+"classes": [
+{
+"class_id": "botulinum_toxin_a",
+"indication": "masseter_contour",
+"score": 10,
+"source": "brand"
+}
+]
+},
+"얼굴전체 톡신": {
+"group": "",
+"freq": 0,
+"classes": [
+{
+"class_id": "botulinum_toxin_a",
+"indication": "wrinkle_contour",
+"score": 10,
+"source": "brand"
+}
+]
+},
+"제오민": {
+"group": "",
+"freq": 0,
+"classes": [
+{
+"class_id": "botulinum_toxin_a",
+"indication": "wrinkle_contour",
+"score": 10,
+"source": "brand"
+}
+]
+},
+"주름 보톡스": {
+"group": "",
+"freq": 0,
+"classes": [
+{
+"class_id": "botulinum_toxin_a",
+"indication": "wrinkle",
+"score": 10,
+"source": "brand"
+}
+]
+},
+"코어톡스": {
+"group": "",
+"freq": 0,
+"classes": [
+{
+"class_id": "botulinum_toxin_a",
+"indication": "wrinkle_contour",
+"score": 10,
+"source": "brand"
+}
+]
+},
+"톡신": {
+"group": "",
+"freq": 0,
+"classes": [
+{
+"class_id": "botulinum_toxin_a",
+"indication": "wrinkle_contour",
+"score": 10,
+"source": "brand"
+}
+]
+},
+"레디어스": {
+"group": "",
+"freq": 0,
+"classes": [
+{
+"class_id": "caha_filler",
+"indication": "volume_contour_collagen",
+"score": 10,
+"source": "brand"
+}
+]
+},
+"각질제거 피지제거 라라필": {
+"group": "",
+"freq": 0,
+"classes": [
+{
+"class_id": "chemical_peel",
+"indication": "pigment_acne_texture",
+"score": 10,
+"source": "brand"
+}
+]
+},
+"라라필": {
+"group": "",
+"freq": 0,
+"classes": [
+{
+"class_id": "chemical_peel",
+"indication": "pigment_acne_texture",
+"score": 10,
+"source": "brand"
+}
+]
+},
+"밀크필": {
+"group": "",
+"freq": 0,
+"classes": [
+{
+"class_id": "chemical_peel",
+"indication": "pigment_acne_texture",
+"score": 10,
+"source": "brand"
+}
+]
+},
+"블랙필": {
+"group": "",
+"freq": 0,
+"classes": [
+{
+"class_id": "chemical_peel",
+"indication": "pigment_acne_texture",
+"score": 10,
+"source": "brand"
+}
+]
+},
+"플라필": {
+"group": "",
+"freq": 0,
+"classes": [
+{
+"class_id": "chemical_peel",
+"indication": "pigment_acne_texture",
+"score": 10,
+"source": "brand"
+}
+]
+},
+"울트라콜 100": {
+"group": "",
+"freq": 0,
+"classes": [
+{
+"class_id": "collagen_stimulator_pdlla_plla",
+"indication": "volume_collagen_stimulation",
+"score": 10,
+"source": "brand"
+}
+]
+},
+"울트라콜 200": {
+"group": "",
+"freq": 0,
+"classes": [
+{
+"class_id": "collagen_stimulator_pdlla_plla",
+"indication": "volume_collagen_stimulation",
+"score": 10,
+"source": "brand"
+}
+]
+},
+"쥬베룩 볼륨": {
+"group": "",
+"freq": 0,
+"classes": [
+{
+"class_id": "collagen_stimulator_pdlla_plla",
+"indication": "volume_collagen_stimulation",
+"score": 10,
+"source": "brand"
+}
+]
+},
+"젤틱 쿨슬리밍": {
+"group": "",
+"freq": 0,
+"classes": [
+{
+"class_id": "cryolipolysis_body_contouring",
+"indication": "localized_fat_body_contouring",
+"score": 10,
+"source": "brand"
+}
+]
+},
+"셀엑소좀": {
+"group": "",
+"freq": 0,
+"classes": [
+{
+"class_id": "exosome_topical_or_injection",
+"indication": "skin_quality_postprocedure_recovery",
+"score": 10,
+"source": "brand"
+}
+]
+},
+"셀포좀": {
+"group": "",
+"freq": 0,
+"classes": [
+{
+"class_id": "exosome_topical_or_injection",
+"indication": "skin_quality_postprocedure_recovery",
+"score": 10,
+"source": "brand"
+}
+]
+},
+"프락셀/피코프락셀": {
+"group": "",
+"freq": 0,
+"classes": [
+{
+"class_id": "fractional_laser_resurfacing",
+"indication": "acne_scar_texture_resurfacing",
+"score": 10,
+"source": "brand"
+}
+]
+},
+"피코프락셀": {
+"group": "",
+"freq": 0,
+"classes": [
+{
+"class_id": "fractional_picosecond_resurfacing",
+"indication": "acne_scar_texture_resurfacing",
+"score": 10,
+"source": "brand"
+}
+]
+},
+"VOLUMEFILLER필러": {
+"group": "",
+"freq": 0,
+"classes": [
+{
+"class_id": "ha_filler_crosslinked",
+"indication": "volume_contour_wrinkle",
+"score": 10,
+"source": "brand"
+}
+]
+},
+"뉴라미스": {
+"group": "",
+"freq": 0,
+"classes": [
+{
+"class_id": "ha_filler_crosslinked",
+"indication": "volume_contour_wrinkle",
+"score": 10,
+"source": "brand"
+}
+]
+},
+"디자인 필러": {
+"group": "",
+"freq": 0,
+"classes": [
+{
+"class_id": "ha_filler_crosslinked",
+"indication": "volume_contour_wrinkle",
+"score": 10,
+"source": "brand"
+}
+]
+},
+"디자인 필러 종류": {
+"group": "",
+"freq": 0,
+"classes": [
+{
+"class_id": "ha_filler_crosslinked",
+"indication": "volume_contour_wrinkle",
+"score": 10,
+"source": "brand"
+}
+]
+},
+"라풀렌": {
+"group": "",
+"freq": 0,
+"classes": [
+{
+"class_id": "ha_filler_crosslinked",
+"indication": "volume_contour_wrinkle",
+"score": 10,
+"source": "brand"
+}
+]
+},
+"레스틸렌": {
+"group": "",
+"freq": 0,
+"classes": [
+{
+"class_id": "ha_filler_crosslinked",
+"indication": "volume_contour_wrinkle",
+"score": 10,
+"source": "brand"
+}
+]
+},
+"리쥬비엘": {
+"group": "",
+"freq": 0,
+"classes": [
+{
+"class_id": "ha_filler_crosslinked",
+"indication": "volume_contour_wrinkle",
+"score": 10,
+"source": "brand"
+}
+]
+},
+"리쥬필": {
+"group": "",
+"freq": 0,
+"classes": [
+{
+"class_id": "ha_filler_crosslinked",
+"indication": "volume_contour_wrinkle",
+"score": 10,
+"source": "brand"
+}
+]
+},
+"리즈네": {
+"group": "",
+"freq": 0,
+"classes": [
+{
+"class_id": "ha_filler_crosslinked",
+"indication": "volume_contour_wrinkle",
+"score": 10,
+"source": "brand"
+}
+]
+},
+"목주름 필러": {
+"group": "",
+"freq": 0,
+"classes": [
+{
+"class_id": "ha_filler_crosslinked",
+"indication": "volume_contour_wrinkle",
+"score": 10,
+"source": "brand"
+}
+]
+},
+"미라콜": {
+"group": "",
+"freq": 0,
+"classes": [
+{
+"class_id": "ha_filler_crosslinked",
+"indication": "volume_contour_wrinkle",
+"score": 10,
+"source": "brand"
+}
+]
+},
+"바디필러": {
+"group": "",
+"freq": 0,
+"classes": [
+{
+"class_id": "ha_filler_crosslinked",
+"indication": "volume_contour_wrinkle",
+"score": 10,
+"source": "brand"
+}
+]
+},
+"바이리즌": {
+"group": "",
+"freq": 0,
+"classes": [
+{
+"class_id": "ha_filler_crosslinked",
+"indication": "volume_contour_wrinkle",
+"score": 10,
+"source": "brand"
+}
+]
+},
+"벨라콜린": {
+"group": "",
+"freq": 0,
+"classes": [
+{
+"class_id": "ha_filler_crosslinked",
+"indication": "volume_contour_wrinkle",
+"score": 10,
+"source": "brand"
+}
+]
+},
+"벨로테로": {
+"group": "",
+"freq": 0,
+"classes": [
+{
+"class_id": "ha_filler_crosslinked",
+"indication": "volume_contour_wrinkle",
+"score": 10,
+"source": "brand"
+}
+]
+},
+"볼륨 필러": {
+"group": "",
+"freq": 0,
+"classes": [
+{
+"class_id": "ha_filler_crosslinked",
+"indication": "volume_contour_wrinkle",
+"score": 10,
+"source": "brand"
+}
+]
+},
+"브이올렛": {
+"group": "",
+"freq": 0,
+"classes": [
+{
+"class_id": "ha_filler_crosslinked",
+"indication": "volume_contour_wrinkle",
+"score": 10,
+"source": "brand"
+}
+]
+},
+"셀르디엠": {
+"group": "",
+"freq": 0,
+"classes": [
+{
+"class_id": "ha_filler_crosslinked",
+"indication": "volume_contour_wrinkle",
+"score": 10,
+"source": "brand"
+}
+]
+},
+"어깨필러": {
+"group": "",
+"freq": 0,
+"classes": [
+{
+"class_id": "ha_filler_crosslinked",
+"indication": "volume_contour_wrinkle",
+"score": 10,
+"source": "brand"
+}
+]
+},
+"이마필러 이마주름 이마볼륨 개선": {
+"group": "",
+"freq": 0,
+"classes": [
+{
+"class_id": "ha_filler_crosslinked",
+"indication": "volume_contour_wrinkle",
+"score": 10,
+"source": "brand"
+}
+]
+},
+"입술필러": {
+"group": "",
+"freq": 0,
+"classes": [
+{
+"class_id": "ha_filler_crosslinked",
+"indication": "volume_contour_wrinkle",
+"score": 10,
+"source": "brand"
+}
+]
+},
+"주름 필러": {
+"group": "",
+"freq": 0,
+"classes": [
+{
+"class_id": "ha_filler_crosslinked",
+"indication": "volume_contour_wrinkle",
+"score": 10,
+"source": "brand"
+}
+]
+},
+"쥬비덤": {
+"group": "",
+"freq": 0,
+"classes": [
+{
+"class_id": "ha_filler_crosslinked",
+"indication": "volume_contour_wrinkle",
+"score": 10,
+"source": "brand"
+}
+]
+},
+"턱끝필러 무턱 짧은턱 고민이라면": {
+"group": "",
+"freq": 0,
+"classes": [
+{
+"class_id": "ha_filler_crosslinked",
+"indication": "volume_contour_wrinkle",
+"score": 10,
+"source": "brand"
+}
+]
+},
+"팅커벨 귀필러": {
+"group": "",
+"freq": 0,
+"classes": [
+{
+"class_id": "ha_filler_crosslinked",
+"indication": "volume_contour_wrinkle",
+"score": 10,
+"source": "brand"
+}
+]
+},
+"팔자주름 볼살처짐 팔자필러 권장": {
+"group": "",
+"freq": 0,
+"classes": [
+{
+"class_id": "ha_filler_crosslinked",
+"indication": "volume_contour_wrinkle",
+"score": 10,
+"source": "brand"
+}
+]
+},
+"필러 녹이는 주사": {
+"group": "",
+"freq": 0,
+"classes": [
+{
+"class_id": "ha_filler_crosslinked",
+"indication": "volume_contour_wrinkle",
+"score": 10,
+"source": "brand"
+}
+]
+},
+"리바이브": {
+"group": "",
+"freq": 0,
+"classes": [
+{
+"class_id": "ha_glycerol_skinbooster",
+"indication": "skin_quality_hydration",
+"score": 10,
+"source": "brand"
+}
+]
+},
+"벨로테로 리바이브": {
+"group": "",
+"freq": 0,
+"classes": [
+{
+"class_id": "ha_glycerol_skinbooster",
+"indication": "skin_quality_hydration",
+"score": 10,
+"source": "brand"
+}
+]
+},
+"레티젠": {
+"group": "",
+"freq": 0,
+"classes": [
+{
+"class_id": "ha_skin_booster",
+"indication": "skin_quality_hydration",
+"score": 10,
+"source": "brand"
+}
+]
+},
+"물광주사": {
+"group": "",
+"freq": 0,
+"classes": [
+{
+"class_id": "ha_skin_booster",
+"indication": "skin_quality_hydration",
+"score": 10,
+"source": "brand"
+}
+]
+},
+"스킨바이브": {
+"group": "",
+"freq": 0,
+"classes": [
+{
+"class_id": "ha_skin_booster",
+"indication": "skin_quality_hydration",
+"score": 10,
+"source": "brand"
+}
+]
+},
+"스킨바이브 (booster)": {
+"group": "",
+"freq": 0,
+"classes": [
+{
+"class_id": "ha_skin_booster",
+"indication": "skin_quality_hydration",
+"score": 10,
+"source": "brand"
+}
+]
+},
+"필메드": {
+"group": "",
+"freq": 0,
+"classes": [
+{
+"class_id": "ha_skin_booster",
+"indication": "skin_quality_hydration",
+"score": 10,
+"source": "brand"
+}
+]
+},
+"고강도 초음파 리프팅": {
+"group": "",
+"freq": 0,
+"classes": [
+{
+"class_id": "hifu_lifting",
+"indication": "lifting_skin_tightening",
+"score": 10,
+"source": "brand"
+}
+]
+},
+"리프테라": {
+"group": "",
+"freq": 0,
+"classes": [
+{
+"class_id": "hifu_lifting",
+"indication": "lifting_skin_tightening",
+"score": 10,
+"source": "brand"
+}
+]
+},
+"리프테라2": {
+"group": "",
+"freq": 0,
+"classes": [
+{
+"class_id": "hifu_lifting",
+"indication": "lifting_skin_tightening",
+"score": 10,
+"source": "brand"
+}
+]
+},
+"바디 울쎄라": {
+"group": "",
+"freq": 0,
+"classes": [
+{
+"class_id": "hifu_lifting",
+"indication": "lifting_skin_tightening",
+"score": 10,
+"source": "brand"
+}
+]
+},
+"슈링크 유니버스": {
+"group": "",
+"freq": 0,
+"classes": [
+{
+"class_id": "hifu_lifting",
+"indication": "lifting_skin_tightening",
+"score": 10,
+"source": "brand"
+}
+]
+},
+"슈링크 유니버스 울트라": {
+"group": "",
+"freq": 0,
+"classes": [
+{
+"class_id": "hifu_lifting",
+"indication": "lifting_skin_tightening",
+"score": 10,
+"source": "brand"
+}
+]
+},
+"울쎄라 프라임": {
+"group": "",
+"freq": 0,
+"classes": [
+{
+"class_id": "hifu_lifting",
+"indication": "lifting_skin_tightening",
+"score": 10,
+"source": "brand"
+}
+]
+},
+"울쎄라피 프라임": {
+"group": "",
+"freq": 0,
+"classes": [
+{
+"class_id": "hifu_lifting",
+"indication": "lifting_skin_tightening",
+"score": 10,
+"source": "brand"
+}
+]
+},
+"울핏": {
+"group": "",
+"freq": 0,
+"classes": [
+{
+"class_id": "hifu_lifting",
+"indication": "lifting_skin_tightening",
+"score": 10,
+"source": "brand"
+}
+]
+},
+"초음파 리프팅": {
+"group": "",
+"freq": 0,
+"classes": [
+{
+"class_id": "hifu_lifting",
+"indication": "lifting_skin_tightening",
+"score": 10,
+"source": "brand"
+}
+]
+},
+"힐로웨이브": {
+"group": "",
+"freq": 0,
+"classes": [
+{
+"class_id": "hybrid_dual_ha_skinbooster_volume",
+"indication": "skin_quality_volume",
+"score": 10,
+"source": "brand"
+}
+]
+},
+"아쿠아필": {
+"group": "",
+"freq": 0,
+"classes": [
+{
+"class_id": "hydradermabrasion",
+"indication": "exfoliation_pore_hydration",
+"score": 10,
+"source": "brand"
+}
+]
+},
+"윤곽 주사": {
+"group": "",
+"freq": 0,
+"classes": [
+{
+"class_id": "injectable_lipolysis_deoxycholate_or_mesotherapy",
+"indication": "localized_fat_jawline",
+"score": 10,
+"source": "brand"
+}
+]
+},
+"제로핏 주사": {
+"group": "",
+"freq": 0,
+"classes": [
+{
+"class_id": "injectable_lipolysis_deoxycholate_or_mesotherapy",
+"indication": "localized_fat_jawline",
+"score": 10,
+"source": "brand"
+}
+]
+},
+"지방분해 주사": {
+"group": "",
+"freq": 0,
+"classes": [
+{
+"class_id": "injectable_lipolysis_deoxycholate_or_mesotherapy",
+"indication": "localized_fat_jawline",
+"score": 10,
+"source": "brand"
+}
+]
+},
+"이온자임": {
+"group": "",
+"freq": 0,
+"classes": [
+{
+"class_id": "ionzyme_iontophoresis_sonophoresis",
+"indication": "topical_delivery_skin_quality",
+"score": 10,
+"source": "brand"
+}
+]
+},
+"LPL": {
+"group": "",
+"freq": 0,
+"classes": [
+{
+"class_id": "ipl_bbl_photorejuvenation",
+"indication": "pigment_redness_photoaging",
+"score": 10,
+"source": "brand"
+}
+]
+},
+"바디 BBL": {
+"group": "",
+"freq": 0,
+"classes": [
+{
+"class_id": "ipl_bbl_photorejuvenation",
+"indication": "pigment_redness_photoaging",
+"score": 10,
+"source": "brand"
+}
+]
+},
+"튠라이트": {
+"group": "",
+"freq": 0,
+"classes": [
+{
+"class_id": "ipl_bbl_photorejuvenation",
+"indication": "pigment_redness_photoaging",
+"score": 10,
+"source": "brand"
+}
+]
+},
+"겨드랑이 제모": {
+"group": "",
+"freq": 0,
+"classes": [
+{
+"class_id": "laser_hair_removal_alexandrite_ndyag",
+"indication": "hair_removal",
+"score": 10,
+"source": "brand"
+}
+]
+},
+"레이저 제모": {
+"group": "",
+"freq": 0,
+"classes": [
+{
+"class_id": "laser_hair_removal_alexandrite_ndyag",
+"indication": "hair_removal",
+"score": 10,
+"source": "brand"
+}
+]
+},
+"레이저제모": {
+"group": "",
+"freq": 0,
+"classes": [
+{
+"class_id": "laser_hair_removal_alexandrite_ndyag",
+"indication": "hair_removal",
+"score": 10,
+"source": "brand"
+}
+]
+},
+"아포지 플러스": {
+"group": "",
+"freq": 0,
+"classes": [
+{
+"class_id": "laser_hair_removal_alexandrite_ndyag",
+"indication": "hair_removal",
+"score": 10,
+"source": "brand"
+}
+]
+},
+"아포지플러스 남성 상체 제모": {
+"group": "",
+"freq": 0,
+"classes": [
+{
+"class_id": "laser_hair_removal_alexandrite_ndyag",
+"indication": "hair_removal",
+"score": 10,
+"source": "brand"
+}
+]
+},
+"아포지플러스 남성 얼굴 제모": {
+"group": "",
+"freq": 0,
+"classes": [
+{
+"class_id": "laser_hair_removal_alexandrite_ndyag",
+"indication": "hair_removal",
+"score": 10,
+"source": "brand"
+}
+]
+},
+"아포지플러스 남성 하체 제모": {
+"group": "",
+"freq": 0,
+"classes": [
+{
+"class_id": "laser_hair_removal_alexandrite_ndyag",
+"indication": "hair_removal",
+"score": 10,
+"source": "brand"
+}
+]
+},
+"아포지플러스 남성제모": {
+"group": "",
+"freq": 0,
+"classes": [
+{
+"class_id": "laser_hair_removal_alexandrite_ndyag",
+"indication": "hair_removal",
+"score": 10,
+"source": "brand"
+}
+]
+},
+"아포지플러스 여성 상체 제모": {
+"group": "",
+"freq": 0,
+"classes": [
+{
+"class_id": "laser_hair_removal_alexandrite_ndyag",
+"indication": "hair_removal",
+"score": 10,
+"source": "brand"
+}
+]
+},
+"아포지플러스 여성 얼굴 제모": {
+"group": "",
+"freq": 0,
+"classes": [
+{
+"class_id": "laser_hair_removal_alexandrite_ndyag",
+"indication": "hair_removal",
+"score": 10,
+"source": "brand"
+}
+]
+},
+"아포지플러스 여성 패키지 제모": {
+"group": "",
+"freq": 0,
+"classes": [
+{
+"class_id": "laser_hair_removal_alexandrite_ndyag",
+"indication": "hair_removal",
+"score": 10,
+"source": "brand"
+}
+]
+},
+"아포지플러스 여성 하체 제모": {
+"group": "",
+"freq": 0,
+"classes": [
+{
+"class_id": "laser_hair_removal_alexandrite_ndyag",
+"indication": "hair_removal",
+"score": 10,
+"source": "brand"
+}
+]
+},
+"아포지플러스 여성제모": {
+"group": "",
+"freq": 0,
+"classes": [
+{
+"class_id": "laser_hair_removal_alexandrite_ndyag",
+"indication": "hair_removal",
+"score": 10,
+"source": "brand"
+}
+]
+},
+"얼굴제모(이마제외) + 아래턱": {
+"group": "",
+"freq": 0,
+"classes": [
+{
+"class_id": "laser_hair_removal_alexandrite_ndyag",
+"indication": "hair_removal",
+"score": 10,
+"source": "brand"
+}
+]
+},
+"제모 레이저제모": {
+"group": "",
+"freq": 0,
+"classes": [
+{
+"class_id": "laser_hair_removal_alexandrite_ndyag",
+"indication": "hair_removal",
+"score": 10,
+"source": "brand"
+}
+]
+},
+"젠틀맥스 프로": {
+"group": "",
+"freq": 0,
+"classes": [
+{
+"class_id": "laser_hair_removal_alexandrite_ndyag",
+"indication": "hair_removal",
+"score": 10,
+"source": "brand"
+}
+]
+},
+"젠틀맥스 프로 플러스": {
+"group": "",
+"freq": 0,
+"classes": [
+{
+"class_id": "laser_hair_removal_alexandrite_ndyag",
+"indication": "hair_removal",
+"score": 10,
+"source": "brand"
+}
+]
+},
+"젠틀맥스 프로플러스 남성제모": {
+"group": "",
+"freq": 0,
+"classes": [
+{
+"class_id": "laser_hair_removal_alexandrite_ndyag",
+"indication": "hair_removal",
+"score": 10,
+"source": "brand"
+}
+]
+},
+"젠틀맥스 프로플러스 여성제모": {
+"group": "",
+"freq": 0,
+"classes": [
+{
+"class_id": "laser_hair_removal_alexandrite_ndyag",
+"indication": "hair_removal",
+"score": 10,
+"source": "brand"
+}
+]
+},
+"젠틀맥스프로플러스 남성 상체 제모": {
+"group": "",
+"freq": 0,
+"classes": [
+{
+"class_id": "laser_hair_removal_alexandrite_ndyag",
+"indication": "hair_removal",
+"score": 10,
+"source": "brand"
+}
+]
+},
+"젠틀맥스프로플러스 남성 얼굴 제모": {
+"group": "",
+"freq": 0,
+"classes": [
+{
+"class_id": "laser_hair_removal_alexandrite_ndyag",
+"indication": "hair_removal",
+"score": 10,
+"source": "brand"
+}
+]
+},
+"젠틀맥스프로플러스 남성 하체 제모": {
+"group": "",
+"freq": 0,
+"classes": [
+{
+"class_id": "laser_hair_removal_alexandrite_ndyag",
+"indication": "hair_removal",
+"score": 10,
+"source": "brand"
+}
+]
+},
+"젠틀맥스프로플러스 여성 상체 제모": {
+"group": "",
+"freq": 0,
+"classes": [
+{
+"class_id": "laser_hair_removal_alexandrite_ndyag",
+"indication": "hair_removal",
+"score": 10,
+"source": "brand"
+}
+]
+},
+"젠틀맥스프로플러스 여성 얼굴 제모": {
+"group": "",
+"freq": 0,
+"classes": [
+{
+"class_id": "laser_hair_removal_alexandrite_ndyag",
+"indication": "hair_removal",
+"score": 10,
+"source": "brand"
+}
+]
+},
+"젠틀맥스프로플러스 여성 하체 제모": {
+"group": "",
+"freq": 0,
+"classes": [
+{
+"class_id": "laser_hair_removal_alexandrite_ndyag",
+"indication": "hair_removal",
+"score": 10,
+"source": "brand"
+}
+]
+},
+"클라리티": {
+"group": "",
+"freq": 0,
+"classes": [
+{
+"class_id": "laser_hair_removal_alexandrite_ndyag",
+"indication": "hair_removal",
+"score": 10,
+"source": "brand"
+}
+]
+},
+"클라리티2": {
+"group": "",
+"freq": 0,
+"classes": [
+{
+"class_id": "laser_hair_removal_alexandrite_ndyag",
+"indication": "hair_removal",
+"score": 10,
+"source": "brand"
+}
+]
+},
+"레블라이트 SI": {
+"group": "",
+"freq": 0,
+"classes": [
+{
+"class_id": "laser_toning_qswitched_or_picosecond",
+"indication": "pigment_tattoo",
+"score": 10,
+"source": "brand"
+}
+]
+},
+"레이저 토닝": {
+"group": "",
+"freq": 0,
+"classes": [
+{
+"class_id": "laser_toning_qswitched_or_picosecond",
+"indication": "pigment_melasma",
+"score": 10,
+"source": "brand"
+}
+]
+},
+"밀크토닝": {
+"group": "",
+"freq": 0,
+"classes": [
+{
+"class_id": "laser_toning_qswitched_or_picosecond",
+"indication": "pigment_melasma",
+"score": 10,
+"source": "brand"
+}
+]
+},
+"바디착색토닝": {
+"group": "",
+"freq": 0,
+"classes": [
+{
+"class_id": "laser_toning_qswitched_or_picosecond",
+"indication": "pigment_melasma",
+"score": 10,
+"source": "brand"
+}
+]
+},
+"색소 및 재생 레이저": {
+"group": "",
+"freq": 0,
+"classes": [
+{
+"class_id": "laser_toning_qswitched_or_picosecond",
+"indication": "pigment_melasma",
+"score": 10,
+"source": "brand"
+}
+]
+},
+"셀룰라이트 토닝": {
+"group": "",
+"freq": 0,
+"classes": [
+{
+"class_id": "laser_toning_qswitched_or_picosecond",
+"indication": "pigment_melasma",
+"score": 10,
+"source": "brand"
+}
+]
+},
+"수소토닝": {
+"group": "",
+"freq": 0,
+"classes": [
+{
+"class_id": "laser_toning_qswitched_or_picosecond",
+"indication": "pigment_melasma",
+"score": 10,
+"source": "brand"
+}
+]
+},
+"스펙트라": {
+"group": "",
+"freq": 0,
+"classes": [
+{
+"class_id": "laser_toning_qswitched_or_picosecond",
+"indication": "pigment_tattoo",
+"score": 10,
+"source": "brand"
+}
+]
+},
+"지우개 멀티토닝": {
+"group": "",
+"freq": 0,
+"classes": [
+{
+"class_id": "laser_toning_qswitched_or_picosecond",
+"indication": "pigment_melasma",
+"score": 10,
+"source": "brand"
+}
+]
+},
+"프리미엄 듀얼토닝": {
+"group": "",
+"freq": 0,
+"classes": [
+{
+"class_id": "laser_toning_qswitched_or_picosecond",
+"indication": "pigment_melasma",
+"score": 10,
+"source": "brand"
+}
+]
+},
+"헐리우드 스펙트라": {
+"group": "",
+"freq": 0,
+"classes": [
+{
+"class_id": "laser_toning_qswitched_or_picosecond",
+"indication": "pigment_tattoo",
+"score": 10,
+"source": "brand"
+}
+]
+},
+"헬리오스 785": {
+"group": "",
+"freq": 0,
+"classes": [
+{
+"class_id": "laser_toning_qswitched_or_picosecond",
+"indication": "pigment_tattoo",
+"score": 10,
+"source": "brand"
+}
+]
+},
+"스킨아우라": {
+"group": "",
+"freq": 0,
+"classes": [
+{
+"class_id": "led_phototherapy",
+"indication": "skin_quality_acne_inflammation",
+"score": 10,
+"source": "brand"
+}
+]
+},
+"힐퓨전 프로": {
+"group": "",
+"freq": 0,
+"classes": [
+{
+"class_id": "linear_hifu_lifting",
+"indication": "lifting_volume_fat_reduction",
+"score": 10,
+"source": "brand"
+}
+]
+},
+"콜라겐 부스터": {
+"group": "",
+"freq": 0,
+"classes": [
+{
+"class_id": "mesotherapy_skin_cocktail",
+"indication": "skin_quality_hydration",
+"score": 10,
+"source": "brand"
+}
+]
+},
+"더모톡신 목주름 (국산": {
+"group": "",
+"freq": 0,
+"classes": [
+{
+"class_id": "microdosed_botulinum_for_skin",
+"indication": "skin_texture_pore_neck",
+"score": 10,
+"source": "brand"
+}
+]
+},
+"더모톡신 목주름 (국산 프리미엄": {
+"group": "",
+"freq": 0,
+"classes": [
+{
+"class_id": "microdosed_botulinum_for_skin",
+"indication": "skin_texture_pore_neck",
+"score": 10,
+"source": "brand"
+}
+]
+},
+"더모톡신 목주름 (독일산": {
+"group": "",
+"freq": 0,
+"classes": [
+{
+"class_id": "microdosed_botulinum_for_skin",
+"indication": "skin_texture_pore_neck",
+"score": 10,
+"source": "brand"
+}
+]
+},
+"더모톡신 목주름 (미국산": {
+"group": "",
+"freq": 0,
+"classes": [
+{
+"class_id": "microdosed_botulinum_for_skin",
+"indication": "skin_texture_pore_neck",
+"score": 10,
+"source": "brand"
+}
+]
+},
+"더모톡신 목주름 (영국산": {
+"group": "",
+"freq": 0,
+"classes": [
+{
+"class_id": "microdosed_botulinum_for_skin",
+"indication": "skin_texture_pore_neck",
+"score": 10,
+"source": "brand"
+}
+]
+},
+"더모톡신 얼굴전체(국산": {
+"group": "",
+"freq": 0,
+"classes": [
+{
+"class_id": "microdosed_botulinum_for_skin",
+"indication": "skin_texture_pore_neck",
+"score": 10,
+"source": "brand"
+}
+]
+},
+"더모톡신 얼굴전체(국산 프리미엄": {
+"group": "",
+"freq": 0,
+"classes": [
+{
+"class_id": "microdosed_botulinum_for_skin",
+"indication": "skin_texture_pore_neck",
+"score": 10,
+"source": "brand"
+}
+]
+},
+"더모톡신 얼굴전체(독일산": {
+"group": "",
+"freq": 0,
+"classes": [
+{
+"class_id": "microdosed_botulinum_for_skin",
+"indication": "skin_texture_pore_neck",
+"score": 10,
+"source": "brand"
+}
+]
+},
+"더모톡신 얼굴전체(미국산": {
+"group": "",
+"freq": 0,
+"classes": [
+{
+"class_id": "microdosed_botulinum_for_skin",
+"indication": "skin_texture_pore_neck",
+"score": 10,
+"source": "brand"
+}
+]
+},
+"더모톡신 얼굴전체(영국산": {
+"group": "",
+"freq": 0,
+"classes": [
+{
+"class_id": "microdosed_botulinum_for_skin",
+"indication": "skin_texture_pore_neck",
+"score": 10,
+"source": "brand"
+}
+]
+},
+"더모톡신 이중턱 (독일산": {
+"group": "",
+"freq": 0,
+"classes": [
+{
+"class_id": "microdosed_botulinum_for_skin",
+"indication": "skin_texture_pore_neck",
+"score": 10,
+"source": "brand"
+}
+]
+},
+"더모톡신 이중턱 (미국산": {
+"group": "",
+"freq": 0,
+"classes": [
+{
+"class_id": "microdosed_botulinum_for_skin",
+"indication": "skin_texture_pore_neck",
+"score": 10,
+"source": "brand"
+}
+]
+},
+"물톡스": {
+"group": "",
+"freq": 0,
+"classes": [
+{
+"class_id": "microdosed_botulinum_for_skin",
+"indication": "skin_texture_pore_neck",
+"score": 10,
+"source": "brand"
+}
+]
+},
+"초음파 보톡스": {
+"group": "",
+"freq": 0,
+"classes": [
+{
+"class_id": "microdosed_botulinum_for_skin",
+"indication": "skin_texture_pore_neck",
+"score": 10,
+"source": "brand"
+}
+]
+},
+"버츄RF": {
+"group": "",
+"freq": 0,
+"classes": [
+{
+"class_id": "microneedling_rf",
+"indication": "acne_scar_pore_laxity",
+"score": 10,
+"source": "brand"
+}
+]
+},
+"실펌": {
+"group": "",
+"freq": 0,
+"classes": [
+{
+"class_id": "microneedling_rf",
+"indication": "acne_scar_pore_laxity",
+"score": 10,
+"source": "brand"
+}
+]
+},
+"아그네스": {
+"group": "",
+"freq": 0,
+"classes": [
+{
+"class_id": "microneedling_rf",
+"indication": "acne_scar_pore_laxity",
+"score": 10,
+"source": "brand"
+}
+]
+},
+"프로파운드": {
+"group": "",
+"freq": 0,
+"classes": [
+{
+"class_id": "microneedling_rf",
+"indication": "acne_scar_pore_laxity",
+"score": 10,
+"source": "brand"
+}
+]
+},
+"ONDA 리프팅": {
+"group": "",
+"freq": 0,
+"classes": [
+{
+"class_id": "microwave_245ghz_skin_tightening",
+"indication": "skin_tightening_body_contouring",
+"score": 10,
+"source": "brand"
+}
+]
+},
+"STANDARDTORR LIFTING토르 리프팅": {
+"group": "",
+"freq": 0,
+"classes": [
+{
+"class_id": "monopolar_rf_lifting",
+"indication": "lifting_skin_tightening",
+"score": 10,
+"source": "brand"
+}
+]
+},
+"덴서티": {
+"group": "",
+"freq": 0,
+"classes": [
+{
+"class_id": "monopolar_rf_lifting",
+"indication": "lifting_skin_tightening",
+"score": 10,
+"source": "brand"
+}
+]
+},
+"덴서티 알파팁": {
+"group": "",
+"freq": 0,
+"classes": [
+{
+"class_id": "monopolar_rf_lifting",
+"indication": "lifting_skin_tightening",
+"score": 10,
+"source": "brand"
+}
+]
+},
+"바디 써마지": {
+"group": "",
+"freq": 0,
+"classes": [
+{
+"class_id": "monopolar_rf_lifting",
+"indication": "lifting_skin_tightening",
+"score": 10,
+"source": "brand"
+}
+]
+},
+"볼뉴머": {
+"group": "",
+"freq": 0,
+"classes": [
+{
+"class_id": "monopolar_rf_lifting",
+"indication": "lifting_skin_tightening",
+"score": 10,
+"source": "brand"
+}
+]
+},
+"세르프": {
+"group": "",
+"freq": 0,
+"classes": [
+{
+"class_id": "monopolar_rf_lifting",
+"indication": "lifting_skin_tightening",
+"score": 10,
+"source": "brand"
+}
+]
+},
+"써마지 FLX": {
+"group": "",
+"freq": 0,
+"classes": [
+{
+"class_id": "monopolar_rf_lifting",
+"indication": "lifting_skin_tightening",
+"score": 10,
+"source": "brand"
+}
+]
+},
+"올리지오X": {
+"group": "",
+"freq": 0,
+"classes": [
+{
+"class_id": "monopolar_rf_lifting",
+"indication": "lifting_skin_tightening",
+"score": 10,
+"source": "brand"
+}
+]
+},
+"올타이트": {
+"group": "",
+"freq": 0,
+"classes": [
+{
+"class_id": "monopolar_rf_lifting",
+"indication": "lifting_skin_tightening",
+"score": 10,
+"source": "brand"
+}
+]
+},
+"울써마지": {
+"group": "",
+"freq": 0,
+"classes": [
+{
+"class_id": "monopolar_rf_lifting",
+"indication": "lifting_skin_tightening",
+"score": 10,
+"source": "brand"
+}
+]
+},
+"토르 리프팅": {
+"group": "",
+"freq": 0,
+"classes": [
+{
+"class_id": "monopolar_rf_lifting",
+"indication": "lifting_skin_tightening",
+"score": 10,
+"source": "brand"
+}
+]
+},
+"튠라이너": {
+"group": "",
+"freq": 0,
+"classes": [
+{
+"class_id": "monopolar_rf_lifting",
+"indication": "lifting_skin_tightening",
+"score": 10,
+"source": "brand"
+}
+]
+},
+"튠페이스": {
+"group": "",
+"freq": 0,
+"classes": [
+{
+"class_id": "monopolar_rf_lifting",
+"indication": "lifting_skin_tightening",
+"score": 10,
+"source": "brand"
+}
+]
+},
+"미라젯": {
+"group": "",
+"freq": 0,
+"classes": [
+{
+"class_id": "needle_free_drug_delivery",
+"indication": "skin_quality_drug_delivery",
+"score": 10,
+"source": "brand"
+}
+]
+},
+"큐어젯": {
+"group": "",
+"freq": 0,
+"classes": [
+{
+"class_id": "needle_free_drug_delivery",
+"indication": "skin_quality_drug_delivery",
+"score": 10,
+"source": "brand"
+}
+]
+},
+"MOXI": {
+"group": "",
+"freq": 0,
+"classes": [
+{
+"class_id": "nonablative_fractional_resurfacing",
+"indication": "texture_pigment_brightening",
+"score": 10,
+"source": "brand"
+}
+]
+},
+"라셈드": {
+"group": "",
+"freq": 0,
+"classes": [
+{
+"class_id": "nonablative_fractional_resurfacing",
+"indication": "texture_pigment_brightening",
+"score": 10,
+"source": "brand"
+}
+]
+},
+"헤일로 레이저": {
+"group": "",
+"freq": 0,
+"classes": [
+{
+"class_id": "nonablative_fractional_resurfacing",
+"indication": "texture_pigment_brightening",
+"score": 10,
+"source": "brand"
+}
+]
+},
+"루눌라 레이저": {
+"group": "",
+"freq": 0,
+"classes": [
+{
+"class_id": "onychomycosis_laser",
+"indication": "onychomycosis",
+"score": 10,
+"source": "brand"
+}
+]
+},
+"손발톱 무좀 레이저 치료": {
+"group": "",
+"freq": 0,
+"classes": [
+{
+"class_id": "onychomycosis_laser",
+"indication": "onychomycosis",
+"score": 10,
+"source": "brand"
+}
+]
+},
+"오니코 / 루눌라": {
+"group": "",
+"freq": 0,
+"classes": [
+{
+"class_id": "onychomycosis_laser",
+"indication": "onychomycosis",
+"score": 10,
+"source": "brand"
+}
+]
+},
+"오니코 레이저": {
+"group": "",
+"freq": 0,
+"classes": [
+{
+"class_id": "onychomycosis_laser",
+"indication": "onychomycosis",
+"score": 10,
+"source": "brand"
+}
+]
+},
+"엘란쎄": {
+"group": "",
+"freq": 0,
+"classes": [
+{
+"class_id": "pcl_filler",
+"indication": "volume_contour_collagen",
+"score": 10,
+"source": "brand"
+}
+]
+},
+"3MIX 실리프팅": {
+"group": "",
+"freq": 0,
+"classes": [
+{
+"class_id": "pdo_pcl_plla_thread_lifting",
+"indication": "lifting_contour",
+"score": 10,
+"source": "brand"
+}
+]
+},
+"LSCO": {
+"group": "",
+"freq": 0,
+"classes": [
+{
+"class_id": "pdo_pcl_plla_thread_lifting",
+"indication": "lifting_contour",
+"score": 10,
+"source": "brand"
+}
+]
+},
+"PREMIUMTHREAD LIFTING맞춤 실리프팅": {
+"group": "",
+"freq": 0,
+"classes": [
+{
+"class_id": "pdo_pcl_plla_thread_lifting",
+"indication": "lifting_contour",
+"score": 10,
+"source": "brand"
+}
+]
+},
+"V라인 실리프팅": {
+"group": "",
+"freq": 0,
+"classes": [
+{
+"class_id": "pdo_pcl_plla_thread_lifting",
+"indication": "lifting_contour",
+"score": 10,
+"source": "brand"
+}
+]
+},
+"돌기실": {
+"group": "",
+"freq": 0,
+"classes": [
+{
+"class_id": "pdo_pcl_plla_thread_lifting",
+"indication": "lifting_contour",
+"score": 10,
+"source": "brand"
+}
+]
+},
+"맞춤 실리프팅": {
+"group": "",
+"freq": 0,
+"classes": [
+{
+"class_id": "pdo_pcl_plla_thread_lifting",
+"indication": "lifting_contour",
+"score": 10,
+"source": "brand"
+}
+]
+},
+"모노실": {
+"group": "",
+"freq": 0,
+"classes": [
+{
+"class_id": "pdo_pcl_plla_thread_lifting",
+"indication": "lifting_contour",
+"score": 10,
+"source": "brand"
+}
+]
+},
+"민트실": {
+"group": "",
+"freq": 0,
+"classes": [
+{
+"class_id": "pdo_pcl_plla_thread_lifting",
+"indication": "lifting_contour",
+"score": 10,
+"source": "brand"
+}
+]
+},
+"실루엣 Fit": {
+"group": "",
+"freq": 0,
+"classes": [
+{
+"class_id": "pdo_pcl_plla_thread_lifting",
+"indication": "lifting_contour",
+"score": 10,
+"source": "brand"
+}
+]
+},
+"실루엣 소프트": {
+"group": "",
+"freq": 0,
+"classes": [
+{
+"class_id": "pdo_pcl_plla_thread_lifting",
+"indication": "lifting_contour",
+"score": 10,
+"source": "brand"
+}
+]
+},
+"실리프팅 (general)": {
+"group": "",
+"freq": 0,
+"classes": [
+{
+"class_id": "pdo_pcl_plla_thread_lifting",
+"indication": "lifting_contour",
+"score": 10,
+"source": "brand"
+}
+]
+},
+"실리프팅 1줄당": {
+"group": "",
+"freq": 0,
+"classes": [
+{
+"class_id": "pdo_pcl_plla_thread_lifting",
+"indication": "lifting_contour",
+"score": 10,
+"source": "brand"
+}
+]
+},
+"실리프팅 실리프팅": {
+"group": "",
+"freq": 0,
+"classes": [
+{
+"class_id": "pdo_pcl_plla_thread_lifting",
+"indication": "lifting_contour",
+"score": 10,
+"source": "brand"
+}
+]
+},
+"아이쓰레드": {
+"group": "",
+"freq": 0,
+"classes": [
+{
+"class_id": "pdo_pcl_plla_thread_lifting",
+"indication": "lifting_contour",
+"score": 10,
+"source": "brand"
+}
+]
+},
+"압토스": {
+"group": "",
+"freq": 0,
+"classes": [
+{
+"class_id": "pdo_pcl_plla_thread_lifting",
+"indication": "lifting_contour",
+"score": 10,
+"source": "brand"
+}
+]
+},
+"이마거상 실리프팅": {
+"group": "",
+"freq": 0,
+"classes": [
+{
+"class_id": "pdo_pcl_plla_thread_lifting",
+"indication": "lifting_contour",
+"score": 10,
+"source": "brand"
+}
+]
+},
+"잼버실": {
+"group": "",
+"freq": 0,
+"classes": [
+{
+"class_id": "pdo_pcl_plla_thread_lifting",
+"indication": "lifting_contour",
+"score": 10,
+"source": "brand"
+}
+]
+},
+"PDT 광역동": {
+"group": "",
+"freq": 0,
+"classes": [
+{
+"class_id": "photodynamic_therapy",
+"indication": "acne_actinic_keratosis",
+"score": 10,
+"source": "brand"
+}
+]
+},
+"피코 색소레이저": {
+"group": "",
+"freq": 0,
+"classes": [
+{
+"class_id": "picosecond_laser_pigment",
+"indication": "pigment_tattoo_skin_rejuvenation",
+"score": 10,
+"source": "brand"
+}
+]
+},
+"피코슈어": {
+"group": "",
+"freq": 0,
+"classes": [
+{
+"class_id": "picosecond_laser_pigment",
+"indication": "pigment_tattoo_skin_rejuvenation",
+"score": 10,
+"source": "brand"
+}
+]
+},
+"피코슈어 프로": {
+"group": "",
+"freq": 0,
+"classes": [
+{
+"class_id": "picosecond_laser_pigment",
+"indication": "pigment_tattoo_skin_rejuvenation",
+"score": 10,
+"source": "brand"
+}
+]
+},
+"피코웨이": {
+"group": "",
+"freq": 0,
+"classes": [
+{
+"class_id": "picosecond_laser_pigment",
+"indication": "pigment_tattoo_skin_rejuvenation",
+"score": 10,
+"source": "brand"
+}
+]
+},
+"피코플러스": {
+"group": "",
+"freq": 0,
+"classes": [
+{
+"class_id": "picosecond_laser_pigment",
+"indication": "pigment_tattoo_skin_rejuvenation",
+"score": 10,
+"source": "brand"
+}
+]
+},
+"태반주사": {
+"group": "",
+"freq": 0,
+"classes": [
+{
+"class_id": "placenta_injection",
+"indication": "wellness_skin_quality",
+"score": 10,
+"source": "brand"
+}
+]
+},
+"리쥬란 S": {
+"group": "",
+"freq": 0,
+"classes": [
+{
+"class_id": "pn_pdrn_injection",
+"indication": "skin_quality_wound_repair",
+"score": 10,
+"source": "brand"
+}
+]
+},
+"리쥬란 아이": {
+"group": "",
+"freq": 0,
+"classes": [
+{
+"class_id": "pn_pdrn_injection",
+"indication": "skin_quality_wound_repair",
+"score": 10,
+"source": "brand"
+}
+]
+},
+"리쥬란 힐러": {
+"group": "",
+"freq": 0,
+"classes": [
+{
+"class_id": "pn_pdrn_injection",
+"indication": "skin_quality_wound_repair",
+"score": 10,
+"source": "brand"
+}
+]
+},
+"리쥬란 HB": {
+"group": "",
+"freq": 0,
+"classes": [
+{
+"class_id": "pn_pdrn_injection_with_ha",
+"indication": "skin_quality_wound_repair",
+"score": 10,
+"source": "brand"
+}
+]
+},
+"SVF 줄기세포": {
+"group": "",
+"freq": 0,
+"classes": [
+{
+"class_id": "stem_cell_svf_injection",
+"indication": "skin_quality_volume_regeneration",
+"score": 10,
+"source": "brand"
+}
+]
+},
+"소프웨이브": {
+"group": "",
+"freq": 0,
+"classes": [
+{
+"class_id": "synchronous_us_parallel_beam_softwave",
+"indication": "lifting_skin_tightening",
+"score": 10,
+"source": "brand"
+}
+]
+},
+"TITANIUM LIFTING티타늄 리프팅": {
+"group": "",
+"freq": 0,
+"classes": [
+{
+"class_id": "triple_wavelength_diode_lifting",
+"indication": "lifting_brightening",
+"score": 10,
+"source": "brand"
+}
+]
+},
+"티타늄 리프팅": {
+"group": "",
+"freq": 0,
+"classes": [
+{
+"class_id": "triple_wavelength_diode_lifting",
+"indication": "lifting_brightening",
+"score": 10,
+"source": "brand"
+}
+]
+},
+"비비브": {
+"group": "",
+"freq": 0,
+"classes": [
+{
+"class_id": "vaginal_laxity_rf",
+"indication": "vaginal_laxity",
+"score": 10,
+"source": "brand"
+}
+]
+},
+"더마V": {
+"group": "",
+"freq": 0,
+"classes": [
+{
+"class_id": "vascular_pigment_laser_532_1064",
+"indication": "vascular_redness_pigment",
+"score": 10,
+"source": "brand"
+}
+]
+},
+"더마V 싱글/듀얼/트리플": {
+"group": "",
+"freq": 0,
+"classes": [
+{
+"class_id": "vascular_pigment_laser_532_1064",
+"indication": "vascular_redness_pigment",
+"score": 10,
+"source": "brand"
+}
+]
+},
+"더마V레이저": {
+"group": "",
+"freq": 0,
+"classes": [
+{
+"class_id": "vascular_pigment_laser_532_1064",
+"indication": "vascular_redness_pigment",
+"score": 10,
+"source": "brand"
+}
+]
+},
+"엑셀V": {
+"group": "",
+"freq": 0,
+"classes": [
+{
+"class_id": "vascular_pigment_laser_532_1064",
+"indication": "vascular_redness_pigment",
+"score": 10,
+"source": "brand"
+}
+]
+},
+"엑셀V 제네시스": {
+"group": "",
+"freq": 0,
+"classes": [
+{
+"class_id": "vascular_pigment_laser_532_1064",
+"indication": "vascular_redness_pigment",
+"score": 10,
+"source": "brand"
+}
+]
+},
+"엑셀브이": {
+"group": "",
+"freq": 0,
+"classes": [
+{
+"class_id": "vascular_pigment_laser_532_1064",
+"indication": "vascular_redness_pigment",
+"score": 10,
+"source": "brand"
+}
+]
+},
+"에버클": {
+"group": "",
+"freq": 0,
+"classes": [
+{
+"class_id": "collagen_stimulator_pdlla_plla",
+"indication": "skin_quality_dermal_remodeling",
+"score": 10,
+"source": "brand"
+}
+]
+},
+"에버클 (PLLA collagen stimulator)": {
+"group": "",
+"freq": 0,
+"classes": [
+{
+"class_id": "collagen_stimulator_pdlla_plla",
+"indication": "skin_quality_dermal_remodeling",
+"score": 10,
+"source": "brand"
+}
+]
+},
+"피아모": {
+"group": "",
+"freq": 0,
+"classes": [
+{
+"class_id": "bipolar_multipolar_rf_contouring",
+"indication": "lifting_skin_tightening",
+"score": 10,
+"source": "brand"
+}
+]
+},
+"피아모 RF": {
+"group": "",
+"freq": 0,
+"classes": [
+{
+"class_id": "bipolar_multipolar_rf_contouring",
+"indication": "lifting_skin_tightening",
+"score": 10,
+"source": "brand"
+}
+]
+},
+"귀필러 런칭": {
+"group": "",
+"freq": 0,
+"classes": [
+{
+"class_id": "ha_filler_crosslinked",
+"indication": "volume_contour_wrinkle",
+"score": 10,
+"source": "brand"
+}
+]
+},
+"귀필러": {
+"group": "",
+"freq": 0,
+"classes": [
+{
+"class_id": "ha_filler_crosslinked",
+"indication": "volume_contour_wrinkle",
+"score": 10,
+"source": "brand"
+}
+]
+}
 }

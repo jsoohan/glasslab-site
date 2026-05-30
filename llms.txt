@@ -1,6 +1,6 @@
 # Glass Lab — Medical Aesthetic Evidence Index
 
-> Brand-free PubMed evidence map for medical aesthetic procedures. 303 (MoA × indication) cells, 19,240 PubMed papers, 3,455 tier-1 RCT/meta, 2,520 tier-2 clinical-trial/observational. Korean clinic procedure listings (4,516 rows from 11 clinics) are mapped to generic mechanism-of-action classes in a separate layer; brand names never enter PubMed queries.
+> Brand-free PubMed evidence map for medical aesthetic procedures. 303 (MoA × indication) cells, 19,226 PubMed papers, 3,449 tier-1 RCT/meta, 2,520 tier-2 clinical-trial/observational. Korean clinic procedure listings (4,516 rows from 11 clinics) are mapped to generic mechanism-of-action classes in a separate layer; brand names never enter PubMed queries.
 
 ## How to read this index
 
@@ -46,10 +46,10 @@
 - **B 62**: [프락셔널 CO2/Er 레이저 for 광노화·피부결](https://glasslab.ai/cell/fractional-laser-resurfacing--photodamaged-skin-texture/) — 29 RCT/meta, 19 CT/obs, direction: supported
 - **B 62**: [피코초 레이저 for 주근깨](https://glasslab.ai/cell/picosecond-laser-pigment--ephelides-freckles/) — 4 RCT/meta, 1 CT/obs, direction: supported
 - **B 62**: [보툴리눔 톡신 A for 이마 가로주름](https://glasslab.ai/cell/botulinum-toxin-a--forehead-horizontal-lines/) — 28 RCT/meta, 7 CT/obs, direction: supported
-- **B 62**: [프락셔널 CO2/Er 레이저 for 튼살](https://glasslab.ai/cell/fractional-laser-resurfacing--striae-distensae/) — 11 RCT/meta, 4 CT/obs, direction: supported
+- **B 62**: [프락셔널 CO2/Er 레이저 for 튼살](https://glasslab.ai/cell/fractional-laser-resurfacing--striae-distensae/) — 8 RCT/meta, 4 CT/obs, direction: supported
 - **B 61**: [프락셔널 피코 레이저 for 광노화·피부결](https://glasslab.ai/cell/fractional-picosecond-resurfacing--photodamaged-skin-texture/) — 7 RCT/meta, 8 CT/obs, direction: supported
 - **B 61**: [케미컬 필링 for 여드름·상처 후 색소침착 (PIH)](https://glasslab.ai/cell/chemical-peel--postinflammatory-hyperpigmentation/) — 44 RCT/meta, 32 CT/obs, direction: supported
-- **B 61**: [모노폴라 RF 리프팅 for 튼살](https://glasslab.ai/cell/monopolar-rf-lifting--striae-distensae/) — 9 RCT/meta, 5 CT/obs, direction: supported
+- **B 61**: [모노폴라 RF 리프팅 for 튼살](https://glasslab.ai/cell/monopolar-rf-lifting--striae-distensae/) — 8 RCT/meta, 5 CT/obs, direction: supported
 - **B 61**: [레이저 제모 for 어두운 피부 제모](https://glasslab.ai/cell/laser-hair-removal-alexandrite-ndyag--darker-skin-type-iv-vi/) — 23 RCT/meta, 41 CT/obs, direction: supported
 - **B 61**: [프락셔널 CO2/Er 레이저 for 광선각화증](https://glasslab.ai/cell/fractional-laser-resurfacing--actinic-keratosis/) — 18 RCT/meta, 1 CT/obs, direction: supported
 - **B 61**: [보툴리눔 톡신 A for 사각턱·교근](https://glasslab.ai/cell/botulinum-toxin-a--masseter-hypertrophy/) — 63 RCT/meta, 42 CT/obs, direction: supported
